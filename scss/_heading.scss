@@ -1,0 +1,29 @@
+.heading {
+  font-weight: 700;
+  font-family: $font-family-simple;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.heading-hug {
+  font-size: 6rem;
+  letter-spacing: 3.5rem;
+  color: $color-gray-dark-1;
+}
+
+.heading-big {
+  font-size: 3.5rem;
+  letter-spacing: .2rem;
+  color: $color-gray-dark;
+}
+
+.heading-medium {
+  font-size: 2rem;
+  letter-spacing: .1rem;
+}
+
+.heading-small {
+  font-size: 1.6rem;
+}

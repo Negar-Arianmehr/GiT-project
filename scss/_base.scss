@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 65.5%;  //1rem = 10px >>> 10/ 16 = 62.5%
+}
+
+body {
+  font-family: $font-family-main;
+  font-weight: 400;
+  line-height: 1.7;
+  color: $color-gray;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: repeat(6, min-content);
+  //grid-template-columns: ;
+}
