@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch:sass": "node-sass \"Error: no test specified\" && exit 1"
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "devserver": "live-server",
+    "start": "npm-run-all --parallel devserver watch:sass"
   },
   "author": "Negar",
   "license": "ISC",
@@ -17,6 +19,7 @@
     "node-sass": "^5.0.0",
     "nodemon": "^2.0.7",
     "npm-run-all": "^4.1.5",
+    "parallel": "^1.2.0",
     "postcss": "^8.2.8",
     "postcss-cli": "^8.3.1"
   }
