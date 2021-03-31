@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="118319de-ae63-4a5f-b3ae-30acab8bb243" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="118319de-ae63-4a5f-b3ae-30acab8bb243" name="Default Changelist" comment="add new scss">
+      <change afterPath="$PROJECT_DIR$/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/_text.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/~$ckground of GiT.docx" beforeDir="false" afterPath="$PROJECT_DIR$/img/~$ckground of GiT.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_bg.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_firstPart.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_nav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_firstPart.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_bg-header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +46,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.start">
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -56,9 +57,20 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="watch:sass" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="watch:sass" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.watch:sass" />
       </list>
     </recent_temporary>
   </component>
@@ -72,8 +84,17 @@
       <updated>1616574539534</updated>
       <workItem from="1616574540686" duration="19883000" />
       <workItem from="1616763401187" duration="9955000" />
-      <workItem from="1616999551188" duration="3905000" />
+      <workItem from="1616999551188" duration="4637000" />
+      <workItem from="1617172997594" duration="9656000" />
     </task>
+    <task id="LOCAL-00001" summary="add new scss">
+      <created>1617123906360</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1617123906360</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,5 +110,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add new scss" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new scss" />
   </component>
 </project>
