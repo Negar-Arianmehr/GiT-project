@@ -1,4 +1,12 @@
 .nav {
   grid-row: 2/3;
   max-height: 10rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: $color-secondary;
+
+  &__ul {
+
+  }
 }
