@@ -1,6 +1,11 @@
 .bg-header {
+  grid-row: 3/4;
   height: 95vh;
-  background-image: url("img/P2.png");
+  background-image: url("../img/bg1.jpg");
+  background-position: top;
+  background-size: cover;
+
+
 
   &__btn {
 

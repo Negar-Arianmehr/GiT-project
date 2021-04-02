@@ -2,11 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="118319de-ae63-4a5f-b3ae-30acab8bb243" name="Default Changelist" comment="add new scss">
+      <change afterPath="$PROJECT_DIR$/img/SVG/bicycle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/SVG/happy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/SVG/man-woman.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/SVG/mug.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/SVG/travel-walk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/SVG/whatsapp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprite0.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/~$ckground of GiT.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/sprite.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_about.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_bg-header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_bg-header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_nav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_text.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,12 +40,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1qCDBAdyvb28OVt0cHMKh1KjcR3" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -83,7 +100,8 @@
       <workItem from="1616763401187" duration="9955000" />
       <workItem from="1616999551188" duration="4637000" />
       <workItem from="1617172997594" duration="12287000" />
-      <workItem from="1617293590231" duration="317000" />
+      <workItem from="1617293590231" duration="497000" />
+      <workItem from="1617348459307" duration="2822000" />
     </task>
     <task id="LOCAL-00001" summary="add new scss">
       <created>1617123906360</created>
@@ -106,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617210263578</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add new scss">
+      <created>1617294035883</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1617294035883</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +150,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add new scss" />
     <option name="LAST_COMMIT_MESSAGE" value="add new scss" />
   </component>

@@ -37,6 +37,12 @@
   font-size: 1.6rem;
 }
 
+.text {
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  color: #333;
+}
+
 *,
 *::after,
 *::before {
@@ -74,6 +80,7 @@ li {
 .header {
   grid-row: 1/2;
   height: 5rem;
+  padding: 2rem;
 }
 .header__ul {
   display: inline-block;
@@ -81,15 +88,15 @@ li {
 .header__svg {
   height: 2rem;
   width: 4rem;
+  fill: #ab3f3f;
 }
 
 .bg-header {
+  grid-row: 3/4;
   height: 95vh;
-  background-image: url("img/P2.png");
-}
-img {
-  height: 2rem;
-  width: 5rem;
+  background-image: url("../img/bg1.jpg");
+  background-position: top;
+  background-size: cover;
 }
 
 /*# sourceMappingURL=main.css.map */

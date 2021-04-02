@@ -1,6 +1,7 @@
 .header {
   grid-row: 1/2;
   height: 5rem;
+  padding: 2rem;
 
   &__contents {
 
@@ -21,5 +22,6 @@
   &__svg {
     height: 2rem;
     width: 4rem;
+    fill: $color-main;
   }
 }
