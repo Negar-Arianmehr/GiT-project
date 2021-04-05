@@ -43,6 +43,10 @@
   color: #333;
 }
 
+.nav__icon-img {
+  height: 6rem;
+}
+
 *,
 *::after,
 *::before {
@@ -79,8 +83,9 @@ li {
 
 .header {
   grid-row: 1/2;
-  height: 5rem;
-  padding: 2rem;
+  height: 4rem;
+  padding: 1.2rem;
+  background-color: #e5e5e5;
 }
 .header__ul {
   display: inline-block;
@@ -89,6 +94,29 @@ li {
   height: 2rem;
   width: 4rem;
   fill: #ab3f3f;
+}
+
+.nav {
+  grid-row: 2/3;
+  max-height: 7rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.nav__icon-box {
+  padding-left: 1.2rem;
+}
+.nav--ul {
+  font-weight: 700;
+  line-height: 1.6rem;
+}
+.nav--items {
+  font-size: 1.6rem;
+  padding-right: 5rem;
+}
+.nav--link {
+  color: #777;
 }
 
 .bg-header {

@@ -1,12 +1,30 @@
 .nav {
   grid-row: 2/3;
-  max-height: 10rem;
+  max-height: 7rem;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-color: $color-secondary;
+  align-items: center;
 
-  &__ul {
+  &__icon-box {
+    padding-left: 1.2rem;
+  }
+
+  &__nav-box {
+  }
+
+  &--ul {
+   font-weight: 700;
+    line-height: 1.6rem;
+  }
+
+  &--items {
+       font-size: 1.6rem;
+    padding-right: 5rem;
+  }
+
+  &--link {
+    color: $color-gray;
 
   }
 }
