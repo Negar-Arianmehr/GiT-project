@@ -7,7 +7,7 @@
   align-items: center;
 
   &__icon-box {
-    padding-left: 1.2rem;
+    padding-left: 2.5rem;
   }
 
   &__nav-box {
@@ -24,7 +24,7 @@
   }
 
   &--link {
-    color: $color-gray;
-
+    color: $color-main;
+    text-transform: uppercase;
   }
 }

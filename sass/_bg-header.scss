@@ -5,8 +5,13 @@
   background-position: top;
   background-size: cover;
 
-
-
+  &__box {
+    margin: 0 auto;
+    color: $color-main-dark;
+  }
+  h1 {
+    margin: 0 auto;
+  }
   &__btn {
 
   }

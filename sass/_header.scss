@@ -1,8 +1,12 @@
 .header {
   grid-row: 1/2;
   height: 4rem;
+  //width: 100%;
   padding: 1.2rem;
-  background-color: $color-gray-light-2;
+  background-color: $color-secondary-dark;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 
   &__contents {
 
@@ -14,15 +18,26 @@
 
   &__items {
     //font-size: 1.6rem;
-
+margin-right: 2.5rem;
   }
 
   &__link {
+
   }
 
   &__svg {
-    height: 2rem;
-    width: 4rem;
+    height: 1.5rem;
+    width: 2rem;
     fill: $color-main;
+  }
+
+  &__eindhoven {
+
+  }
+
+  &__eindhoven-img {
+    width: 5rem;
+    height: 2rem;
+    color: $color-main;
   }
 }

@@ -72,13 +72,22 @@ li {
   grid-row: 1/2;
   height: 4rem;
   padding: 1.2rem;
-  background-color: #e5e5e5; }
+  background-color: #0b1024;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
   .header__ul {
     display: inline-block; }
+  .header__items {
+    margin-right: 2.5rem; }
   .header__svg {
-    height: 2rem;
-    width: 4rem;
+    height: 1.5rem;
+    width: 2rem;
     fill: #ab3f3f; }
+  .header__eindhoven-img {
+    width: 5rem;
+    height: 2rem;
+    color: #ab3f3f; }
 
 .nav {
   grid-row: 2/3;
@@ -88,7 +97,7 @@ li {
   flex-wrap: wrap;
   align-items: center; }
   .nav__icon-box {
-    padding-left: 1.2rem; }
+    padding-left: 2.5rem; }
   .nav--ul {
     font-weight: 700;
     line-height: 1.6rem; }
@@ -96,7 +105,8 @@ li {
     font-size: 1.6rem;
     padding-right: 5rem; }
   .nav--link {
-    color: #777; }
+    color: #ab3f3f;
+    text-transform: uppercase; }
 
 .bg-header {
   grid-row: 3/4;
@@ -104,3 +114,8 @@ li {
   background-image: url("../img/bg1.jpg");
   background-position: top;
   background-size: cover; }
+  .bg-header__box {
+    margin: 0 auto;
+    color: #460000; }
+  .bg-header h1 {
+    margin: 0 auto; }
