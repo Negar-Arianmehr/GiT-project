@@ -5,14 +5,25 @@
   background-position: top;
   background-size: cover;
 
+  position: relative;
+
   &__box {
     margin: 0 auto;
     color: $color-main-dark;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-10%, 0%);
   }
-  h1 {
-    margin: 0 auto;
-  }
-  &__btn {
 
+  h1 {
+    color: $color-main-dark;
+    text-transform: uppercase;
+  }
+
+  &__btn {
+    position: absolute;
+    bottom: 6rem;
+    right: 10rem;
   }
 }

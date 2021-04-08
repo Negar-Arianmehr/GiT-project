@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="118319de-ae63-4a5f-b3ae-30acab8bb243" name="Default Changelist" comment="add new scss">
+      <change afterPath="$PROJECT_DIR$/sass/_btn.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/_members.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_members.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_bg-header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_bg-header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_heading.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_heading.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +91,8 @@
       <workItem from="1617293590231" duration="497000" />
       <workItem from="1617348459307" duration="7172000" />
       <workItem from="1617689777320" duration="3652000" />
-      <workItem from="1617787519449" duration="5393000" />
+      <workItem from="1617787519449" duration="5446000" />
+      <workItem from="1617867093819" duration="3416000" />
     </task>
     <task id="LOCAL-00001" summary="add new scss">
       <created>1617123906360</created>
@@ -144,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617817474811</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add new scss">
+      <created>1617819433525</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1617819433525</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

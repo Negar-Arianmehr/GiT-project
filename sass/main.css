@@ -18,8 +18,7 @@
 
 .heading-hug {
   font-size: 6rem;
-  letter-spacing: 3.5rem;
-  color: #666;
+  letter-spacing: 1.6rem;
 }
 
 .heading-big {
@@ -45,6 +44,19 @@
 
 .nav__icon-img {
   height: 6rem;
+}
+
+.btn {
+  font-size: 1.4rem;
+  font-family: "Roboto", sans-serif;
+  padding: 1rem 0.6rem;
+  text-transform: uppercase;
+  border-radius: 1rem;
+  border: 1px solid transparent;
+  background-color: #ab3f3f;
+}
+.btn:hover {
+  transform: scale(1.2) translateY(2px);
 }
 
 *,
@@ -137,14 +149,26 @@ li {
   background-image: url("../img/bg1.jpg");
   background-position: top;
   background-size: cover;
+  position: relative;
 }
 .bg-header__box {
   margin: 0 auto;
   color: #460000;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(-10%, 0%);
 }
 .bg-header h1 {
-  margin: 0 auto;
+  color: #460000;
+  text-transform: uppercase;
 }
+.bg-header__btn {
+  position: absolute;
+  bottom: 6rem;
+  right: 10rem;
+}
+
 .about__slide--img {
   height: 5rem;
 }

@@ -1,0 +1,13 @@
+.btn {
+  font-size: 1.4rem;
+  font-family: $font-family-main;
+  padding: 1rem .6rem;
+  text-transform: uppercase;
+  border-radius: 1rem;
+  border: 1px solid transparent;
+  background-color: $color-main;
+
+  &:hover {
+    transform: scale(1.2) translateY(2px);
+  }
+}
