@@ -47,6 +47,7 @@
 }
 
 .btn {
+  width: 10rem;
   font-size: 1.4rem;
   font-family: "Roboto", sans-serif;
   padding: 1rem 0.6rem;
@@ -114,8 +115,7 @@ li {
   fill: #ab3f3f;
 }
 .header__eindhoven-img {
-  width: 5rem;
-  height: 2rem;
+  width: 10rem;
   color: #ab3f3f;
 }
 
@@ -166,7 +166,7 @@ li {
 .bg-header__btn {
   position: absolute;
   bottom: 6rem;
-  right: 10rem;
+  right: 4rem;
 }
 
 .about__slide--img {
