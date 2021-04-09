@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="118319de-ae63-4a5f-b3ae-30acab8bb243" name="Default Changelist" comment="add new css">
-      <change afterPath="$PROJECT_DIR$/img/eindhoven-3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/_btn.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_btn.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_about.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_heading.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_heading.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +90,8 @@
       <workItem from="1617348459307" duration="7172000" />
       <workItem from="1617689777320" duration="3652000" />
       <workItem from="1617787519449" duration="5446000" />
-      <workItem from="1617867093819" duration="5332000" />
+      <workItem from="1617867093819" duration="5525000" />
+      <workItem from="1617966966637" duration="1331000" />
     </task>
     <task id="LOCAL-00001" summary="add new scss">
       <created>1617123906360</created>
@@ -163,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617870815388</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add new css">
+      <created>1617872608238</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1617872608238</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

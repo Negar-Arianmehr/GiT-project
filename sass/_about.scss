@@ -2,11 +2,11 @@
   
 
   &__history {
-
+    padding-left: 2.5rem;
   }
 
   &__title {
-
+    padding-left: 3.5rem;
   }
 
   &__slider {
@@ -14,7 +14,10 @@
   }
 
   &__slide {
-
+    max-width: max-content;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid tan;
   }
 
   &__slide--quote {

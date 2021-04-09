@@ -34,6 +34,7 @@
 
 .heading-small {
   font-size: 1.6rem;
+  display: block;
 }
 
 .text {
@@ -169,6 +170,18 @@ li {
   right: 4rem;
 }
 
+.about__history {
+  padding-left: 2.5rem;
+}
+.about__title {
+  padding-left: 3.5rem;
+}
+.about__slide {
+  max-width: max-content;
+  margin: 0 auto;
+  padding: 2rem;
+  border: 1px solid tan;
+}
 .about__slide--img {
   height: 5rem;
 }
