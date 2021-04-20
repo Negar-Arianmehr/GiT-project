@@ -25,6 +25,7 @@
   font-size: 3.5rem;
   letter-spacing: 0.2rem;
   color: #333;
+  display: inline-block;
   text-align: center;
 }
 
@@ -32,7 +33,7 @@
   width: 5rem;
   height: 2rem;
   background-color: black;
-  margin: 0 auto;
+  margin: 0 auto 1rem;
 }
 
 .heading-medium {
@@ -180,6 +181,9 @@ li {
 
 .about__history {
   padding-left: 2.5rem;
+}
+.about__header {
+  max-width: 100%;
 }
 .about__title {
   padding-left: 3.5rem;

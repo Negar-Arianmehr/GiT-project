@@ -17,6 +17,7 @@
   font-size: 3.5rem;
   letter-spacing: .2rem;
   color: $color-gray-dark;
+  display: inline-block;
   text-align: center;
 }
 
@@ -24,7 +25,7 @@
   width: 5rem;
   height: 2rem;
   background-color: black;
-  margin: 0 auto;
+  margin: 0 auto 1rem;
 }
 
 .heading-medium {
