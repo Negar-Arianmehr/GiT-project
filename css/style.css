@@ -22,7 +22,14 @@
 .heading-big {
   font-size: 3.5rem;
   letter-spacing: .2rem;
-  color: #333; }
+  color: #333;
+  text-align: center; }
+
+.heading-underline {
+  width: 5rem;
+  height: 2rem;
+  background-color: black;
+  margin: 0 auto; }
 
 .heading-medium {
   font-size: 2rem;
