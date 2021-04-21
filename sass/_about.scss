@@ -28,10 +28,17 @@
   }
 
   &__slide--address {
-
+    display: flex;
   }
 
   &__slide--img {
     height: 5rem;
+    border-radius: 50%;
   }
+
+    &__slide--name {
+
+    }
+
+
 }

@@ -164,8 +164,12 @@ li {
   padding: 2rem;
   border: 1px solid tan; }
 
+.about__slide--address {
+  display: flex; }
+
 .about__slide--img {
-  height: 5rem; }
+  height: 5rem;
+  border-radius: 50%; }
 
 .activities {
   height: 90vh;
