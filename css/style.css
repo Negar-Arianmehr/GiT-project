@@ -171,6 +171,13 @@ li {
   height: 5rem;
   border-radius: 50%; }
 
+.about__slide--name {
+  font-size: 1.3rem;
+  color: #666; }
+
+.about__slide--location {
+  display: inline-block; }
+
 .activities {
   height: 90vh;
   background-image: url("../img/P2.png");

@@ -37,8 +37,14 @@
   }
 
     &__slide--name {
-
+      font-size: 1.3rem;
+      color: $color-gray-dark-1;
     }
+
+    &__slide--location {
+      display: inline-block;
+    }
+
 
 
 }
