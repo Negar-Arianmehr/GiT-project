@@ -4,4 +4,17 @@
   background-position: top;
   background-size: cover;
 
+  &__contents {
+    font-size: 1.6rem;
+    color: $color-gray-light;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+
+
+  &__text {
+    color: $color-gray-light-2;
+  }
 }

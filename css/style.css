@@ -186,6 +186,13 @@ li {
   background-image: url("../img/P2.png");
   background-position: top;
   background-size: cover; }
+  .activities__contents {
+    font-size: 1.6rem;
+    color: #999;
+    display: flex;
+    flex-wrap: wrap; }
+  .activities__text {
+    color: #e5e5e5; }
 
 .members {
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../img/bg2.jpg");
