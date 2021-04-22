@@ -31,7 +31,7 @@
 
 .heading-underline {
   width: 5rem;
-  height: 2rem;
+  height: 0.2rem;
   background-color: black;
   margin: 0 auto 1rem;
 }
@@ -193,6 +193,9 @@ li {
   margin: 0 auto;
   padding: 2rem;
   border: 1px solid tan;
+}
+.about__slide--quote {
+  font-size: 1.5rem;
 }
 .about__slide--address {
   display: flex;
