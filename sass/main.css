@@ -224,15 +224,7 @@ li {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   column-gap: 2rem;
-}
-.activities__1 {
-  width: 33.3333%;
-}
-.activities__2 {
-  width: 33.3333%;
-}
-.activities__3 {
-  width: 33.3333%;
+  padding: 2.5rem;
 }
 .activities__text {
   color: #e5e5e5;

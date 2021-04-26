@@ -189,8 +189,10 @@ li {
   .activities__contents {
     font-size: 1.6rem;
     color: #999;
-    display: flex;
-    flex-wrap: wrap; }
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    column-gap: 2rem;
+    padding: 2.5rem; }
   .activities__text {
     color: #e5e5e5; }
 

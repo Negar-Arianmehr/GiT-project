@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="118319de-ae63-4a5f-b3ae-30acab8bb243" name="Default Changelist" comment="add new css">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="118319de-ae63-4a5f-b3ae-30acab8bb243" name="Default Changelist" comment="work on sections">
       <change beforePath="$PROJECT_DIR$/sass/_activities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_activities.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +91,7 @@
       <workItem from="1619007860422" duration="1534000" />
       <workItem from="1619083009133" duration="1117000" />
       <workItem from="1619112523284" duration="584000" />
-      <workItem from="1619441493997" duration="2624000" />
+      <workItem from="1619441493997" duration="2985000" />
     </task>
     <task id="LOCAL-00001" summary="add new scss">
       <created>1617123906360</created>
@@ -228,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619112906837</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="work on sections">
+      <created>1619444274089</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1619444274105</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,6 +256,7 @@
     <MESSAGE value="add lines of css" />
     <MESSAGE value="add new scss" />
     <MESSAGE value="add new css" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new css" />
+    <MESSAGE value="work on sections" />
+    <option name="LAST_COMMIT_MESSAGE" value="work on sections" />
   </component>
 </project>
