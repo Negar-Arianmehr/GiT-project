@@ -221,8 +221,18 @@ li {
 .activities__contents {
   font-size: 1.6rem;
   color: #999;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  column-gap: 2rem;
+}
+.activities__1 {
+  width: 33.3333%;
+}
+.activities__2 {
+  width: 33.3333%;
+}
+.activities__3 {
+  width: 33.3333%;
 }
 .activities__text {
   color: #e5e5e5;
