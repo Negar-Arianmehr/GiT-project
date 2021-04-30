@@ -230,6 +230,11 @@ li {
   color: #e5e5e5;
 }
 
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+}
+
 .members {
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../img/bg2.jpg");
   height: 90vh;
