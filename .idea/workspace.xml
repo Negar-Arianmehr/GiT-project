@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="118319de-ae63-4a5f-b3ae-30acab8bb243" name="Default Changelist" comment="work on sections">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/_about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_about.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/_gallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_gallery.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_icons.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +93,7 @@
       <workItem from="1619083009133" duration="1117000" />
       <workItem from="1619112523284" duration="584000" />
       <workItem from="1619441493997" duration="3995000" />
-      <workItem from="1619802856197" duration="300000" />
+      <workItem from="1619802856197" duration="649000" />
     </task>
     <task id="LOCAL-00001" summary="add new scss">
       <created>1617123906360</created>
@@ -251,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619445607248</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="work on sections">
+      <created>1619803162899</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1619803162899</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -46,7 +46,12 @@
   color: #333; }
 
 .nav__icon-img {
-  height: 6rem; }
+  height: 15rem;
+  fill: #0b1024; }
+
+.icons {
+  height: 15rem;
+  fill: #460000; }
 
 .btn {
   width: 10rem;
@@ -195,6 +200,10 @@ li {
     padding: 2.5rem; }
   .activities__text {
     color: #e5e5e5; }
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); }
 
 .members {
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../img/bg2.jpg");
