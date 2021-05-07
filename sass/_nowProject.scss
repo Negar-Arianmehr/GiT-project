@@ -1,5 +1,6 @@
 .project {
   margin: 5rem;
+  padding: 0 5rem;
   text-align: center;
 
   &__header {
@@ -8,6 +9,8 @@
 
   &__text-box {
     font-size: 1.6rem;
+    line-height: 3.5rem;
+    padding-bottom: 2.5rem;
   }
 
   &__btn {

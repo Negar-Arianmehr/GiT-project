@@ -1,17 +1,18 @@
 .activities {
   height: 90vh;
-  background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .2)), url("../img/P2.png");
+  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .2)), url("../img/P2.png");
   background-position: top;
   background-size: cover;
 
   &__header {
-    color: $color-main;
+    color: $color-main-light;
 
   }
 
-  .icons {
+  &__icons {
+    font-size: 4rem;
     height: 25rem;
-    fill: #460000;
+    color: $color-main;
   }
 
   &__contents {
@@ -24,7 +25,7 @@
   }
 
   &__1 {
-    //width: 33.3333%;
+    min-width: 33.3333%;
   }
 
   &__2 {
@@ -38,6 +39,10 @@
   &__text {
     color: $color-gray-light-2;
     text-shadow: 0 5px 1rem $color-gray-dark;
+  }
+
+  &__btn {
+    text-align: center;
   }
 
 }

@@ -24,7 +24,7 @@
 .heading-big {
   font-size: 3.5rem;
   letter-spacing: 0.2rem;
-  color: #333;
+  color: #777;
   display: inline-block;
   text-align: center;
 }
@@ -57,10 +57,10 @@
 }
 
 .btn {
-  width: 10rem;
+  width: max-content;
   font-size: 1.4rem;
   font-family: "Roboto", sans-serif;
-  padding: 1rem 0.6rem;
+  padding: 1rem 0.8rem;
   text-transform: uppercase;
   border-radius: 1rem;
   border: 1px solid transparent;
@@ -92,6 +92,7 @@ body {
 
 a {
   text-decoration: none;
+  color: #141414;
 }
 
 li {
@@ -227,16 +228,17 @@ li {
 
 .activities {
   height: 90vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url("../img/P2.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url("../img/P2.png");
   background-position: top;
   background-size: cover;
 }
 .activities__header {
-  color: #ab3f3f;
+  color: #b81919;
 }
-.activities .icons {
+.activities__icons {
+  font-size: 4rem;
   height: 25rem;
-  fill: #460000;
+  color: #ab3f3f;
 }
 .activities__contents {
   font-size: 1.6rem;
@@ -246,17 +248,26 @@ li {
   column-gap: 2rem;
   padding: 2.5rem;
 }
+.activities__1 {
+  min-width: 33.3333%;
+}
 .activities__text {
   color: #e5e5e5;
   text-shadow: 0 5px 1rem #333;
 }
+.activities__btn {
+  text-align: center;
+}
 
 .project {
   margin: 5rem;
+  padding: 0 5rem;
   text-align: center;
 }
 .project__text-box {
   font-size: 1.6rem;
+  line-height: 3.5rem;
+  padding-bottom: 2.5rem;
 }
 .gallery {
   display: grid;
