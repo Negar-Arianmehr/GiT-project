@@ -11,19 +11,20 @@
     margin: 0 auto;
     color: $color-main-dark;
     position: absolute;
-    top: 0;
+    bottom: 3.5rem;
     right: 0;
-    transform: translate(-10%, 0%);
+    transform: translate(-40%, 10%);
   }
 
   h1 {
-    color: $color-main-dark;
+    font-family: $font-family-complex;
+    color: $color-main;
     text-transform: uppercase;
   }
 
   &__btn {
     position: absolute;
-    bottom: 6rem;
+    bottom: 7rem;
     right: 4rem;
   }
 }

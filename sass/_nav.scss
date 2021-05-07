@@ -10,17 +10,27 @@
     padding-left: 2.5rem;
   }
 
+  &__icon-img {
+    height: 6rem;
+  }
+
   &__nav-box {
+
   }
 
   &--ul {
-   font-weight: 700;
+    font-weight: 700;
     line-height: 1.6rem;
   }
 
   &--items {
-       font-size: 1.6rem;
-    padding-right: 5rem;
+    font-size: 1.7rem;
+    padding-right: 4.5rem;
+    transition: .5s ease-out;
+
+    &:hover {
+      transform: translateY(3px) scale(1.15);
+    }
   }
 
   &--link {

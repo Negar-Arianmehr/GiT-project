@@ -46,20 +46,14 @@
   display: block;
 }
 
+.center-heading {
+  text-align: center;
+}
+
 .text {
   font-size: 1.5rem;
   font-family: "Roboto", sans-serif;
   color: #333;
-}
-
-.nav__icon-img {
-  height: 15rem;
-  fill: #0b1024;
-}
-
-.icons {
-  height: 15rem;
-  fill: #460000;
 }
 
 .btn {
@@ -118,20 +112,28 @@ li {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-content: center;
 }
 .header__ul {
   display: inline-block;
 }
 .header__items {
   margin-right: 2.5rem;
+  transition: 0.5s ease-out;
+}
+.header__items:hover {
+  transform: translate(1px, 2px) rotate(-20deg) scale(1.2);
 }
 .header__svg {
-  height: 1.5rem;
+  height: 1.4rem;
   width: 2rem;
   fill: #ab3f3f;
+  margin-top: 0.5rem;
 }
 .header__eindhoven-img {
+  display: inline-block;
   width: 10rem;
+  height: 2.4rem;
   color: #ab3f3f;
 }
 
@@ -146,13 +148,20 @@ li {
 .nav__icon-box {
   padding-left: 2.5rem;
 }
+.nav__icon-img {
+  height: 6rem;
+}
 .nav--ul {
   font-weight: 700;
   line-height: 1.6rem;
 }
 .nav--items {
-  font-size: 1.6rem;
-  padding-right: 5rem;
+  font-size: 1.7rem;
+  padding-right: 4.5rem;
+  transition: 0.5s ease-out;
+}
+.nav--items:hover {
+  transform: translateY(3px) scale(1.15);
 }
 .nav--link {
   color: #ab3f3f;
@@ -171,25 +180,23 @@ li {
   margin: 0 auto;
   color: #460000;
   position: absolute;
-  top: 0;
+  bottom: 3.5rem;
   right: 0;
-  transform: translate(-10%, 0%);
+  transform: translate(-40%, 10%);
 }
 .bg-header h1 {
-  color: #460000;
+  font-family: "Merienda", cursive;
+  color: #ab3f3f;
   text-transform: uppercase;
 }
 .bg-header__btn {
   position: absolute;
-  bottom: 6rem;
+  bottom: 7rem;
   right: 4rem;
 }
 
 .about__history {
   padding-left: 2.5rem;
-}
-.about__header {
-  max-width: 100%;
 }
 .about__title {
   padding-left: 3.5rem;
@@ -220,9 +227,16 @@ li {
 
 .activities {
   height: 90vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/P2.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url("../img/P2.png");
   background-position: top;
   background-size: cover;
+}
+.activities__header {
+  color: #ab3f3f;
+}
+.activities .icons {
+  height: 25rem;
+  fill: #460000;
 }
 .activities__contents {
   font-size: 1.6rem;
@@ -234,6 +248,7 @@ li {
 }
 .activities__text {
   color: #e5e5e5;
+  text-shadow: 0 5px 1rem #333;
 }
 
 .project {

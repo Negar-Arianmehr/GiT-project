@@ -1,8 +1,18 @@
 .activities {
   height: 90vh;
-  background-image: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)),url("../img/P2.png");
+  background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .2)), url("../img/P2.png");
   background-position: top;
   background-size: cover;
+
+  &__header {
+    color: $color-main;
+
+  }
+
+  .icons {
+    height: 25rem;
+    fill: #460000;
+  }
 
   &__contents {
     font-size: 1.6rem;
@@ -27,6 +37,7 @@
 
   &__text {
     color: $color-gray-light-2;
+    text-shadow: 0 5px 1rem $color-gray-dark;
   }
 
 }

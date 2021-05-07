@@ -1,12 +1,17 @@
 .about {
+  //  background-image: linear-gradient(to right, rgba($color-white, .5), rgba($color-white, .5)), url("../img/bg2.jpg");
+  //  background-position: top;
+  //background-size: cover;
+  //background-color: $color-gray-light-3;
 
   &__history {
     padding-left: 2.5rem;
   }
 
-  &__header {
-    max-width: 100%;
-  }
+  //&__header {
+  //  max-width: 100%;
+  //  text-align: center;
+  //}
   &__title {
     padding-left: 3.5rem;
   }
