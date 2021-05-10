@@ -2,14 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="118319de-ae63-4a5f-b3ae-30acab8bb243" name="Default Changelist" comment="new scss">
+      <change afterPath="$PROJECT_DIR$/img/pic-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/pic-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/pic-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/pic-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/pic-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/pic-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/pic-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/pic-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/pic-9.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/IMG_20210224_141311.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/IMG_20210224_143646.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/_activities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_activities.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/_btn.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_btn.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_about.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_gallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_gallery.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/_heading.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_heading.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/_nowProject.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_nowProject.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_members.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_members.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +53,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../University-project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../exercise/JAVASCRIPT-COURSE/complete-javascript-course-master/complete-javascript-course-master/14-OOP/starter" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -103,7 +113,11 @@
       <workItem from="1619802856197" duration="856000" />
       <workItem from="1620032263889" duration="262000" />
       <workItem from="1620289595695" duration="8593000" />
-      <workItem from="1620407982817" duration="2296000" />
+      <workItem from="1620407982817" duration="6075000" />
+      <workItem from="1620451756178" duration="1244000" />
+      <workItem from="1620495249788" duration="3666000" />
+      <workItem from="1620541292437" duration="653000" />
+      <workItem from="1620630255468" duration="3114000" />
     </task>
     <task id="LOCAL-00001" summary="add new scss">
       <created>1617123906360</created>
@@ -294,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620408021415</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="new scss">
+      <created>1620412216065</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1620412216065</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

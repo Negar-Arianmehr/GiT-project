@@ -1,5 +1,5 @@
 .members {
-  background-image: linear-gradient(to right, rgba($color-white, .5), rgba($color-white, .5)), url("../img/bg2.jpg");
+  background-image: linear-gradient( rgba($color-white, .75), rgba($color-gray-dark-2, .5)), url("../img/bg2.jpg");
   height: 90vh;
   background-position: top;
   background-size: cover;
@@ -10,7 +10,9 @@
   }
 
   &__cards {
-
+    margin: 2rem 5rem;
+    display: grid;
+    //grid-template-columns: repeat(au);
   }
 
   &__card {
