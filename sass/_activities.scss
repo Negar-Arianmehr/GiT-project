@@ -1,5 +1,5 @@
 .activities {
-  height: 90vh;
+  height: 70vh;
   background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .2)), url("../img/P2.png");
   background-position: top;
   background-size: cover;
@@ -20,8 +20,9 @@
     color: $color-gray-light;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    column-gap: 2rem;
-    padding: 2.5rem;
+    grid-template-rows: max-content 5rem;
+    column-gap: 3.2rem;
+    padding: 3.5rem;
   }
 
   &__1 {
@@ -42,6 +43,8 @@
   }
 
   &__btn {
+    grid-row: 2/-1;
+    grid-column: 2/3;
     text-align: center;
   }
 

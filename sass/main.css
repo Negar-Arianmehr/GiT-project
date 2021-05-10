@@ -219,6 +219,9 @@ li {
   justify-content: center;
   transition: transform 1s;
 }
+.about__slide--contents {
+  width: 65%;
+}
 .about__slide--quote {
   font-size: 1.5rem;
 }
@@ -236,9 +239,47 @@ li {
 .about__slide--location {
   display: inline-block;
 }
+.about__slider__btn {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  border: transparent;
+  background-color: transparent;
+  color: #460000;
+  cursor: pointer;
+  font-size: 3.3rem;
+  outline: transparent;
+}
+.about__slider__btn--left {
+  left: 6%;
+  transform: translate(-50%, -50%);
+}
+.about__slider__btn--right {
+  right: 6%;
+  transform: translate(50%, -50%);
+}
+
+.dots {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.dots__dot {
+  width: 1rem;
+  height: 1rem;
+  border: 1px solid rgba(70, 0, 0, 0.5);
+  border-radius: 35%;
+  margin-right: 1.5rem;
+  transition: 0.3s ease;
+}
+.dots__dot--active {
+  background-color: #460000;
+  transform: scale(1.1);
+}
 
 .activities {
-  height: 90vh;
+  height: 70vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url("../img/P2.png");
   background-position: top;
   background-size: cover;
@@ -256,8 +297,9 @@ li {
   color: #999;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  column-gap: 2rem;
-  padding: 2.5rem;
+  grid-template-rows: max-content 5rem;
+  column-gap: 3.2rem;
+  padding: 3.5rem;
 }
 .activities__1 {
   min-width: 33.3333%;
@@ -267,6 +309,8 @@ li {
   text-shadow: 0 5px 1rem #333;
 }
 .activities__btn {
+  grid-row: 2/-1;
+  grid-column: 2/3;
   text-align: center;
 }
 
