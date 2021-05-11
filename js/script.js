@@ -85,3 +85,47 @@ dotContainer.addEventListener("click", function (e) {
         activeDot(slide)
     }
 })
+
+
+///////////////////////////////////////////////////////////////////
+//slider for members
+
+const cards = document.querySelectorAll(".members__card")
+const btnCardLeft = document.querySelector(".members__slider__btn--left")
+const btnCardRight = document.querySelector(".members__slider__btn--right")
+
+//,-50%, -25%, 0%, 25%, 50%
+// cards.forEach((c, i) => (c.style.transform = `translateX(${100 * i}%)`))
+
+const carousalCards = function (card) {
+    cards.forEach((c, i) => (c.style.transform = `translateX(${90 * (i - card)}%)`))
+}
+carousalCards(0)
+
+let curCard = 0
+const maxCard = cards.length
+
+//for Next cards
+const nextCard = function () {
+    if (curCard === maxCard) {
+        curCard = 0
+    }else {
+        curCard++
+    }
+
+    carousalCards(curCard)
+}
+
+btnCardRight.addEventListener("click", nextCard)
+
+//For previous cards
+const preCard = function () {
+    if (curCard === 0) {
+        curCard = maxCard -1
+    }else {
+        curCard--
+    }
+    carousalCards(curCard)
+}
+
+btnCardLeft.addEventListener("click", preCard)

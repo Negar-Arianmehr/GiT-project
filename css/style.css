@@ -325,15 +325,25 @@ li {
   background-position: top;
   background-size: cover; }
   .members__cards {
-    margin: 2rem 5rem;
+    max-width: 130rem;
+    margin: auto;
     display: flex;
     align-content: center;
-    justify-content: center; }
+    justify-content: center;
+    overflow: hidden; }
   .members__card {
-    width: 45rem;
+    width: 42rem;
     height: 50rem;
-    background-color: white;
-    margin-right: 3.5rem; }
+    background-color: rgba(255, 255, 255, 0.5); }
   .members__img {
     height: 25rem;
     width: 100%; }
+  .members__slider__btn {
+    border: none;
+    background-color: transparent;
+    font-size: 3.5rem;
+    z-index: 10;
+    transition: transform 1s ease; }
+  .members__dots {
+    flex-direction: column;
+    color: #460000; }
