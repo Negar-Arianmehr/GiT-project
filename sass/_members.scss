@@ -10,17 +10,24 @@
   }
 
   &__cards {
+    //max-width: 100rem;
     margin: 2rem 5rem;
-    display: grid;
-    //grid-template-columns: repeat(au);
+    display: flex;
+    //flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
   }
 
   &__card {
-
+    width: 45rem;
+    height: 50rem;
+    background-color: white;
+    margin-right: 3.5rem;
   }
 
   &__img {
-
+    height: 25rem;
+    width: 100%;
   }
 
   &__name {
