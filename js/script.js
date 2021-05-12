@@ -97,13 +97,41 @@ const btnCardRight = document.querySelector(".members__slider__btn--right")
 //,-50%, -25%, 0%, 25%, 50%
 // cards.forEach((c, i) => (c.style.transform = `translateX(${100 * i}%)`))
 
+let curCard = 0
+const maxCard = cards.length
+
+
+/////////////////////////////
+//for dots
+const dotsMember = document.querySelector(".members__dots")
+const showDots = function () {
+    cards.forEach(function (_, i) {
+        dotsMember.insertAdjacentHTML("beforeend", `<button class="dots__dot" data-card="${i}"></button>`)
+    })
+}
+showDots()
+//active dots
+const activeDotMember = function (card) {
+    document.querySelectorAll(".dots__dot").forEach(dot => dot.classList.remove("dots__dot--active"))
+
+    document.querySelector(`.dots__dot[data-card="${card}"]`).classList.add("dots__dot--active")
+}
+activeDotMember(0)
+
+//for clicks on dots
+dotsMember.addEventListener("click", function (e){
+    if (e.target.classList.contains("dots__dot")) {
+        const {card} = e.target.dataset
+        carousalCards(card)
+        activeDotMember(card)
+    }
+} )
+
+//CAeousalcards
 const carousalCards = function (card) {
     cards.forEach((c, i) => (c.style.transform = `translateX(${100 * (i - card)}%)`))
 }
 carousalCards(0)
-
-let curCard = 0
-const maxCard = cards.length
 
 //for Next cards
 const nextCard = function () {
@@ -114,6 +142,7 @@ const nextCard = function () {
     }
 
     carousalCards(curCard)
+    activeDotMember(curCard)
 }
 
 btnCardRight.addEventListener("click", nextCard)
@@ -126,16 +155,7 @@ const preCard = function () {
         curCard--
     }
     carousalCards(curCard)
+    activeDotMember(curCard)
 }
 
 btnCardLeft.addEventListener("click", preCard)
-
-/////////////////////////////
-//for dots
-const dotsMember = document.querySelector(".members__dats")
-const showDots = function () {
-    cards.forEach(function (_, i) {
-        dotsMember.insertAdjacentHTML("beforeend", `<button class="dots__dot" data-cards="${i}"></button>`)
-    })
-}
-showDots()

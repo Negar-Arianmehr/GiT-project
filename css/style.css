@@ -234,7 +234,7 @@ li {
     width: 1rem;
     height: 1rem;
     border: 1px solid rgba(70, 0, 0, 0.5);
-    border-radius: 35%;
+    border-radius: 50%;
     margin-right: 1.5rem;
     transition: .3s ease; }
   .dots__dot--active {
@@ -345,5 +345,5 @@ li {
     z-index: 10;
     transition: transform 1s ease; }
   .members__dots {
-    flex-direction: column;
-    color: #460000; }
+    margin-top: 5rem;
+    text-align: center; }

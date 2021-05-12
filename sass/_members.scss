@@ -11,6 +11,7 @@
 
   &__cards {
     max-width: 130rem;
+    //height: max-content;
     margin: auto;
     display: flex;
     //flex-wrap: wrap;
@@ -68,8 +69,8 @@
   }
 
   &__dots {
-    flex-direction: column;
-    color: #460000;
+    margin-top: 5rem;
+    text-align: center;
   }
 
 }
