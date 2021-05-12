@@ -242,15 +242,14 @@ li {
     transform: scale(1.1); }
 
 .activities {
-  height: 70vh;
+  height: 80vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url("../img/P2.png");
   background-position: top;
   background-size: cover; }
   .activities__header {
     color: #b81919; }
   .activities__icons {
-    font-size: 4rem;
-    height: 25rem;
+    font-size: 2.75rem;
     color: #ab3f3f; }
   .activities__contents {
     font-size: 1.6rem;
@@ -280,7 +279,6 @@ li {
     padding-bottom: 2.5rem; }
 
 .gallery {
-  max-height: 90vh;
   padding: 1.5rem;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
@@ -320,10 +318,8 @@ li {
     display: block; }
 
 .members {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(61, 61, 61, 0.5)), url("../img/bg2.jpg");
-  height: 90vh;
-  background-position: top;
-  background-size: cover; }
+  height: 80vh;
+  margin-bottom: -10rem; }
   .members__cards {
     max-width: 130rem;
     margin: auto;
@@ -332,12 +328,14 @@ li {
     justify-content: center;
     overflow: hidden; }
   .members__card {
-    width: 42rem;
+    width: 45rem;
     height: 50rem;
-    background-color: rgba(255, 255, 255, 0.5); }
+    background-color: rgba(204, 204, 204, 0.5);
+    transition: 1s ease-in-out; }
   .members__img {
     height: 25rem;
-    width: 100%; }
+    width: 100%;
+    padding: 1.5rem; }
   .members__slider__btn {
     border: none;
     background-color: transparent;
@@ -346,4 +344,14 @@ li {
     transition: transform 1s ease; }
   .members__dots {
     margin-top: 5rem;
-    text-align: center; }
+    text-align: center;
+    z-index: 10; }
+
+.footer {
+  height: 100vh;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.5)), url("../img/bg2.jpg");
+  background-position: top;
+  background-size: cover;
+  margin-bottom: 3.5rem;
+  display: flex;
+  justify-content: space-between; }

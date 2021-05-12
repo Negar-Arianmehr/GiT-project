@@ -1,0 +1,32 @@
+.footer {
+  height: 100vh;
+  background-image: linear-gradient(rgba($color-white, .9),rgba($color-white, .8) ), url("../img/bg2.jpg");
+  background-position: top;
+  background-size: cover;
+  margin-bottom: 3.5rem;
+
+  display: flex;
+  justify-content: space-between;
+
+  &__left {
+
+  }
+
+  &__right {
+
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    align-content: end;
+  }
+
+  &__input--name{
+
+  }
+
+  &__ {
+
+  }
+}

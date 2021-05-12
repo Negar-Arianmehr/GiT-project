@@ -1,10 +1,12 @@
 .members {
-  background-image: linear-gradient( rgba($color-white, .75), rgba($color-gray-dark-2, .5)), url("../img/bg2.jpg");
-  height: 90vh;
-  background-position: top;
-  background-size: cover;
+  //background-image: linear-gradient( rgba($color-white, .75), rgba($color-gray-dark-2, .5)), url("../img/bg2.jpg");
+  height: 80vh;
+  //background-position: top;
+  //background-size: cover;
+margin-bottom: -10rem;
+  //background-color: rgba($color-white, .75);
 
-
+  //background-image: linear-gradient(rgba($color-gray-dark-2, .5),rgba($color-white, .75) );
   &__header {
 
   }
@@ -19,19 +21,22 @@
     justify-content: center;
     //position: relative;
     overflow: hidden;
+
   }
 
   &__card {
-    width: 42rem;
+    width: 45rem;
     height: 50rem;
-    background-color: rgba(255,255,255,.5);
+    background-color: rgba($color-gray-light-3, 0.5);
     //margin-right: 3.5rem;
+    transition: 1s ease-in-out;
   }
 
 
   &__img {
     height: 25rem;
     width: 100%;
+    padding: 1.5rem;
   }
 
   &__name {
@@ -71,6 +76,7 @@
   &__dots {
     margin-top: 5rem;
     text-align: center;
+    z-index: 10;
   }
 
 }

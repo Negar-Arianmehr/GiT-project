@@ -129,13 +129,13 @@ dotsMember.addEventListener("click", function (e){
 
 //CAeousalcards
 const carousalCards = function (card) {
-    cards.forEach((c, i) => (c.style.transform = `translateX(${100 * (i - card)}%)`))
+    cards.forEach((c, i) => (c.style.transform = `translateX(${100 * (i - 2*card)}%)`))
 }
 carousalCards(0)
 
 //for Next cards
 const nextCard = function () {
-    if (curCard === maxCard) {
+    if (curCard === maxCard - 2) {
         curCard = 0
     }else {
         curCard++
@@ -150,7 +150,7 @@ btnCardRight.addEventListener("click", nextCard)
 //For previous cards
 const preCard = function () {
     if (curCard === 0) {
-        curCard = maxCard -1
+        curCard = maxCard - 3
     }else {
         curCard--
     }
