@@ -98,7 +98,7 @@ const btnCardRight = document.querySelector(".members__slider__btn--right")
 // cards.forEach((c, i) => (c.style.transform = `translateX(${100 * i}%)`))
 
 const carousalCards = function (card) {
-    cards.forEach((c, i) => (c.style.transform = `translateX(${90 * (i - card)}%)`))
+    cards.forEach((c, i) => (c.style.transform = `translateX(${100 * (i - card)}%)`))
 }
 carousalCards(0)
 
@@ -129,3 +129,13 @@ const preCard = function () {
 }
 
 btnCardLeft.addEventListener("click", preCard)
+
+/////////////////////////////
+//for dots
+const dotsMember = document.querySelector(".members__dats")
+const showDots = function () {
+    cards.forEach(function (_, i) {
+        dotsMember.insertAdjacentHTML("beforeend", `<button class="dots__dot" data-cards="${i}"></button>`)
+    })
+}
+showDots()
