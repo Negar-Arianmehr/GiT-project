@@ -3,20 +3,22 @@
   font-family: $font-family-main;
   text-transform: uppercase;
   display: inline-block;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
+  //margin-bottom: 2rem;
+  margin-top: 1.75rem;
 }
 
 .heading-hug {
   font-size: 6rem;
+  font-family: $font-family-complex;
   letter-spacing: 1.6rem;
-  //color: $color-gray-dark-1;
+  color: $color-main;
 }
 
 .heading-big {
   font-size: 3.5rem;
+  font-family: $font-family-simple;
   letter-spacing: .2rem;
-  color: $color-gray;
+  color: $color-gray-dark;
   display: inline-block;
   text-align: center;
 }
@@ -31,6 +33,8 @@
 .heading-medium {
   font-size: 2rem;
   letter-spacing: .1rem;
+  color: $color-main;
+  //margin-top: 3rem;
 }
 
 .heading-small {

@@ -1,11 +1,8 @@
 .project {
-  margin: 5rem;
-  padding: 0 5rem;
+  background-image: linear-gradient(rgba($color-gray-dark, .5), rgba($color-gray-light-3, .5)), url("../img/image.jpg");
+  height: 60vh;
+  padding: 5rem 10rem;
   text-align: center;
-
-  &__header {
-
-  }
 
   &__text-box {
     font-size: 1.6rem;

@@ -38,3 +38,7 @@ li {
   grid-template-rows: repeat(6, min-content);
   //grid-template-columns: ;
 }
+
+.main {
+  background-color: $color-white;
+}

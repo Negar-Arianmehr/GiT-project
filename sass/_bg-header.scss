@@ -1,30 +1,57 @@
 .bg-header {
   grid-row: 3/4;
-  height: 95vh;
-  background-image: url("../img/bg1.jpg");
-  background-position: top;
-  background-size: cover;
 
-  position: relative;
+
+  &__bg {
+    //clip: rect(0, auto, 0, auto);
+
+  }
 
   &__box {
-    margin: 0 auto;
-    color: $color-main-dark;
-    position: absolute;
-    bottom: 3.5rem;
-    right: 0;
-    transform: translate(-40%, 10%);
+    background-image: url("../img/bg1.jpg");
+
+    //color: $color-main-dark;
+    //position: absolute;
+    //bottom: 3.5rem;
+    //right: 0;
+    //transform: translate(-40%, 10%);
   }
 
-  h1 {
-    font-family: $font-family-complex;
-    color: $color-main;
-    text-transform: uppercase;
-  }
+  //h1 {
+  //  font-family: $font-family-complex;
+  //  color: $color-main;
+  //  text-transform: uppercase;
+  //}
 
   &__btn {
-    position: absolute;
-    bottom: 7rem;
-    right: 4rem;
+    //position: absolute;
+    //bottom: 7rem;
+    //right: 4rem;
   }
+}
+
+.relative {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: table;
+  z-index: -111;
+}
+
+.absolute {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.fixed {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  transform: translateZ(0);
+  display: table;
 }

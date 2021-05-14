@@ -6,6 +6,10 @@
   flex-wrap: wrap;
   align-items: center;
 
+  position: sticky;
+  top: 4rem;
+  left: 0;
+
   &__icon-box {
     padding-left: 2.5rem;
   }
