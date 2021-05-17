@@ -1,4 +1,12 @@
 /////////////////////////////////
+//scroll
+////////////////////////////////
+
+
+
+
+
+/////////////////////////////////
 //slider
 ////////////////////////////////
 const slides = document.querySelectorAll(".about__slide")
@@ -28,7 +36,8 @@ const activeDot = function (slide) {
 
     document.querySelector(`.dots__dot[data-slide="${slide}"]`).classList.add("dots__dot--active")
 }
-activeDot(0)
+
+
 
 //because we put gotoslide in 0
 // slides.forEach((s, i) => (s.style.transform = `translateX(${100 * i}%)`))
@@ -38,11 +47,12 @@ activeDot(0)
 const goToSlide = function (slide) {
     //-100%, 0%, 100%,
     slides.forEach((s, i) => (s.style.transform = `translateX(${100 * (i - slide)}%)`))
+    activeDot(0)
 }
 
 //when the web is loading go to slide with 0 index
 goToSlide(0)
-
+activeDot(0)
 //Next Slide function
 const nextSlide = function () {
     if (curSlide === maxSlide - 1) {
@@ -86,7 +96,6 @@ dotContainer.addEventListener("click", function (e) {
     }
 })
 
-
 ///////////////////////////////////////////////////////////////////
 //slider for members
 
@@ -106,7 +115,7 @@ console.log(maxCard)
 const dotsMember = document.querySelector(".members__dots")
 const showDots = function () {
     cards.forEach(function (_, i) {
-        dotsMember.insertAdjacentHTML("beforeend", `<button class="dots__dot" data-card="${i}"></button>`)
+        dotsMember.insertAdjacentHTML("beforeend", `<button class="dots__dot" data-card="${i-2}"></button>`)
     })
 }
 showDots()
@@ -114,7 +123,7 @@ showDots()
 const activeDotMember = function (card) {
     document.querySelectorAll(".dots__dot").forEach(dot => dot.classList.remove("dots__dot--active"))
 
-    document.querySelector(`.dots__dot[data-card="${card}"]`).classList.add("dots__dot--active")
+    document.querySelector(`.dots__dot[data-card="${card-2}"]`).classList.add("dots__dot--active")
 }
 activeDotMember(0)
 
@@ -159,3 +168,11 @@ const preCard = function () {
 }
 
 btnCardLeft.addEventListener("click", preCard)
+
+//for using arrow left and down in keyboard...you can see the event in console with console.log
+document.addEventListener("keydown", function (e) {
+    console.log(e)
+    if (e.key === "ArrowLeft") preCard()
+    e.key === "ArrowRight" && nextCard()
+})
+

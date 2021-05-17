@@ -2,33 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="118319de-ae63-4a5f-b3ae-30acab8bb243" name="Default Changelist" comment="new scss">
-      <change afterPath="$PROJECT_DIR$/img/SVG/arrow-circle-left.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/SVG/arrow-circle-o-left.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/SVG/arrow-circle-o-right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/SVG/arrow-circle-right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/SVG/arrow-circle-up.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/SVG/circle-left.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/SVG/circle-right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/SVG/film.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/SVG/video-camera.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/sprite.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/_about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_about.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/_activities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_activities.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_bg-header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_bg-header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/_gallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_gallery.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/_heading.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_heading.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/_members.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_members.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/_nowProject.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_nowProject.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/_text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_text.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +116,7 @@
       <workItem from="1620974970979" duration="10747000" />
       <workItem from="1621098083351" duration="7347000" />
       <workItem from="1621145909159" duration="26405000" />
-      <workItem from="1621233119392" duration="3076000" />
+      <workItem from="1621233119392" duration="10537000" />
     </task>
     <task id="LOCAL-00001" summary="add new scss">
       <created>1617123906360</created>
@@ -401,7 +384,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621022049116</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="new scss">
+      <created>1621237019073</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1621237019073</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

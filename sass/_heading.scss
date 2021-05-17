@@ -3,24 +3,34 @@
   font-family: $font-family-main;
   text-transform: uppercase;
   display: inline-block;
-  margin-bottom: 1.5rem;
-  margin-top: 4.5rem;
+  //margin-bottom: 1rem;
+  margin-top: 1.2rem;
 }
 
 .heading-hug {
   font-size: 6rem;
   font-family: $font-family-complex;
   letter-spacing: 1.6rem;
-  color: $color-main;
+  //color: $color-main;
+ background-image: linear-gradient(to right, rgb(208, 90, 90), rgb(71, 4, 4));
+  //background-clip: ;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .heading-big {
   font-size: 3.5rem;
   font-family: $font-family-simple;
-  letter-spacing: .2rem;
-  color: $color-gray-dark;
+  letter-spacing: .6rem;
+  //color: $color-gray-dark-3;
   display: inline-block;
   text-align: center;
+  margin-top: 4.5rem;
+
+  background-image: linear-gradient(to right, rgb(95, 95, 95), rgb(38, 38, 38));
+  //background-clip: ;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .heading-underline {

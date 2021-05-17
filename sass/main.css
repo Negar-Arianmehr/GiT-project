@@ -50,24 +50,28 @@ li {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   display: inline-block;
-  margin-bottom: 1.5rem;
-  margin-top: 4.5rem;
+  margin-top: 1.2rem;
 }
 
 .heading-hug {
   font-size: 6rem;
   font-family: "Merienda", cursive;
   letter-spacing: 1.6rem;
-  color: #ab3f3f;
+  background-image: linear-gradient(to right, #d05a5a, #470404);
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .heading-big {
   font-size: 3.5rem;
   font-family: "PT Serif", serif;
-  letter-spacing: 0.2rem;
-  color: #676767;
+  letter-spacing: 0.6rem;
   display: inline-block;
   text-align: center;
+  margin-top: 4.5rem;
+  background-image: linear-gradient(to right, #5f5f5f, #262626);
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .heading-underline {
@@ -181,7 +185,9 @@ li {
 }
 .bg-header__box {
   background-image: url("../img/bg1.jpg");
+  text-align: center;
 }
+
 .relative {
   height: 100vh;
   width: 100%;
@@ -222,6 +228,7 @@ li {
   font-family: "PT Serif", serif;
   color: #676767;
   margin-bottom: 1.5rem;
+  margin-top: 2.5rem;
 }
 .about__title {
   display: flex;
@@ -520,7 +527,7 @@ li {
   height: 50rem;
   background-color: rgba(204, 204, 204, 0.5);
   box-shadow: 0 1rem 2.5rem #000;
-  transition: 0.7s ease-in-out;
+  transition: all 1s ease-in-out;
   border: 1px solid transparent;
   border-radius: 5px;
   border-top-left-radius: 5px;
@@ -610,6 +617,22 @@ li {
   text-shadow: 1px 2px 3px;
   align-self: center;
 }
+.footer__ul {
+  text-align: center;
+}
+.footer__items {
+  transition: all 0.5s ease-in-out;
+}
+.footer__items:hover {
+  transform: translate3d(0, -10px, 2px) rotate3d(3, 1, 0, 50deg);
+}
+.footer__svg {
+  width: 4.25rem;
+  height: 3.2rem;
+  margin-right: 2.5rem;
+  fill: #cccccc;
+  box-shadow: 50px 10px 10px rgba(0, 0, 0, 0.1);
+}
 .footer__right {
   align-self: flex-end;
 }
@@ -626,6 +649,13 @@ li {
   margin-bottom: 2.5rem;
   padding: 0.75rem 1.5rem;
   outline: none;
+}
+.footer__arrow {
+  align-self: flex-end;
+}
+.footer__arrow--svg {
+  width: 3.75rem;
+  height: 3.5rem;
 }
 
 /*# sourceMappingURL=main.css.map */

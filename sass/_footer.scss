@@ -13,6 +13,32 @@
     align-self: center;
   }
 
+  &__ul {
+  text-align: center;
+  }
+
+  &__items {
+    transition: all .5s ease-in-out;
+
+    &:hover {
+      transform: translate3d(0, -10px, 2px) rotate3d(3, 1, 0, 50deg);
+
+    }
+  }
+  &__link {
+
+  }
+  &__svg {
+    width: 4.25rem;
+    height: 3.2rem;
+    margin-right: 2.5rem;
+    fill: $color-gray-light-3;
+
+        box-shadow: 50px 10px 10px rgba(0,0,0, .1);
+
+  }
+
+
   &__right {
     align-self: flex-end;
 
@@ -32,6 +58,15 @@
     margin-bottom: 2.5rem;
     padding: .75rem 1.5rem;
     outline: none;
+  }
+
+  &__arrow {
+    align-self: flex-end;
+    &--svg {
+      //font-size: 3.5rem;
+      width: 3.75rem;
+      height: 3.5rem;
+    }
   }
 
 }
