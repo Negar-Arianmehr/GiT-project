@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",
+    "animate.css": "^4.1.1",
     "compile-sass": "^1.1.1",
     "css-prefix": "0.0.2",
     "parallel": "^1.2.0"

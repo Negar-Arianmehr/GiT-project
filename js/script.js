@@ -99,7 +99,7 @@ const btnCardRight = document.querySelector(".members__slider__btn--right")
 
 let curCard = 0
 const maxCard = cards.length
-
+console.log(maxCard)
 
 /////////////////////////////
 //for dots

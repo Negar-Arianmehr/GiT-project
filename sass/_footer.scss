@@ -1,7 +1,7 @@
 .footer {
-  height: 100vh;
-  background-image: linear-gradient(rgba($color-white, .9), rgba($color-white, .5)), url("../img/bg2.jpg");
-  background-position: top;
+  height: 40vh;
+  background-image: linear-gradient(rgba($color-secondary-dark, .9), rgba($color-secondary-light, .5)), url("../img/contact2.jpg");
+  background-position: bottom;
   background-size: cover;
 
   display: flex;
