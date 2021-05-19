@@ -255,3 +255,7 @@ document.addEventListener("keydown", function (e) {
     e.key === "ArrowRight" && nextCard()
 })
 
+///////////////////////////////////////////////////////////////
+//React
+
+// import * as React from "https://cdn.skypack.dev/react@17.0.1";
