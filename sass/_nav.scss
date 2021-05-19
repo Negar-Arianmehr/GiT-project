@@ -5,10 +5,13 @@
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
+  z-index: 22222;
 
+  &--stick {
   position: sticky;
   top: 4rem;
   left: 0;
+  }
 
   &__icon-box {
     padding-left: 2.5rem;
@@ -32,13 +35,15 @@
     padding-right: 4.5rem;
     transition: .5s ease-out;
 
+
     &:hover {
       transform: translateY(3px) scale(1.15);
     }
   }
 
   &--link {
-    color: $color-main;
+color: $color-main;
     text-transform: uppercase;
   }
 }
+

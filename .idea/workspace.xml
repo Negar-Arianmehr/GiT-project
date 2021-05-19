@@ -1,16 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="118319de-ae63-4a5f-b3ae-30acab8bb243" name="Default Changelist" comment="new scss">
+    <list default="true" id="118319de-ae63-4a5f-b3ae-30acab8bb243" name="Default Changelist" comment="add new properties to scc and new codes to JS">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/project-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/members.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/_moreActivities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/_moreStories.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/new.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/new.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/_about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_about.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_activities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_activities.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_base.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/_bg-header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_bg-header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_btn.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_btn.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_gallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_gallery.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/_heading.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_heading.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/_members.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_members.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_nav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_nowProject.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_nowProject.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -116,7 +129,9 @@
       <workItem from="1620974970979" duration="10747000" />
       <workItem from="1621098083351" duration="7347000" />
       <workItem from="1621145909159" duration="26405000" />
-      <workItem from="1621233119392" duration="10537000" />
+      <workItem from="1621233119392" duration="20974000" />
+      <workItem from="1621323384623" duration="30378000" />
+      <workItem from="1621409598971" duration="2170000" />
     </task>
     <task id="LOCAL-00001" summary="add new scss">
       <created>1617123906360</created>
@@ -391,7 +406,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621237019073</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="add new properties to scc and new codes to JS">
+      <created>1621249300736</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1621249300736</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -416,6 +438,7 @@
     <MESSAGE value="add new css" />
     <MESSAGE value="work on sections" />
     <MESSAGE value="new scss" />
-    <option name="LAST_COMMIT_MESSAGE" value="new scss" />
+    <MESSAGE value="add new properties to scc and new codes to JS" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new properties to scc and new codes to JS" />
   </component>
 </project>

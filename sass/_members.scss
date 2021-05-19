@@ -1,10 +1,9 @@
 .members {
   background-image: linear-gradient(rgba($color-gray-light-3, .5), rgba($color-white, .5)), url("../img/bg2.jpg");
-  min-height: 120vh;
-  background-position: bottom;
+  max-height: 130vh;
+  background-position: top;
   background-size: cover;
-  //margin-bottom: -10rem;
-
+padding: 5rem 2.5rem;
   position: relative;
 
   &__arrows--left {
@@ -135,15 +134,9 @@
     justify-self: flex-end;
   }
 
-
-  &__dots {
-    position: absolute;
-    bottom: 5rem;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin-top: 5rem;
+  &__btn {
     text-align: center;
-    z-index: 1111;
+margin-bottom: 10rem;
   }
 }
 

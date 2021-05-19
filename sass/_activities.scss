@@ -1,8 +1,10 @@
 .activities {
-  height: 75vh;
-  background-image: linear-gradient(rgba($color-gray, .8), rgba($color-gray-dark, .6)), url("../img/P2.png");
+  height: 90vh;
+  background-image: linear-gradient(rgba($color-secondary-dark, .8), rgba($color-secondary-light, .1)), url("../img/P2.png");
   background-position: top;
   background-size: cover;
+  text-align: center;
+  padding: 5rem 2.5rem;
   //animation: moveSlideshow 5s linear infinite;
 
   //For btn
@@ -85,13 +87,11 @@ font-size: 1.7rem;
 
   &__btn {
     position: absolute;
-    bottom: 3.5rem;
+    bottom: min(2rem);
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: center;
-    //box-shadow: 1rem 1px 0 rgba(0,0,0, .5);
+    display: inline-block;
   }
-
 }
 
 //@keyframes moveSlideshow {

@@ -1,9 +1,89 @@
 /////////////////////////////////
-//scroll
+//scroll--sticky nav
+////////////////////////////////
+const bgHeader = document.querySelector(".bg-header")
+const nav = document.querySelector(".nav")
+
+const stickyNav = function (entries) {
+    const [entry] = entries;
+    console.log(entry)
+
+    if (!entry.isIntersecting) {
+        nav.classList.add("sticky")
+        nav.classList.remove("nav--stick")
+        // header.classList.add("noneDisplay")}
+    // } else if (entries.boundingClientRect.height < 600) {
+    //     // nav.classList.add("nav--stick")
+    } else {
+        nav.classList.remove("sticky")
+        nav.classList.add("nav--stick")
+    }
+    // header.classList.remove("noneDisplay")
+}
+
+const headerObserver = new IntersectionObserver(stickyNav, {
+    root: null,
+    threshold: 0,
+})
+
+headerObserver.observe(bgHeader)
+
+//for every section
+// const navAbout = document.querySelector("#about")
+// const aboutSection = document.querySelector("#About_us")
+//
+// navAbout.addEventListener("click", function (e) {
+//     const aboutCoords = aboutSection.getBoundingClientRect()
+//     console.log(aboutCoords)
+//     console.log(e.target.getBoundingClientRect())
+//     //scroll
+//     // window.scrollTo(aboutCoords.left, aboutCoords.top)
+//     aboutSection.scrollIntoView({behavior: "smooth"})
+// })
+//scroll to the section
+/////////////////////////////////
+//scroll to the section
+////////////////////////////////
+document.querySelector(".nav--link").addEventListener("click", function (e) {
+    e.preventDefault()
+
+    if (e.target.classList.contains("nav--link")) {
+        const id = e.target.getAttribute("href")
+        document.querySelector(id).scrollIntoView({
+            behavior: "smooth"
+        })
+    }
+})
+/////////////////////////////////
+//scroll to up
 ////////////////////////////////
 
 
 
+/////////////////////////////////
+//Reveal section
+////////////////////////////////
+const allSections = document.querySelectorAll(".section")
+
+const revealSection = function (entries, observer) {
+    const [entry] = entries;
+    console.log(entry)
+
+    if (!entry.isIntersecting) return;
+
+    entry.target.classList.remove("hidden--section")
+    observer.unobserve(entry.target)
+}
+
+const sectionObserver = new IntersectionObserver(revealSection, {
+    root: null,
+    threshold: 0.15,
+})
+
+allSections.forEach(function (section) {
+    sectionObserver.observe(section)
+    section.classList.add("hidden--section")
+})
 
 
 /////////////////////////////////
@@ -36,7 +116,6 @@ const activeDot = function (slide) {
 
     document.querySelector(`.dots__dot[data-slide="${slide}"]`).classList.add("dots__dot--active")
 }
-
 
 
 //because we put gotoslide in 0
@@ -112,33 +191,33 @@ console.log(maxCard)
 
 /////////////////////////////
 //for dots
-const dotsMember = document.querySelector(".members__dots")
-const showDots = function () {
-    cards.forEach(function (_, i) {
-        dotsMember.insertAdjacentHTML("beforeend", `<button class="dots__dot" data-card="${i-2}"></button>`)
-    })
-}
-showDots()
-//active dots
-const activeDotMember = function (card) {
-    document.querySelectorAll(".dots__dot").forEach(dot => dot.classList.remove("dots__dot--active"))
+// const dotsMember = document.querySelector(".members__dots")
+// const showDots = function () {
+//     cards.forEach(function (_, i) {
+//         dotsMember.insertAdjacentHTML("beforeend", `<button class="dots__dot" data-card="${i-2}" style="display: none"></button>`)
+//     })
+// }
+// showDots()
+// //active dots
+// const activeDotMember = function (card) {
+//     document.querySelectorAll(".dots__dot").forEach(dot => dot.classList.remove("dots__dot--active"))
+//
+//     document.querySelector(`.dots__dot[data-card="${card - 2}"]`).classList.add("dots__dot--active")
+// }
+// activeDotMember(0)
 
-    document.querySelector(`.dots__dot[data-card="${card-2}"]`).classList.add("dots__dot--active")
-}
-activeDotMember(0)
-
-//for clicks on dots
-dotsMember.addEventListener("click", function (e){
-    if (e.target.classList.contains("dots__dot")) {
-        const {card} = e.target.dataset
-        carousalCards(card)
-        activeDotMember(card)
-    }
-} )
+// //for clicks on dots
+// dotsMember.addEventListener("click", function (e){
+//     if (e.target.classList.contains("dots__dot")) {
+//         const {card} = e.target.dataset
+//         carousalCards(card)
+//         // activeDotMember(card)
+//     }
+// } )
 
 //CAeousalcards
 const carousalCards = function (card) {
-    cards.forEach((c, i) => (c.style.transform = `translateX(${100 * (i - 2*card)}%)`))
+    cards.forEach((c, i) => (c.style.transform = `translateX(${100 * (i - 2 * card)}%)`))
 }
 carousalCards(0)
 
@@ -146,12 +225,12 @@ carousalCards(0)
 const nextCard = function () {
     if (curCard === maxCard - 2) {
         curCard = 0
-    }else {
+    } else {
         curCard++
     }
 
     carousalCards(curCard)
-    activeDotMember(curCard)
+    // activeDotMember(curCard)
 }
 
 btnCardRight.addEventListener("click", nextCard)
@@ -160,11 +239,11 @@ btnCardRight.addEventListener("click", nextCard)
 const preCard = function () {
     if (curCard === 0) {
         curCard = maxCard - 3
-    }else {
+    } else {
         curCard--
     }
     carousalCards(curCard)
-    activeDotMember(curCard)
+    // activeDotMember(curCard)
 }
 
 btnCardLeft.addEventListener("click", preCard)

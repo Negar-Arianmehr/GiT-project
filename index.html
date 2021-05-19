@@ -30,7 +30,7 @@
     <!--*****************-->
     <!--    Header-->
     <!--*****************-->
-    <header class="header">
+    <header class="header header__sticky">
         <div class="header__contents">
             <ul class="header__ul">
                 <li class="header__items"><a href="#" class="header__link">
@@ -68,26 +68,23 @@
         </div>
         <div class="nav__nav-box">
             <ul class="nav--ul">
-                <li class="nav--items">
-                    <a href="#home" class="nav--link">Home</a>
+                <li class="nav--items" id="Home">
+                    <a href="#Home" class="nav--link">Home</a>
                 </li>
                 <li class="nav--items">
-                    <a href="#About_us" class="nav--link">About us</a>
+                    <a href="#About_us" class="nav--link about--us">About us</a>
                 </li>
                 <li class="nav--items">
                     <a href="#Activities" class="nav--link">Activities</a>
                 </li>
                 <li class="nav--items">
-                    <a href="#Future_Plan" class="nav--link">Projects for Now</a>
-                </li>
-                <li class="nav--items">
                     <a href="#Gallery" class="nav--link">Gallery</a>
                 </li>
                 <li class="nav--items">
-                    <a href="#SUMMARY" class="nav--link">SUMMARY</a>
+                    <a href="#Project" class="nav--link">Current project</a>
                 </li>
                 <li class="nav--items">
-                    <a href="#Team" class="nav--link">Meet The Members</a>
+                    <a href="#Members" class="nav--link">Meet The Members</a>
                 </li>
                 <li class="nav--items">
                     <a href="#Contact" class="nav--link">Contact</a>
@@ -103,11 +100,11 @@
         <div class="bg-header__bg absolute">
             <div class="bg-header__box fixed">
                 <!--            <img src="img/bg1.jpg" alt="">-->
-                <h1 class="heading heading-hug">Welcome to GiT Group</h1>
+                <h1 class="heading bg-header__header animate__animated animate__bounceInLeft">Welcome to GiT Group</h1>
             </div>
         </div>
         <!--        <h2 class="heading heading-small">Eindhoven</h2>-->
-        <!--        <button class="btn bg-header__btn">Watch us</button>-->
+        <!--                <button class="btn bg-header__btn">Watch us</button>-->
     </div>
 
     <!--*****************-->
@@ -118,7 +115,7 @@
         <!--*****************-->
         <!--    about-us-->
         <!--*****************-->
-        <section class="about">
+        <section class="section about" id="About_us">
             <div class="about__history">
                 <div class="about__header center-heading">
                     <h1 class="heading heading-big">Once upon a time...</h1>
@@ -222,12 +219,15 @@
                 <button class="about__slider__btn about__slider__btn--right">&#8594;</button>
                 <div class="dots"></div>
             </div>
+            <div class="about__btn">
+                <a href="#" class="btn">read More stories</a>
+            </div>
         </section>
 
         <!--*****************-->
         <!--    Activities-->
         <!--*****************-->
-        <section class="activities">
+        <section class="section activities" id="Activities">
             <div class="center-heading">
                 <h1 class="heading heading-big">Activities</h1>
                 <div class="heading-underline"></div>
@@ -301,20 +301,20 @@
             <!--*****************-->
             <!--  btn--activities-->
             <!--*****************-->
-            <div class="activities__btn">
-                <a href="#" class="btn">read more</a>
+            <div class="activities__btn hover">
+                <a href="#" class="btn">discover more</a>
             </div>
         </section>
         <!--*****************-->
         <!--  Gallery -->
         <!--*****************-->
-        <section class="gallery-pics">
+        <section class="section gallery-content" id="Gallery">
             <div class="center-heading">
                 <h1 class="heading heading-big">Gallery</h1>
                 <div class="heading-underline"></div>
             </div>
             <div class="gallery">
-                <figure class="gallery__fig gallery__pic--1">
+                <figure class="gallery__fig gallery__pic--1 ">
                     <img src="img/pic-1.jpg" alt="" class="gallery__img">
                 </figure>
                 <figure class="gallery__fig gallery__pic--2">
@@ -342,44 +342,63 @@
                     <img src="img/pic-9.jpg" alt="" class="gallery__img">
                 </figure>
             </div>
+
+            <div class="gallery__btn hover">
+                <a href="#" class="btn">watch us more</a>
+            </div>
         </section>
 
         <!--*****************-->
         <!--  project -->
         <!--*****************-->
-        <section class="project">
-            <div class="center-heading">
-                <h1 class="heading heading-big">current Project</h1>
-                <div class="heading-underline"></div>
-            </div>
-            <div class="project__text-box">
-                <p class="text">
-                    we have been preparing for a photo-exhibition that is planned to take place in June. After
-                    talking
-                    with Anke, Irma and Maxime last week, we came up with few new ideas to gather materials on.
-                    So,
-                    until May 14, we will be working together in collecting the materials.
+        <section class="section project"  id="Project">
+            <div class="project__content">
+                <div class="project__pics">
+                    <div class="project__img--box">
+                        <figure class="project__img--1"><img src="img/project.jpg" alt="picture of project"></figure>
+                        <figure class="project__img--2"><img src="img/project-2.jpg" alt="picture of project"></figure>
+                    </div>
+                </div>
+                <div class="project__text-content">
+                    <div class="center-heading">
+                        <h1 class="heading heading-big">current Project</h1>
+                        <div class="heading-underline"></div>
+                    </div>
+                    <div class="project__text-box">
+                        <h3 class="heading">
+                            <q class="project__quoits">
+                                We have discussion for making new project, one project after other one...
+                            </q>
+                        </h3>
+                        <p>
+                            we have been preparing for a photo-exhibition that is planned to take place in June. After
+                            talking
+                            with Anke, Irma and Maxime last week, we came up with few new ideas to gather materials on.
+                            So,
+                            until May 14, we will be working together in collecting the materials.
 
-                    On our upcoming three consecutive Thursdays, we will, therefore, discuss and update over
-                    what
-                    have
-                    been shared already and what we still need to collect in coming days.
+                            On our upcoming three consecutive Thursdays, we will, therefore, discuss and update over
+                            what
+                            have
+                            been shared already and what we still need to collect in coming days.
 
-                    Details sent by Anke will be shared with you all. If you would like to participate in any
-                    way
-                    that
-                    fits you, you are very welcome.
-                </p>
-            </div>
-            <div class="project__btn">
-                <a href="#" class="btn">Join Us</a>
+                            Details sent by Anke will be shared with you all. If you would like to participate in any
+                            way
+                            that
+                            fits you, you are very welcome.
+                        </p>
+                    </div>
+                    <div class="project__btn hover">
+                        <a href="#" class="btn">Join Us</a>
+                    </div>
+                </div>
             </div>
         </section>
 
         <!--*****************-->
         <!--  Members -->
         <!--*****************-->
-        <section class="members">
+        <section class="section members" id="Members">
             <div class="center-heading">
                 <h1 class="heading heading-big">Members</h1>
                 <div class="heading-underline"></div>
@@ -395,95 +414,97 @@
                     <use xlink:href="img/sprite.svg#icon-arrow-circle-right"></use>
                 </svg>
             </div>
-<!--            <div class="members__position">-->
-                <div class="members__cards">
-                    <!--                <button class="members__slider__btn members__slider__btn&#45;&#45;left">&#8592;</button>-->
-                    <!--card -1-->
-                    <div class="members__card">
-                        <figure class="members__fig">
-                            <img src="img/Megha.jpg" alt="" class="members__img">
-                            <figcaption class="members__name">Megha</figcaption>
-                        </figure>
-                        <div class="members__card--info">
-                            <q class="text members__text">I made great friends with GiT group.</q>
-                            <div>
-                                <span class="members__date">At 2017</span>
-                                <span class="members__from">From Iran</span>
-                            </div>
+            <!--            <div class="members__position">-->
+            <div class="members__cards">
+                <!--                <button class="members__slider__btn members__slider__btn&#45;&#45;left">&#8592;</button>-->
+                <!--card -1-->
+                <div class="members__card">
+                    <figure class="members__fig">
+                        <img src="img/Megha.jpg" alt="" class="members__img">
+                        <figcaption class="members__name">Megha</figcaption>
+                    </figure>
+                    <div class="members__card--info">
+                        <q class="text members__text">The best decision of my life, joining GiT.</q>
+                        <div>
+                            <span class="members__date">At 2017</span>
+                            <span class="members__from">From Iran</span>
                         </div>
                     </div>
-                    <!--card -2-->
-                    <div class="members__card">
-                        <figure class="members__fig">
-                            <img src="img/member-1.jpg" alt="" class="members__img">
-                            <figcaption class="members__name">Negar</figcaption>
-                        </figure>
-                        <div class="members__card--info">
-                            <q class="text members__text">I made great friends with GiT group.</q>
-                            <div><span class="members__date">At 2019</span>
-                                <span class="members__from">From Iran</span></div>
-                        </div>
+                </div>
+                <!--card -2-->
+                <div class="members__card">
+                    <figure class="members__fig">
+                        <img src="img/member-1.jpg" alt="" class="members__img">
+                        <figcaption class="members__name">Negar</figcaption>
+                    </figure>
+                    <div class="members__card--info">
+                        <q class="text members__text">I made great friends with GiT group.</q>
+                        <div><span class="members__date">At 2019</span>
+                            <span class="members__from">From Iran</span></div>
                     </div>
-                    <!--card -3-->
-                    <div class="members__card">
-                        <figure class="members__fig">
-                            <img src="img/member-2.jpg" alt="" class="members__img">
-                            <figcaption class="members__name">Negar</figcaption>
-                        </figure>
-                        <div class="members__card--info">
-                            <q class="text members__text">I made great friends with GiT group.</q>
-                            <div><span class="members__date">At 2019</span>
-                                <span class="members__from">From Iran</span></div>
-                        </div>
+                </div>
+                <!--card -3-->
+                <div class="members__card">
+                    <figure class="members__fig">
+                        <img src="img/member-2.jpg" alt="" class="members__img">
+                        <figcaption class="members__name">Negar</figcaption>
+                    </figure>
+                    <div class="members__card--info">
+                        <q class="text members__text">I made great friends with GiT group.</q>
+                        <div><span class="members__date">At 2019</span>
+                            <span class="members__from">From Iran</span></div>
                     </div>
-                    <!--card -4-->
-                    <div class="members__card">
-                        <figure class="members__fig">
-                            <img src="img/member-3.jpg" alt="" class="members__img">
-                            <figcaption class="members__name">Negar Arianmehr</figcaption>
-                        </figure>
-                        <div class="members__card--info">
-                            <q class="text members__text">I made great friends with GiT group.</q>
-                            <div><span class="members__date">At 2019</span>
-                                <span class="members__from">From Iran</span></div>
-                        </div>
+                </div>
+                <!--card -4-->
+                <div class="members__card">
+                    <figure class="members__fig">
+                        <img src="img/member-3.jpg" alt="" class="members__img">
+                        <figcaption class="members__name">Negar Arianmehr</figcaption>
+                    </figure>
+                    <div class="members__card--info">
+                        <q class="text members__text">I made great friends with GiT group.</q>
+                        <div><span class="members__date">At 2019</span>
+                            <span class="members__from">From Iran</span></div>
                     </div>
-                    <!--card -5-->
-                    <div class="members__card">
-                        <figure class="members__fig">
-                            <img src="img/member-4.jpg" alt="" class="members__img">
-                            <figcaption class="members__name">Negar</figcaption>
-                        </figure>
-                        <div class="members__card--info">
-                            <q class="text members__text">I made great friends with GiT group.</q>
-                            <div><span class="members__date">At 2019</span>
-                                <span class="members__from">From Iran</span></div>
-                        </div>
+                </div>
+                <!--card -5-->
+                <div class="members__card">
+                    <figure class="members__fig">
+                        <img src="img/member-4.jpg" alt="" class="members__img">
+                        <figcaption class="members__name">Negar</figcaption>
+                    </figure>
+                    <div class="members__card--info">
+                        <q class="text members__text">I made great friends with GiT group.</q>
+                        <div><span class="members__date">At 2019</span>
+                            <span class="members__from">From Iran</span></div>
                     </div>
-                    <!--card -6-->
-                    <div class="members__card">
-                        <figure class="members__fig">
-                            <img src="img/progita.jpg" alt="" class="members__img">
-                            <figcaption class="members__name">Negar</figcaption>
-                        </figure>
-                        <div class="members__card--info">
-                            <q class="text members__text">I made great friends with GiT group.</q>
-                            <div><span class="members__date">At 2019</span>
-                                <span class="members__from">From Iran</span></div>
-                        </div>
+                </div>
+                <!--card -6-->
+                <div class="members__card">
+                    <figure class="members__fig">
+                        <img src="img/progita.jpg" alt="" class="members__img">
+                        <figcaption class="members__name">Negar</figcaption>
+                    </figure>
+                    <div class="members__card--info">
+                        <q class="text members__text">I made great friends with GiT group.</q>
+                        <div><span class="members__date">At 2019</span>
+                            <span class="members__from">From Iran</span></div>
                     </div>
-                    <!--                <button class="members__slider__btn members__slider__btn&#45;&#45;right">-->
-                    <!--                </button>-->
-<!--                </div>-->
+                </div>
+                <!--                <button class="members__slider__btn members__slider__btn&#45;&#45;right">-->
+                <!--                </button>-->
+                <!--                </div>-->
+            </div>
+            <div class="members__btn hover">
+                <a href="#" class="btn">See more of us</a>
             </div>
 
-            <div class="members__dots"></div>
         </section>
     </main>
     <!--*****************-->
     <!--  footer -->
     <!--*****************-->
-    <footer class="footer">
+    <footer class="footer" id="Contact">
         <div class="footer__left">
             <div><h1 class="heading heading-hug">Get in touch</h1></div>
             <div>

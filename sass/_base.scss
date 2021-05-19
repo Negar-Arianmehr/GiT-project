@@ -7,6 +7,11 @@
   //overflow: hidden;
 }
 
+//:root {
+//  --animate-duration: 800ms;
+//  --animate-delay: 0.9s;
+//}
+
 html {
   font-size: 65.5%;  //1rem = 10px >>> 10/ 16 = 62.5%
 }
@@ -41,4 +46,28 @@ li {
 
 .main {
   background-color: $color-white;
+}
+
+/////////////////////////////////
+//for animated with JS for every section
+.section {
+  transition: transform 1s, opacity 1s;
+}
+
+.hidden--section {
+  opacity: 0;
+  transform: translateY(8rem);
+}
+
+///sticky nav
+//.noneDisplay {
+//  visibility: hidden;
+//  display: none!important;
+//}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  background-color: $color-gray-light-1;
+  //z-index: 2222;
 }

@@ -2,7 +2,7 @@
   background-color: $color-white;
   margin: 1.5rem 15rem;
   margin-bottom: 3.5rem;
-//height: 100vh;
+
   &__history {
     padding-left: 2.5rem;
   }
@@ -11,7 +11,7 @@
     font-size: 1.6rem;
      line-height: 2;
     font-family: $font-family-simple;
-    color: $color-gray-dark;
+    color: $color-gray-dark-2;
     //text-align: justify;
     margin-bottom: 1.5rem;
      margin-top: 2.5rem;
@@ -91,7 +91,7 @@
     grid-column: 1/-1;
     font-size: 1.5rem;
     font-style: italic;
-    color: $color-gray-light;
+    color: $color-gray-dark;
     margin-left: 2.2rem;
   }
 
@@ -143,6 +143,13 @@
     right: 6%;
     transform: translate(50%, -50%);
   }
+
+    &__btn {
+    text-align: center;
+    margin-top: 2.75rem;
+      margin-bottom: 1.5rem;
+  }
+
 
 }
 
