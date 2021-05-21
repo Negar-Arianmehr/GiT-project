@@ -58,6 +58,14 @@
         <div class="header__eindhoven">
             <img src="img/eindhoven-3.png" alt="logo of eindhoven" class="header__eindhoven-img">
         </div>
+        <!--*****************-->
+        <!--btn for collapse nav-->
+        <!--*****************-->
+        <div class="collapse-nav__box">
+            <button class="collapse-nav__btn">
+                menu
+            </button>
+        </div>
     </header>
     <!--*****************-->
     <!--    Nav-->
@@ -66,6 +74,7 @@
         <div class="nav__icon-box">
             <img src="img/GIT-LOGO.png" alt="" class="nav__icon-img">
         </div>
+
         <div class="nav__nav-box">
             <ul class="nav--ul">
                 <li class="nav--items" id="Home">
@@ -81,16 +90,17 @@
                     <a href="gallery.html" class="nav--link" target="_blank">Gallery</a>
                 </li>
                 <li class="nav--items">
-                    <a href="#Project" class="nav--link" target="_blank">Current project</a>
+                    <a href="#Project" class="nav--link" target="_blank">project</a>
                 </li>
                 <li class="nav--items">
-                    <a href="members.html" class="nav--link" target="_blank">Meet The Members</a>
+                    <a href="members.html" class="nav--link" target="_blank">Members</a>
                 </li>
                 <li class="nav--items">
                     <a href="#Contact" class="nav--link" target="_blank">Contact</a>
                 </li>
             </ul>
         </div>
+
     </nav>
 
     <!--*****************-->
@@ -100,7 +110,7 @@
         <div class="bg-header__bg absolute">
             <div class="bg-header__box fixed">
                 <!--            <img src="img/bg1.jpg" alt="">-->
-                <h1 class="heading bg-header__header animate__animated animate__bounceInLeft">Welcome to GiT Group</h1>
+                <h1 class="heading bg-header__header animate__animated animate__bounceInLeft">Welcome to GiT Family</h1>
             </div>
         </div>
         <!--        <h2 class="heading heading-small">Eindhoven</h2>-->
@@ -215,8 +225,16 @@
                     </div>
                 </div>
 
-                <button class="about__slider__btn about__slider__btn--left">&#8592;</button>
-                <button class="about__slider__btn about__slider__btn--right">&#8594;</button>
+                <button class="about__slider__btn about__slider__btn--left">
+                    <svg class="members__slider__btn members__slider__btn--left">
+                        <use xlink:href="img/sprite.svg#icon-arrow-circle-left"></use>
+                    </svg>
+                </button>
+                <button class="about__slider__btn about__slider__btn--right">
+                    <svg class="members__slider__btn members__slider__btn--right">
+                        <use xlink:href="img/sprite.svg#icon-arrow-circle-right"></use>
+                    </svg>
+                </button>
                 <div class="dots"></div>
             </div>
             <div class="about__btn">
@@ -361,7 +379,7 @@
                 </div>
                 <div class="project__text-content">
                     <div class="center-heading">
-                        <h1 class="heading heading-big">current Project</h1>
+                        <h1 class="heading heading-big">Project</h1>
                         <div class="heading-underline"></div>
                     </div>
                     <div class="project__text-box">
@@ -540,13 +558,13 @@
                 <!--                </div>-->
                 <div>
                     <!--*****************-->
-    <!--  footer--header -->
-    <!--*****************-->
+                    <!--  footer--header -->
+                    <!--*****************-->
                     <h1 class="heading heading-hug">Get in touch</h1>
                 </div>
                 <!--*****************-->
-    <!--  footer-social-media -->
-    <!--*****************-->
+                <!--  footer-social-media -->
+                <!--*****************-->
                 <div>
                     <ul class="footer__ul">
                         <li class="footer__items"><a href="#" class="footer__link">
@@ -574,8 +592,8 @@
             </div>
             <div class="footer__right">
                 <!--*****************-->
-    <!--  footer--form -->
-    <!--*****************-->
+                <!--  footer--form -->
+                <!--*****************-->
                 <form action="" class="footer__form">
                     <input type="text" class="footer__input" placeholder="Name">
                     <input type="text" class="footer__input" placeholder="Email address">
@@ -583,19 +601,19 @@
                 </form>
             </div>
             <!--*****************-->
-    <!--  footer-arrow -->
-    <!--*****************-->
+            <!--  footer-arrow -->
+            <!--*****************-->
             <div class="footer__arrow">
                 <svg class="footer__arrow--svg">
                     <use xlink:href="img/sprite.svg#icon-arrow-circle-up"></use>
                 </svg>
             </div>
         </div>
-<!--*****************-->
-    <!--  footer--maker -->
-    <!--*****************-->
+        <!--*****************-->
+        <!--  footer--maker -->
+        <!--*****************-->
         <div class="footer__maker">
-            <div >
+            <div>
                 <p class="footer__maker--name">illustrated by: delaram ashtari</p>
                 <span>
                     <svg class="footer__maker--email">

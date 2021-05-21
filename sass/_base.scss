@@ -13,7 +13,42 @@
 //}
 
 html {
-  font-size: 65.5%;  //1rem = 10px >>> 10/ 16 = 62.5%
+  font-size: 65.5%; //1rem = 10px >>> 10/ 16 = 62.5%
+  //1rem = 12px = 75%
+  //1rem = 8px>>> 8/16 =50
+  //1rem = 7px >>>> 7/ 16=43.37
+  //1rem = 6px>>> 6/16 = 37.52
+  //1rem = 5px >>> 5/16 = 31.25
+  //1rem = 4px >>> 4/16
+
+  //1920*1080
+  ///1366*768
+  ///360*640
+  ///1536*864
+  ///375*667
+  //@include respond(monitor) { //1rem = 9px >> 9 / 16 = 56.25
+  //  font-size: 75%;
+  //}
+  @include respond(lab-medium) {
+    font-size: 61.5%;
+  }
+
+  @include respond(tab-land) { //1rem = 9px >> 9 / 16 = 56.25
+    font-size: 50%;
+  }
+
+  @include respond(tab-port) { //1rem = 9px >> 9 / 16 = 56.25
+    font-size: 43.37%;
+  }
+
+  @include respond(phone) { //1rem = 9px >> 9 / 16 = 56.25
+    font-size: 37.52%;
+  }
+
+  @include respond(small-phone) { //1rem = 9px >> 9 / 16 = 56.25
+    font-size: 31.25%;
+  }
+
 }
 
 body {
@@ -58,12 +93,6 @@ li {
   opacity: 0;
   transform: translateY(8rem);
 }
-
-///sticky nav
-//.noneDisplay {
-//  visibility: hidden;
-//  display: none!important;
-//}
 
 .sticky {
   position: sticky;

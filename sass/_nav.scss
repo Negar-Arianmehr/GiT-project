@@ -3,9 +3,12 @@
   max-height: 7rem;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  //flex-wrap: wrap;
   align-items: center;
   z-index: 22222;
+   @include respond(tab-port){
+     flex-direction: column;
+   }
 
   &--stick {
   position: sticky;
@@ -23,11 +26,27 @@
 
   &__nav-box {
 
+    @include respond(tab-port){
+      width: 100%;
+    }
   }
 
   &--ul {
     font-weight: 700;
     line-height: 1.6rem;
+
+    @include respond(tab-port){
+      flex: 1;
+      font-size: 1.9rem;
+      background-color: rgba($color-white, .8);
+      display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+      align-items: center;
+      height: 50rem;
+      width: 100%;
+      padding: 2.5rem;
+    }
   }
 
   &--items {
@@ -44,6 +63,31 @@
   &--link {
 color: $color-main;
     text-transform: uppercase;
+  }
+}
+
+.collapse-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__box {
+display: none;
+    @include respond(tab-port){
+      display: inline-block;
+    }
+  }
+
+  &__btn {
+    font-size: 1.6rem;
+    font-family: $font-family-simple;
+    letter-spacing: .9px;
+    color: $color-main;
+    margin-top: 4.2rem;
+    padding: .75rem 1rem;
+    border: 1px solid $color-gray-light-3;
+    border-radius: 6px;
+
   }
 }
 

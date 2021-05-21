@@ -8,13 +8,15 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: center;
-
-
-&__sticky {
-  position: sticky;
-  top: 0;
-  left: 0;
+@include respond(tab-port){
+align-content: normal;
 }
+
+  &__sticky {
+    position: sticky;
+    top: 0;
+    left: 0;
+  }
 
   &__contents {
 
@@ -28,6 +30,10 @@
     //font-size: 1.6rem;
     margin-right: 2.5rem;
     transition: .5s ease-out;
+
+    @include respond(tab-port) {
+      margin-right: 1rem;
+    }
 
     &:hover {
       transform: translate(1px, 2px) rotate(-20deg) scale(1.2);
