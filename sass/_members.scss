@@ -1,9 +1,9 @@
 .members {
-  background-image: linear-gradient(rgba($color-gray-light-3, .5), rgba($color-white, .5)), url("../img/bg2.jpg");
+  background-image: linear-gradient(rgba($color-gray-light-3, .5), rgba($color-white, .5)), url("../img/members-bg.jpg");
   max-height: 130vh;
   background-position: top;
   background-size: cover;
-padding: 5rem 2.5rem;
+  padding: 5rem 2.5rem;
   position: relative;
 
   &__arrows--left {
@@ -39,12 +39,9 @@ padding: 5rem 2.5rem;
   &__cards {
     max-width: 130rem;
     //height: 100vh;
-     margin: 10rem auto;
+    margin: 10rem auto;
     display: -webkit-box;
     overflow: hidden;
-    //width: 100%;
-
-
   }
 
   &__card {
@@ -126,6 +123,7 @@ padding: 5rem 2.5rem;
     font-size: 1.35rem;
     color: $color-gray-dark-2;
     justify-self: flex-end;
+    text-transform: capitalize;
   }
 
   &__from {
@@ -136,7 +134,7 @@ padding: 5rem 2.5rem;
 
   &__btn {
     text-align: center;
-margin-bottom: 10rem;
+    margin-bottom: 10rem;
   }
 }
 

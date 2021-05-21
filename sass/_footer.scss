@@ -1,53 +1,76 @@
 .footer {
-  height: 40vh;
+  max-height: 80vh;
   background-image: linear-gradient(rgba($color-secondary-dark, .9), rgba($color-secondary-light, .5)), url("../img/contact2.jpg");
   background-position: bottom;
   background-size: cover;
 
-  display: flex;
-  justify-content: space-around;
-  //align-items: center;
+  &__content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
 
   &__left {
     text-shadow: 1px 2px 3px;
-    align-self: center;
+    align-self: flex-start;
+  }
+
+  &__icon-box {
+    width: 5.5rem;
+    margin: 0 auto;
+    padding-top: 2.2rem;
+  }
+
+  &__icon-img {
+    width: 100%;
+    border-radius: 50%;
   }
 
   &__ul {
-  text-align: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
   }
 
   &__items {
     transition: all .5s ease-in-out;
+    text-align: center;
 
     &:hover {
       transform: translate3d(0, -10px, 2px) rotate3d(3, 1, 0, 50deg);
-
     }
   }
+
   &__link {
-
+    &:after {
+      content: ":";
+      color: $color-gray-light-3;
+      margin-left: -2rem;
+      margin-bottom: -2rem;
+    }
   }
+
   &__svg {
-    width: 4.25rem;
-    height: 3.2rem;
+    width: 2.2rem;
+    height: 2.2rem;
     margin-right: 2.5rem;
+    margin-top: 2.5rem;
     fill: $color-gray-light-3;
-
-        box-shadow: 50px 10px 10px rgba(0,0,0, .1);
-
+    box-shadow: 12px 10px 10px rgba(0, 0, 0, .1);
   }
-
 
   &__right {
     align-self: flex-end;
-
   }
 
   &__form {
     display: flex;
     flex-direction: column;
     width: 30rem;
+    padding: 2.5rem;
+    margin-top: 1.75rem;
   }
 
   &__input {
@@ -62,11 +85,47 @@
 
   &__arrow {
     align-self: flex-end;
+    fill: $color-main-dark;
+
     &--svg {
       //font-size: 3.5rem;
-      width: 3.75rem;
-      height: 3.5rem;
+      width: 3rem;
+      height: 3rem;
     }
   }
 
+  &__maker {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2.2rem;
+
+    &--name {
+      border-bottom: 1px solid $color-gray-light-1;
+      font-style: oblique;
+      font-size: 1.2rem;
+      letter-spacing: .3rem;
+      color: $color-gray-light-3;
+      padding-bottom: 1rem;
+      display: inline-block;
+      text-transform: capitalize;
+      text-align: center;
+    }
+
+    &--email {
+      width: 2rem;
+      height: 2rem;
+      fill: $color-gray;
+      transform: rotate(20deg);
+      margin-left: .5rem;
+      margin-bottom: -.5rem;
+      transition: all .5s ease;
+
+      &:hover {
+        fill: $color-secondary-dark;
+        transform: rotate(0) scale(1.2);
+      }
+    }
+  }
 }

@@ -1,18 +1,15 @@
 .activities {
   height: 90vh;
-  background-image: linear-gradient(rgba($color-secondary-dark, .8), rgba($color-secondary-light, .1)), url("../img/P2.png");
+  background-image: linear-gradient(rgba($color-secondary-dark, .8), rgba($color-secondary-light, .1)), url("../img/activities.png");
   background-position: top;
   background-size: cover;
   text-align: center;
   padding: 5rem 2.5rem;
-  //animation: moveSlideshow 5s linear infinite;
 
   //For btn
   position: relative;
 
   &__contents {
-    //max-width: 150rem;
-    //max-height: 25rem;
     font-size: 1.5rem;
     color: $color-gray-light;
     display: grid;
@@ -30,55 +27,37 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    //justify-content: center;
     align-items: center;
-    //margin-top: 1.75rem;
   }
 
-    &__header {
+  &__header {
     color: $color-main-light;
-font-size: 1.7rem;
-      font-weight: 700;
+    font-size: 1.7rem;
+    font-weight: 700;
   }
 
   &__icons {
     font-size: 3.5rem;
     height: 3.75rem;
-    //width: 6rem;
     color: $color-main-dark;
-    //box-shadow: 4rem 0 5rem $color-gray-dark;
-    //display: inline-block;
-    //border-radius: 50%;
-    //border: 1px solid transparent;
-    //background-color: $color-secondary-dark;
-    //padding: 1rem;
   }
 
   &__1 {
-    //min-width: 33.3333%;
     grid-row: 1/2;
   }
 
   &__2 {
-    //width: 33.3333%;
     grid-row: 1/2;
   }
 
   &__3 {
-    //width: 33.3333%;
     grid-row: 1/2;
   }
 
   &__text {
-    //white-space: nowrap;
-    //max-width: 20rem;
-    //max-height: 14rem;
     overflow: hidden;
     display: -webkit-box;
     line-height: 1.7;
-    //text-overflow: ellipsis;
-
-
     font-size: 1.6rem;
     color: $color-gray-light-1;
     text-shadow: 0 5px 1rem $color-gray-dark;
@@ -93,9 +72,3 @@ font-size: 1.7rem;
     display: inline-block;
   }
 }
-
-//@keyframes moveSlideshow {
-//  100% {
-//    transform: translateX(100%);
-//  }
-//}

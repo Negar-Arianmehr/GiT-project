@@ -1,0 +1,24 @@
+.more-activities__container {
+
+}
+
+.more-activities {
+
+  &__header {
+    height: 60vh;
+    background-image: url("../img/activities.png");
+    background-size: cover;
+    background-position: top;
+  }
+
+  &__heading {
+    position: relative;
+  }
+
+  &__heading--place {
+      position: absolute;
+      bottom: 5rem;
+      left: 50%;
+    }
+
+}

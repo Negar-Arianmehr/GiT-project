@@ -44,16 +44,16 @@ headerObserver.observe(bgHeader)
 /////////////////////////////////
 //scroll to the section
 ////////////////////////////////
-document.querySelector(".nav--link").addEventListener("click", function (e) {
-    e.preventDefault()
-
-    if (e.target.classList.contains("nav--link")) {
-        const id = e.target.getAttribute("href")
-        document.querySelector(id).scrollIntoView({
-            behavior: "smooth"
-        })
-    }
-})
+// document.querySelector(".nav--link").addEventListener("click", function (e) {
+//     e.preventDefault()
+//
+//     if (e.target.classList.contains("nav--link")) {
+//         const id = e.target.getAttribute("href")
+//         document.querySelector(id).scrollIntoView({
+//             behavior: "smooth"
+//         })
+//     }
+// })
 /////////////////////////////////
 //scroll to up
 ////////////////////////////////
