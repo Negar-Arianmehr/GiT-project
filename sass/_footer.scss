@@ -89,7 +89,7 @@
     margin-top: 1.75rem;
 
     @media only screen and (max-width: 700px) {
-      width: 70%;
+      width: 50rem;
       margin: 0 auto;
     }
   }
@@ -118,7 +118,7 @@
   }
 
   &__maker {
-    width: 100%;
+    width: 95%;
     //height: max-content;
     display: flex;
     justify-content: space-around;

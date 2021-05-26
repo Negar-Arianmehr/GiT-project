@@ -11,6 +11,7 @@
     position: sticky;
     top: 4rem;
     left: 0;
+    transition: all 1s, transform .5s;
   }
 
   &__icon-box {
@@ -19,12 +20,12 @@
 
   &__icon-img {
     height: 6rem;
-     @include respond(phone) {
-       height: 5rem;
-     }
+    @include respond(phone) {
+      height: 5rem;
+    }
 
-    @media only screen and (max-width: 700px) {
-      height: 4.2rem;
+    @media only screen and (max-width: 706px) {
+      height: 3.5rem;
     }
     @include respond(most-phone) {
       height: 3.2rem;
@@ -41,9 +42,9 @@
   &--ul {
     font-weight: 700;
     line-height: 1.6rem;
-     @include respond(tab-port) {
-    display: none;
-  }
+    @include respond(tab-port) {
+      display: none;
+    }
   }
 
   &--items {
@@ -58,16 +59,24 @@
     @include respond(tab-land) {
       padding-right: 3.5rem;
     }
+    @include respond(tab-port) {
+      font-size: 2.5rem;
+      letter-spacing: .6rem;
+    }
   }
 
   &--link {
     color: $color-main;
     text-transform: uppercase;
   }
+
+  @include respond(tab-port) {
+    color: $color-white;
+  }
+
 }
 
 .collapse-nav {
-  font-size: 1.9rem;
   font-weight: 700;
   background-color: rgba($color-secondary-dark, .95);
   display: flex;
@@ -75,15 +84,29 @@
   justify-content: space-evenly;
   align-items: center;
   height: 50rem;
-  text-shadow: 1px 2px 5px $color-gray;
-  box-shadow: 1px 2px 5px $color-gray;
-    transition: all 1s, transform .5s;
-
+  //text-shadow: 1px 2px 5px $color-gray;
+  //text-shadow: 0 0 5px #0f80d6,
+  //0 0 25px #3336e5,
+  //0 0 50px #57bab2,
+  //0 0 60px #5da3a5,
+  //0 0 80px #a0d8e9,
+  //0 0 100px #c2def1;
+  animation: anim 1s infinite ;
+  //box-shadow: 1px 2px 5px $color-gray;
+  //box-shadow: 0 0 5px #232732,
+  //0 0 25px #3336e5,
+  //0 0 50px #3336e5,
+  //0 0 60px #3336e5,
+  //0 0 70px #3336e5,
+  //0 0 90px #3336e5;;
+  transition: all 1s, transform .5s;
 
   &__box {
     display: none;
+     transition: all 1s, transform .5s;
     @include respond(tab-port) {
       display: inline-block;
+
     }
   }
 
@@ -106,5 +129,31 @@
 .hidden {
   transform: translateY(-30rem);
   display: none;
+}
+
+@keyframes anim {
+  0% {
+text-shadow: none;
+    box-shadow: none;
+  }
+  40% {
+text-shadow: 0 0 5px #0f80d6;
+    box-shadow: 0 0 5px #0f80d6;
+  }
+  100% {
+    text-shadow: 0 0 5px #0f80d6,
+  0 0 25px #3336e5,
+  0 0 50px #57bab2,
+  0 0 60px #5da3a5,
+  0 0 80px #a0d8e9,
+  0 0 100px #c2def1;
+
+    box-shadow: 0 0 5px #0f80d6,
+  0 0 25px #3336e5,
+  0 0 50px #57bab2,
+  0 0 60px #5da3a5,
+  0 0 80px #a0d8e9,
+  0 0 100px #c2def1;
+  }
 }
 

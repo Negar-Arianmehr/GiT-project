@@ -215,68 +215,35 @@ let curCard = 0
 const maxCard = cards.length
 console.log(maxCard)
 
-/////////////////////////////
-//for dots
-// const dotsMember = document.querySelector(".members__dots")
-// const showDots = function () {
-//     cards.forEach(function (_, i) {
-//         dotsMember.insertAdjacentHTML("beforeend", `<button class="dots__dot" data-card="${i-2}" style="display: none"></button>`)
-//     })
-// }
-// showDots()
-// //active dots
-// const activeDotMember = function (card) {
-//     document.querySelectorAll(".dots__dot").forEach(dot => dot.classList.remove("dots__dot--active"))
-//
-//     document.querySelector(`.dots__dot[data-card="${card - 2}"]`).classList.add("dots__dot--active")
-// }
-// activeDotMember(0)
-
-// //for clicks on dots
-// dotsMember.addEventListener("click", function (e){
-//     if (e.target.classList.contains("dots__dot")) {
-//         const {card} = e.target.dataset
-//         carousalCards(card)
-//         // activeDotMember(card)
-//     }
-// } )
-
 //CAeousalcards
 let width = window.innerWidth
 const carousalCards = function (card) {
-    if (width < 1200 ) {
-        cards.forEach((c, i) => (c.style.transform = `translateX(${100 * (i - 2 * card)}%)`))
-    }
-    if (width < 1400 ) {
-        cards.forEach((c, i) => (c.style.transform = `translateX(${70 * (i - 2 * card)}%)`))
-        width = window.innerWidth
-        console.log(width)
-    }
-     if ( 1400 <= width < 1600 ) {
-         cards.forEach((c, i) => (c.style.transform = `translateX(${85 * (i - 2 * card)}%)`))
-     }
-    if (width > 1600){ cards.forEach((c, i) => (c.style.transform = `translateX(${100 * (i - 2 * card)}%)`))
-}}
+   cards.forEach((c, i) => (c.style.transform = `translateX(${100 * (i - 2 * card)}%)`))
+}
 carousalCards(0)
 
 //for Next cards
 const nextCard = function () {
-    if (curCard === maxCard - 2) {
+    if (curCard === maxCard - 1 && width <= 800 ) {
+curCard = 0
+    }
+    if (curCard === maxCard - 2 && width > 800) {
         curCard = 0
+        console.log(maxCard)
         console.log("click")
     } else {
         curCard++
-
     }
-
     carousalCards(curCard)
-    // activeDotMember(curCard)
 }
 
 btnCardRight.addEventListener("click", nextCard)
 
 //For previous cards
 const preCard = function () {
+    if (curCard === 0 && width <= 800) {
+        curCard = maxCard
+    }
     if (curCard === 0) {
         curCard = maxCard - 2
     } else {
@@ -297,5 +264,3 @@ document.addEventListener("keydown", function (e) {
 
 ///////////////////////////////////////////////////////////////
 //React
-
-// import * as React from "https://cdn.skypack.dev/react@17.0.1";
