@@ -1,18 +1,31 @@
 .footer {
-  max-height: 80vh;
+  max-height: 100vh;
   background-image: linear-gradient(rgba($color-secondary-dark, .9), rgba($color-secondary-light, .5)), url("../img/contact2.jpg");
   background-position: bottom;
   background-size: cover;
+  padding-top: 2.5rem;
 
   &__content {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    @media only screen and (max-width: 700px) {
+      justify-content: center;
+    }
   }
 
   &__left {
     text-shadow: 1px 2px 3px;
     align-self: flex-start;
+
+    @include respond(lab-medium) {
+      padding-left: 5.5rem;
+    }
+
+    @media only screen and (max-width: 1200px) {
+      padding-left: 1.75rem;
+    }
+
   }
 
   &__icon-box {
@@ -63,6 +76,9 @@
 
   &__right {
     align-self: flex-end;
+    @media only screen and (max-width: 700px) {
+      flex-basis: 100%;
+    }
   }
 
   &__form {
@@ -71,6 +87,11 @@
     width: 30rem;
     padding: 2.5rem;
     margin-top: 1.75rem;
+
+    @media only screen and (max-width: 700px) {
+      width: 70%;
+      margin: 0 auto;
+    }
   }
 
   &__input {
@@ -86,6 +107,8 @@
   &__arrow {
     align-self: flex-end;
     fill: $color-main-dark;
+    padding: 1.5rem 2.5rem;
+
 
     &--svg {
       //font-size: 3.5rem;
@@ -101,6 +124,9 @@
     justify-content: space-around;
     align-items: center;
     margin-bottom: 2.2rem;
+    @media only screen and (max-width: 500px) {
+      flex-direction: column;
+    }
 
     &--name {
       border-bottom: 1px solid $color-gray-light-1;
@@ -112,6 +138,11 @@
       display: inline-block;
       text-transform: capitalize;
       text-align: center;
+
+       @media only screen and (max-width: 500px) {
+letter-spacing: .1rem;
+         margin-top: 2.2rem;
+       }
     }
 
     &--email {

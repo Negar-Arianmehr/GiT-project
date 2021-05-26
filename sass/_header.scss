@@ -1,16 +1,12 @@
 .header {
   grid-row: 1/2;
   height: 4rem;
-  //width: 100%;
   padding: 1.2rem;
   background-color: $color-secondary-dark;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: center;
-@include respond(tab-port){
-align-content: normal;
-}
 
   &__sticky {
     position: sticky;
@@ -30,10 +26,6 @@ align-content: normal;
     //font-size: 1.6rem;
     margin-right: 2.5rem;
     transition: .5s ease-out;
-
-    @include respond(tab-port) {
-      margin-right: 1rem;
-    }
 
     &:hover {
       transform: translate(1px, 2px) rotate(-20deg) scale(1.2);

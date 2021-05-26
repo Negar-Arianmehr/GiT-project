@@ -10,7 +10,7 @@
 }
 
 .heading-hug {
-  font-size: 6rem;
+  font-size: 5.5rem;
   font-family: $font-family-complex;
   letter-spacing: 1.6rem;
   //color: $color-main;
@@ -18,6 +18,13 @@
   //background-clip: ;
   -webkit-background-clip: text;
   color: transparent;
+
+  @media only screen and (max-width: 910px) {
+ font-size: 5rem;
+  }
+  @media only screen and (max-width: 500px) {
+    font-size: 3.5rem;
+  }
 }
 
 .heading-big {
@@ -28,11 +35,15 @@
   display: inline-block;
   text-align: center;
   margin-top: 4.5rem;
-
+  //
   background-image: linear-gradient(to right, rgb(160, 113, 113), rgb(45, 2, 2));
   //background-clip: ;
   -webkit-background-clip: text;
   color: transparent;
+
+  @include respond(tab-land) {
+    margin-top: 2.5rem;
+  }
 }
 
 .heading-underline {

@@ -58,14 +58,7 @@
         <div class="header__eindhoven">
             <img src="img/eindhoven-3.png" alt="logo of eindhoven" class="header__eindhoven-img">
         </div>
-        <!--*****************-->
-        <!--btn for collapse nav-->
-        <!--*****************-->
-        <div class="collapse-nav__box">
-            <button class="collapse-nav__btn">
-                menu
-            </button>
-        </div>
+
     </header>
     <!--*****************-->
     <!--    Nav-->
@@ -74,9 +67,29 @@
         <div class="nav__icon-box">
             <img src="img/GIT-LOGO.png" alt="" class="nav__icon-img">
         </div>
+         <!--*****************-->
+        <!--btn for collapse nav-->
+        <!--*****************-->
+        <div class="collapse-nav__box menu">
+            <button class="collapse-nav__btn">
+                <svg class="collapse-nav__svg">
+                    <use xlink:href="img/sprite.svg#icon-th-menu-outline"></use>
+                </svg>
+            </button>
+        </div>
+        <!--*****************-->
+        <!--close btn for collapse nav-->
+        <!--*****************-->
+        <div class="collapse-nav__box close hidden">
+            <button class="collapse-nav__btn">
+                <svg class="collapse-nav__svg">
+                    <use xlink:href="img/sprite.svg#icon-close"></use>
+                </svg>
+            </button>
+        </div>
 
         <div class="nav__nav-box">
-            <ul class="nav--ul">
+            <ul class="nav--ul" id="main-nav">
                 <li class="nav--items" id="Home">
                     <a href="index.html" class="nav--link" target="_blank">Home</a>
                 </li>
@@ -100,6 +113,7 @@
                 </li>
             </ul>
         </div>
+
 
     </nav>
 
@@ -145,9 +159,6 @@
             <!--    slider-->
             <!--*****************-->
             <div class="about__title">
-                <!--                <svg class="about__svg">-->
-                <!--                    <use xlink:href="img/sprite.svg#icon-reddit"></use>-->
-                <!--                </svg>-->
                 <h2 class="heading heading-medium">everyone in GiT has an unique story to tell...</h2>
                 <svg class="about__svg">
                     <use xlink:href="img/sprite.svg#icon-angellist"></use>
@@ -226,12 +237,12 @@
                 </div>
 
                 <button class="about__slider__btn about__slider__btn--left">
-                    <svg class="members__slider__btn members__slider__btn--left">
+                    <svg class="about__svg">
                         <use xlink:href="img/sprite.svg#icon-arrow-circle-left"></use>
                     </svg>
                 </button>
                 <button class="about__slider__btn about__slider__btn--right">
-                    <svg class="members__slider__btn members__slider__btn--right">
+                    <svg class="about__svg">
                         <use xlink:href="img/sprite.svg#icon-arrow-circle-right"></use>
                     </svg>
                 </button>
@@ -305,7 +316,7 @@
                         <span class="activities__icons">
                             <i class="fas fa-photo-video"></i>
                         </span>
-                        <h2 class="heading activities__header">COLOMBIAN WEDDING CELEBRATIONS</h2>
+                        <h2 class="heading activities__header">WEDDING CELEBRATIONS</h2>
                     </div>
                     <p class="activities__text">
                         In the past, we had beautiful presentations on wedding celebrations from different parts of
@@ -321,6 +332,13 @@
             <!--*****************-->
             <div class="activities__btn hover">
                 <a href="activities.html" class="btn" target="_blank">discover more</a>
+            </div>
+        </section>
+
+        <section class="test">
+            <div class="background">
+                <img src="img/cycling-1.png" alt="" class="cycling-1">
+                <img src="img/cycling-2.png" alt="" class="cycling-2">
             </div>
         </section>
         <!--*****************-->
@@ -455,7 +473,7 @@
             <div class="members__cards">
                 <!--                <button class="members__slider__btn members__slider__btn&#45;&#45;left">&#8592;</button>-->
                 <!--card -1-->
-                <div class="members__card">
+                <div class="members__card margin-left">
                     <figure class="members__fig">
                         <img src="img/Megha.jpg" alt="" class="members__img">
                         <figcaption class="members__name">Megha</figcaption>
@@ -472,7 +490,7 @@
                     </div>
                 </div>
                 <!--card -2-->
-                <div class="members__card">
+                <div class="members__card margin-left">
                     <figure class="members__fig">
                         <img src="img/member-1.jpg" alt="" class="members__img">
                         <figcaption class="members__name">Nikita</figcaption>
@@ -487,7 +505,7 @@
                     </div>
                 </div>
                 <!--card -3-->
-                <div class="members__card">
+                <div class="members__card margin-left">
                     <figure class="members__fig">
                         <img src="img/member-4.jpg" alt="" class="members__img">
                         <figcaption class="members__name">Audrey</figcaption>
@@ -502,7 +520,7 @@
                     </div>
                 </div>
                 <!--card -4-->
-                <div class="members__card">
+                <div class="members__card margin-left">
                     <figure class="members__fig">
                         <img src="img/member-2.jpg" alt="" class="members__img">
                         <figcaption class="members__name">Negar</figcaption>
@@ -514,7 +532,7 @@
                     </div>
                 </div>
                 <!--card -5-->
-                <div class="members__card">
+                <div class="members__card margin-left">
                     <figure class="members__fig">
                         <img src="img/member-3.jpg" alt="" class="members__img">
                         <figcaption class="members__name">Arianmehr</figcaption>
@@ -526,7 +544,7 @@
                     </div>
                 </div>
                 <!--card -6-->
-                <div class="members__card">
+                <div class="members__card margin-left">
                     <figure class="members__fig">
                         <img src="img/progita.jpg" alt="" class="members__img">
                         <figcaption class="members__name">Proghita</figcaption>
@@ -553,9 +571,6 @@
     <footer class="footer" id="Contact">
         <div class="footer__content">
             <div class="footer__left">
-                <!--                <div class="footer__icon-box">-->
-                <!--                    <img src="img/GIT-LOGO-footer.png" alt="" class="footer__icon-img">-->
-                <!--                </div>-->
                 <div>
                     <!--*****************-->
                     <!--  footer--header -->

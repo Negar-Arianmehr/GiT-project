@@ -8,18 +8,31 @@
 
   &__arrows--left {
     position: absolute;
-    left: 2rem;
+    left: 5rem;
     top: 50%;
-    display: flex;
-    flex-direction: column;
+    //display: flex;
+    //flex-direction: column;
+    z-index: 123;
+    @media only screen and (max-width: 1540px) {
+      left: 2.2rem;
+    }
+    @include respond(lab-big) {
+      left: 10rem;
+    }
   }
 
   &__arrows--right {
     position: absolute;
-    right: 2rem;
+    right: 5rem;
     top: 50%;
+    z-index: 123;
+    @media only screen and (max-width: 1540px) {
+      right: 2.2rem;
+    }
+    @include respond(lab-big) {
+      right: 10rem;
+    }
   }
-
 
   &__slider__btn {
     transition: transform 1s ease;
@@ -38,10 +51,36 @@
 
   &__cards {
     max-width: 130rem;
-    //height: 100vh;
     margin: 10rem auto;
+    margin-left: 15rem;
     display: -webkit-box;
     overflow: hidden;
+
+    //@media only screen and (min-width: 1700px) {
+    //  margin-left: 20rem;
+    //}
+
+    @media only screen and (max-width: 1640px) {
+      margin-left: 12rem;
+    }
+
+    @media only screen and (max-width: 1500px) {
+      margin-left: 9rem;
+    }
+
+    @media only screen and (max-width: 1450px) {
+      margin-left: 6rem;
+    }
+
+    @include respond(lab-big) {
+      max-width: 88rem;
+      margin-left: 15rem;
+    }
+
+    @include respond(phone) {
+      max-width: 25rem;
+      margin: 6rem auto;
+    }
   }
 
   &__card {
@@ -52,6 +91,7 @@
     background-color: rgba($color-gray-light-3, 0.5);
     box-shadow: 0 1rem 2.5rem #000;
     transition: all 1s ease-in-out;
+    //margin-left: -2rem;
 
     border: 1px solid transparent;
     border-radius: 5px;
@@ -60,9 +100,23 @@
     overflow: hidden;
     outline: none;
 
+
+    //&--2 {
+    //  //margin-left: -3rem;
+    //  @media only screen and (max-width: 1520px) {
+    //   max-width: 23rem;
+    //    margin-left: -5rem;
+    // }
+
     &:hover {
       background-color: rgba($color-gray-light-3, 0.9);
     }
+
+    @include respond(phone) {
+      max-width: 100%;
+      margin: 6rem auto;
+    }
+
   }
 
   &__fig {
@@ -113,7 +167,7 @@
   }
 
   &__text {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     color: $color-black;
     font-style: italic;
     margin-bottom: 1.25rem;
@@ -138,3 +192,8 @@
   }
 }
 
+//.margin-left {
+//  @media only screen and (max-width: 1520px) {
+//   transform: translateX(-4rem);
+//  }
+//}

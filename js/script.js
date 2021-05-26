@@ -54,6 +54,33 @@ headerObserver.observe(bgHeader)
 //         })
 //     }
 // })
+
+/////////////////////////////////
+//collapse-nav
+////////////////////////////////
+const btnMenu = document.querySelector(".menu")
+const navbar = document.getElementById("main-nav")
+
+btnMenu.addEventListener("click", function () {
+    if (navbar.className === "nav--ul") {
+        navbar.className = "collapse-nav"
+        document.querySelector(".close").classList.remove("hidden")
+        document.querySelector(".menu").classList.add("hidden")
+    }
+})
+
+const btnClose = document.querySelectorAll(".close,.nav__nav-box")
+
+for (let i = 0; i < btnClose.length; i++){
+    btnClose[i].addEventListener("click", function () {
+        if (navbar.className === "collapse-nav") {
+            navbar.className = "nav--ul"
+            document.querySelector(".close").classList.add("hidden")
+            document.querySelector(".menu").classList.remove("hidden")
+        }
+    })
+}
+
 /////////////////////////////////
 //scroll to up
 ////////////////////////////////
@@ -139,7 +166,6 @@ const nextSlide = function () {
     } else {
         curSlide++;
     }
-
     goToSlide(curSlide)
     activeDot(curSlide)
 }
@@ -216,17 +242,31 @@ console.log(maxCard)
 // } )
 
 //CAeousalcards
+let width = window.innerWidth
 const carousalCards = function (card) {
-    cards.forEach((c, i) => (c.style.transform = `translateX(${100 * (i - 2 * card)}%)`))
-}
+    if (width < 1200 ) {
+        cards.forEach((c, i) => (c.style.transform = `translateX(${100 * (i - 2 * card)}%)`))
+    }
+    if (width < 1400 ) {
+        cards.forEach((c, i) => (c.style.transform = `translateX(${70 * (i - 2 * card)}%)`))
+        width = window.innerWidth
+        console.log(width)
+    }
+     if ( 1400 <= width < 1600 ) {
+         cards.forEach((c, i) => (c.style.transform = `translateX(${85 * (i - 2 * card)}%)`))
+     }
+    if (width > 1600){ cards.forEach((c, i) => (c.style.transform = `translateX(${100 * (i - 2 * card)}%)`))
+}}
 carousalCards(0)
 
 //for Next cards
 const nextCard = function () {
     if (curCard === maxCard - 2) {
         curCard = 0
+        console.log("click")
     } else {
         curCard++
+
     }
 
     carousalCards(curCard)
@@ -238,7 +278,7 @@ btnCardRight.addEventListener("click", nextCard)
 //For previous cards
 const preCard = function () {
     if (curCard === 0) {
-        curCard = maxCard - 3
+        curCard = maxCard - 2
     } else {
         curCard--
     }

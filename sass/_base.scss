@@ -26,28 +26,31 @@ html {
   ///360*640
   ///1536*864
   ///375*667
-  //@include respond(monitor) { //1rem = 9px >> 9 / 16 = 56.25
-  //  font-size: 75%;
+  @include respond(monitor) { //1rem = 9px >> 9 / 16 = 56.25
+    font-size: 75%;
+  }
+  //@include respond(lab-medium) {
+  //  font-size: 61.5%;
   //}
-  @include respond(lab-medium) {
+
+  @include respond(tab-land) { //1rem = 9px >> 9 / 16 = 56.25
     font-size: 61.5%;
   }
 
-  @include respond(tab-land) { //1rem = 9px >> 9 / 16 = 56.25
+  @include respond(tab-port) { //1rem = 9px >> 9 / 16 = 56.25
     font-size: 50%;
   }
 
-  @include respond(tab-port) { //1rem = 9px >> 9 / 16 = 56.25
-    font-size: 43.37%;
-  }
-
-  @include respond(phone) { //1rem = 9px >> 9 / 16 = 56.25
-    font-size: 37.52%;
-  }
-
   @include respond(small-phone) { //1rem = 9px >> 9 / 16 = 56.25
-    font-size: 31.25%;
+    font-size: 47.37%;
   }
+
+  @media only screen and (max-width: 400px) {
+      font-size: 40%;
+    }
+  //@include respond(small-phone) { //1rem = 9px >> 9 / 16 = 56.25
+  //  font-size: 31.25%;
+  //}
 
 }
 

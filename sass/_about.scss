@@ -3,6 +3,17 @@
   margin: 1.5rem 15rem;
   margin-bottom: 3.5rem;
 
+  @include respond(lab-medium) {
+      margin: 1.5rem 12rem;
+  }
+    @include respond(small-phone) {
+      margin: 1.5rem 6rem;
+  }
+
+  @include respond(most-phone) {
+      margin: 1.5rem 2.5rem;
+  }
+
   &__history {
     padding-left: 2.5rem;
   }
@@ -43,10 +54,14 @@
   }
   &__slider {
     max-width: 100rem;
-    height: 27rem;
+    height: 30rem;
     margin: 0 auto;
     position: relative;
     overflow: hidden;
+
+      @include respond(lab-medium) {
+      height: 34rem;
+  }
   }
 
   &__slide {
@@ -148,6 +163,10 @@
     text-align: center;
     margin-top: 2.75rem;
       margin-bottom: 1.5rem;
+
+       @include respond(lab-medium) {
+      margin-bottom: 2.5rem;
+    }
   }
 
 
@@ -158,6 +177,10 @@
   bottom: 5%;
   left: 50%;
   transform: translateX(-50%);
+
+  @include respond(most-phone) {
+    margin-top: 2.2rem;
+  }
 
   &__dot {
     width: 1rem;
