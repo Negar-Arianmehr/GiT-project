@@ -15,6 +15,7 @@
   position: relative;
   cursor: pointer;
 
+
   //&:before {
   //  position: absolute;
   //  top: 0;
@@ -40,8 +41,9 @@
   //}
 
   &:hover {
-    background-color: $color-main;
+    background-color: $color-white;
     color: $color-white;
+    animation: anim 1s infinite;
   }
 }
 

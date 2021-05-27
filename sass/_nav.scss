@@ -76,6 +76,13 @@
 
 }
 
+.sticky {
+  position: sticky;
+  top: 0;
+  background-color: $color-gray-light-1;
+  transition: all 1s, transform .5s;
+}
+
 .collapse-nav {
   font-weight: 700;
   background-color: rgba($color-secondary-dark, .95);
@@ -91,7 +98,10 @@
   //0 0 60px #5da3a5,
   //0 0 80px #a0d8e9,
   //0 0 100px #c2def1;
-  animation: anim 1s infinite ;
+
+  animation: anim 1s infinite;
+  //animation: drop 1s;
+  
   //box-shadow: 1px 2px 5px $color-gray;
   //box-shadow: 0 0 5px #232732,
   //0 0 25px #3336e5,
@@ -103,7 +113,7 @@
 
   &__box {
     display: none;
-     transition: all 1s, transform .5s;
+    transition: all 1s, transform .5s;
     @include respond(tab-port) {
       display: inline-block;
 
@@ -133,27 +143,39 @@
 
 @keyframes anim {
   0% {
-text-shadow: none;
+    text-shadow: none;
     box-shadow: none;
   }
   40% {
-text-shadow: 0 0 5px #0f80d6;
+    text-shadow: 0 0 5px #0f80d6;
     box-shadow: 0 0 5px #0f80d6;
   }
   100% {
     text-shadow: 0 0 5px #0f80d6,
-  0 0 25px #3336e5,
-  0 0 50px #57bab2,
-  0 0 60px #5da3a5,
-  0 0 80px #a0d8e9,
-  0 0 100px #c2def1;
+    0 0 25px #3336e5,
+    0 0 50px #57bab2,
+    0 0 60px #5da3a5,
+    0 0 80px #a0d8e9,
+    0 0 100px #c2def1;
 
     box-shadow: 0 0 5px #0f80d6,
-  0 0 25px #3336e5,
-  0 0 50px #57bab2,
-  0 0 60px #5da3a5,
-  0 0 80px #a0d8e9,
-  0 0 100px #c2def1;
+    0 0 25px #3336e5,
+    0 0 50px #57bab2,
+    0 0 60px #5da3a5,
+    0 0 80px #a0d8e9,
+    0 0 100px #c2def1;
   }
 }
 
+@keyframes drop {
+  0% {
+height: 0;
+    transform: translateY(5rem);
+  }
+  50% {
+height: 25rem;
+}
+100%{
+height: 50rem;
+}
+}

@@ -80,12 +80,6 @@ li {
   transform: translateY(8rem);
 }
 
-.sticky {
-  position: sticky;
-  top: 0;
-  background-color: #f4f4f4;
-}
-
 .heading {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
@@ -170,8 +164,9 @@ li {
   cursor: pointer;
 }
 .btn:hover {
-  background-color: #ab3f3f;
+  background-color: #fff;
   color: #fff;
+  animation: anim 1s infinite;
 }
 
 .header {
@@ -291,6 +286,13 @@ li {
   }
 }
 
+.sticky {
+  position: sticky;
+  top: 0;
+  background-color: #f4f4f4;
+  transition: all 1s, transform 0.5s;
+}
+
 .collapse-nav {
   font-weight: 700;
   background-color: rgba(11, 16, 36, 0.95);
@@ -342,6 +344,18 @@ li {
   100% {
     text-shadow: 0 0 5px #0f80d6, 0 0 25px #3336e5, 0 0 50px #57bab2, 0 0 60px #5da3a5, 0 0 80px #a0d8e9, 0 0 100px #c2def1;
     box-shadow: 0 0 5px #0f80d6, 0 0 25px #3336e5, 0 0 50px #57bab2, 0 0 60px #5da3a5, 0 0 80px #a0d8e9, 0 0 100px #c2def1;
+  }
+}
+@keyframes drop {
+  0% {
+    height: 0;
+    transform: translateY(5rem);
+  }
+  50% {
+    height: 25rem;
+  }
+  100% {
+    height: 50rem;
   }
 }
 .bg-header {

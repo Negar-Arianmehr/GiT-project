@@ -92,14 +92,9 @@ li {
   transition: transform 1s, opacity 1s;
 }
 
+//for Reveal section
 .hidden--section {
   opacity: 0;
   transform: translateY(8rem);
 }
 
-.sticky {
-  position: sticky;
-  top: 0;
-  background-color: $color-gray-light-1;
-  //z-index: 2222;
-}
