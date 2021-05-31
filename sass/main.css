@@ -1536,4 +1536,41 @@ li {
   left: 50%;
 }
 
+.map__content {
+  margin: 4.2rem;
+  background-color: #0b1024;
+}
+.map-bg {
+  background-image: url("../img/activities.png");
+  height: 50vh;
+  background-size: cover;
+  background-position: top;
+  text-align: center;
+}
+.map__content {
+  display: flex;
+}
+.map__forms {
+  width: max-content;
+  height: 100%;
+  background-color: #460000;
+  padding: 5rem;
+}
+.map__form {
+  width: 50rem;
+  background-color: #999999;
+  display: flex;
+  flex-wrap: wrap;
+}
+.map__input {
+  border: 1px solid #cccccc;
+  padding: 0.75rem 0.5rem;
+  margin: 1rem 1.2rem;
+  border-radius: 7px;
+  background-color: #e0e0e0;
+  color: #141414;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
 /*# sourceMappingURL=main.css.map */
