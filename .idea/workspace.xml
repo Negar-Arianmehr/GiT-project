@@ -36,7 +36,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../exercise/JAVASCRIPT-COURSE/complete-javascript-course-master/complete-javascript-course-master/16-Asynchronous/starter" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -124,14 +124,7 @@
       <workItem from="1621941931763" duration="10966000" />
       <workItem from="1622021109074" duration="15315000" />
       <workItem from="1622100055586" duration="1886000" />
-      <workItem from="1622442932436" duration="8243000" />
-    </task>
-    <task id="LOCAL-00002" summary="add new scss">
-      <created>1617207510611</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1617207510611</updated>
+      <workItem from="1622442932436" duration="10681000" />
     </task>
     <task id="LOCAL-00003" summary="add new scss">
       <created>1617210263578</created>
@@ -469,7 +462,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622461234711</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="process of adding map in the new page">
+      <created>1622533438059</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1622533438060</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
