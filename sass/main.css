@@ -1538,11 +1538,12 @@ li {
 
 .map__content {
   margin: 4.2rem;
+  padding: 1rem;
   background-color: #0b1024;
 }
 .map-bg {
   background-image: url("../img/activities.png");
-  height: 50vh;
+  height: 45vh;
   background-size: cover;
   background-position: top;
   text-align: center;
