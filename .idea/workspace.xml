@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="118319de-ae63-4a5f-b3ae-30acab8bb243" name="Default Changelist" comment="process of adding map in the new page">
-      <change beforePath="$PROJECT_DIR$/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/map.html" afterDir="false" />
-    </list>
+    <list default="true" id="118319de-ae63-4a5f-b3ae-30acab8bb243" name="Default Changelist" comment="made new html file" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,14 +123,7 @@
       <workItem from="1622021109074" duration="15315000" />
       <workItem from="1622100055586" duration="1886000" />
       <workItem from="1622442932436" duration="10681000" />
-      <workItem from="1622656186027" duration="643000" />
-    </task>
-    <task id="LOCAL-00004" summary="add new scss">
-      <created>1617294035883</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1617294035883</updated>
+      <workItem from="1622656186027" duration="895000" />
     </task>
     <task id="LOCAL-00005" summary="add lines of css">
       <created>1617351319437</created>
@@ -470,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622656223694</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="made new html file">
+      <created>1622657065293</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1622657065293</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -499,6 +497,7 @@
     <MESSAGE value="add new properties to css and new codes to JS" />
     <MESSAGE value="add new properties to css" />
     <MESSAGE value="process of adding map in the new page" />
-    <option name="LAST_COMMIT_MESSAGE" value="process of adding map in the new page" />
+    <MESSAGE value="made new html file" />
+    <option name="LAST_COMMIT_MESSAGE" value="made new html file" />
   </component>
 </project>
