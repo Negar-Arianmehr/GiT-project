@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="118319de-ae63-4a5f-b3ae-30acab8bb243" name="Default Changelist" comment="made new html file" />
+    <list default="true" id="118319de-ae63-4a5f-b3ae-30acab8bb243" name="Default Changelist" comment="new commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -124,20 +127,7 @@
       <workItem from="1622100055586" duration="1886000" />
       <workItem from="1622442932436" duration="10681000" />
       <workItem from="1622656186027" duration="895000" />
-    </task>
-    <task id="LOCAL-00005" summary="add lines of css">
-      <created>1617351319437</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1617351319437</updated>
-    </task>
-    <task id="LOCAL-00006" summary="add new css">
-      <created>1617636688369</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1617636688369</updated>
+      <workItem from="1622795623961" duration="4331000" />
     </task>
     <task id="LOCAL-00007" summary="add new css">
       <created>1617693747605</created>
@@ -468,7 +458,21 @@
       <option name="project" value="LOCAL" />
       <updated>1622657065293</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="new code">
+      <created>1622795657966</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1622795657966</updated>
+    </task>
+    <task id="LOCAL-00055" summary="new commit">
+      <created>1622795866209</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1622795866209</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -498,6 +502,8 @@
     <MESSAGE value="add new properties to css" />
     <MESSAGE value="process of adding map in the new page" />
     <MESSAGE value="made new html file" />
-    <option name="LAST_COMMIT_MESSAGE" value="made new html file" />
+    <MESSAGE value="new code" />
+    <MESSAGE value="new commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="new commit" />
   </component>
 </project>
