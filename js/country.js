@@ -60,3 +60,10 @@ clickCountry.addEventListener("click", function () {
     }
 })
 
+//close popup
+
+const closePopup = document.querySelectorAll("#close, #popup")
+
+for (let i = 0; i < closePopup.length; i++) {
+    closePopup[i].addEventListener("click", function ())
+}

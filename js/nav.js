@@ -30,7 +30,6 @@ const headerObserver = new IntersectionObserver(navSticky, {
 
 headerObserver.observe(bgHeader)
 
-
 /////////////////////////////////
 //collapse-nav
 ////////////////////////////////
