@@ -29,37 +29,36 @@
     <!--*****************-->
     <!--    Header-->
     <!--*****************-->
-    <div>
-        <header class="header header__sticky">
-            <div class="header__contents">
-                <ul class="header__ul">
-                    <li class="header__items"><a href="#" class="header__link">
-                        <svg class="header__svg">
-                            <use xlink:href="img/sprite.svg#icon-facebook"></use>
-                        </svg>
-                    </a></li>
-                    <li class="header__items"><a href="#" class="header__link">
-                        <svg class="header__svg">
-                            <use xlink:href="img/sprite.svg#icon-mail2"></use>
-                        </svg>
-                    </a></li>
-                    <li class="header__items"><a href="#" class="header__link">
-                        <svg class="header__svg">
-                            <use xlink:href="img/sprite.svg#icon-phone"></use>
-                        </svg>
-                    </a></li>
-                    <li class="header__items"><a href="#" class="header__link">
-                        <svg class="header__svg">
-                            <use xlink:href="img/sprite.svg#icon-whatsapp"></use>
-                        </svg>
-                    </a></li>
-                </ul>
-            </div>
-            <div class="header__eindhoven">
-                <img src="img/eindhoven-3.png" alt="logo of eindhoven" class="header__eindhoven-img">
-            </div>
-        </header>
-    </div>
+    <header class="header header__sticky">
+        <div class="header__contents">
+            <ul class="header__ul">
+                <li class="header__items"><a href="#" class="header__link">
+                    <svg class="header__svg">
+                        <use xlink:href="img/sprite.svg#icon-facebook"></use>
+                    </svg>
+                </a></li>
+                <li class="header__items"><a href="#" class="header__link">
+                    <svg class="header__svg">
+                        <use xlink:href="img/sprite.svg#icon-mail2"></use>
+                    </svg>
+                </a></li>
+                <li class="header__items"><a href="#" class="header__link">
+                    <svg class="header__svg">
+                        <use xlink:href="img/sprite.svg#icon-phone"></use>
+                    </svg>
+                </a></li>
+                <li class="header__items"><a href="#" class="header__link">
+                    <svg class="header__svg">
+                        <use xlink:href="img/sprite.svg#icon-whatsapp"></use>
+                    </svg>
+                </a></li>
+            </ul>
+        </div>
+        <div class="header__eindhoven">
+            <img src="img/eindhoven-3.png" alt="logo of eindhoven" class="header__eindhoven-img">
+        </div>
+
+    </header>
     <!--*****************-->
     <!--    Nav-->
     <!--*****************-->
@@ -67,31 +66,54 @@
         <div class="nav__icon-box">
             <img src="img/GIT-LOGO.png" alt="" class="nav__icon-img">
         </div>
+        <!--*****************-->
+        <!--btn for collapse nav-->
+        <!--*****************-->
+        <div class="collapse-nav__box menu">
+            <button class="collapse-nav__btn">
+                <svg class="collapse-nav__svg">
+                    <use xlink:href="img/sprite.svg#icon-th-menu-outline"></use>
+                </svg>
+            </button>
+        </div>
+        <!--*****************-->
+        <!--close btn for collapse nav-->
+        <!--*****************-->
+        <div class="collapse-nav__box close hidden">
+            <button class="collapse-nav__btn">
+                <svg class="collapse-nav__svg">
+                    <use xlink:href="img/sprite.svg#icon-close"></use>
+                </svg>
+            </button>
+        </div>
+
         <div class="nav__nav-box">
-            <ul class="nav--ul">
+            <ul class="nav--ul" id="main-nav">
                 <li class="nav--items" id="Home">
-                    <a href="index.html" class="nav--link">Home</a>
+                    <a href="index.html" class="nav--link" target="_blank">Home</a>
                 </li>
                 <li class="nav--items">
-                    <a href="stories.html" class="nav--link about--us">About us</a>
+                    <a href="stories.html" class="nav--link about--us" target="_blank">About us</a>
                 </li>
                 <li class="nav--items">
-                    <a href="activities.html" class="nav--link">Activities</a>
+                    <a href="activities.html" class="nav--link" target="_blank">Activities</a>
                 </li>
                 <li class="nav--items">
-                    <a href="gallery.html" class="nav--link">Gallery</a>
+                    <a href="gallery.html" class="nav--link" target="_blank">Gallery</a>
                 </li>
                 <li class="nav--items">
-                    <a href="#Project" class="nav--link">Current project</a>
+                    <a href="#Project" class="nav--link" target="_blank">project</a>
                 </li>
                 <li class="nav--items">
-                    <a href="members.html" class="nav--link">Meet The Members</a>
+                    <a href="members.html" class="nav--link" target="_blank">Members</a>
                 </li>
                 <li class="nav--items">
-                    <a href="#Contact" class="nav--link">Contact</a>
+                    <a href="#Contact" class="nav--contact" target="_blank">Contact</a>
                 </li>
             </ul>
         </div>
+
+
     </nav>
     <!--*****************-->
     <!--    bg-header part -->
@@ -212,6 +234,15 @@
         </div>
 
     </footer>
+
+
+
+
+
+<!--*****************-->
+<!--    JavaScript-->
+<!--*****************-->
+<script src="js/nav.js"></script>
 </body>
 
 </html>

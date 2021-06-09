@@ -1,7 +1,6 @@
 .about {
   background-color: $color-white;
-  margin: 1.5rem 15rem;
-  margin-bottom: 3.5rem;
+  margin: 1.5rem 15rem 3.5rem;
 
   @include respond(lab-medium) {
       margin: 1.5rem 12rem;

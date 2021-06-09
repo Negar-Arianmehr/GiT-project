@@ -67,7 +67,7 @@
         <div class="nav__icon-box">
             <img src="img/GIT-LOGO.png" alt="" class="nav__icon-img">
         </div>
-         <!--*****************-->
+        <!--*****************-->
         <!--btn for collapse nav-->
         <!--*****************-->
         <div class="collapse-nav__box menu">
@@ -114,14 +114,13 @@
             </ul>
         </div>
 
-
     </nav>
 
     <!--*****************-->
     <!--    background-->
     <!--*****************-->
     <div class="bg-header relative">
-        <div class="bg-header__bg absolute">
+        <div class="absolute">
             <div class="bg-header__box fixed">
                 <!--            <img src="img/bg1.jpg" alt="">-->
                 <h1 class="heading bg-header__header animate__animated animate__bounceInLeft">Welcome to GiT Family</h1>
@@ -130,7 +129,6 @@
         <!--        <h2 class="heading heading-small">Eindhoven</h2>-->
         <!--                <button class="btn bg-header__btn">Watch us</button>-->
     </div>
-
     <!--*****************-->
     <!--    Main Part-->
     <!--*****************-->
@@ -473,7 +471,7 @@
             <div class="members__cards">
                 <!--                <button class="members__slider__btn members__slider__btn&#45;&#45;left">&#8592;</button>-->
                 <!--card -1-->
-                <div class="members__card margin-left">
+                <div class="members__card members__card--homePage margin-left">
                     <figure class="members__fig">
                         <img src="img/Megha.jpg" alt="" class="members__img">
                         <figcaption class="members__name">Megha</figcaption>
@@ -490,7 +488,7 @@
                     </div>
                 </div>
                 <!--card -2-->
-                <div class="members__card margin-left">
+                <div class="members__card members__card--homePage margin-left">
                     <figure class="members__fig">
                         <img src="img/member-1.jpg" alt="" class="members__img">
                         <figcaption class="members__name">Nikita</figcaption>
@@ -505,7 +503,7 @@
                     </div>
                 </div>
                 <!--card -3-->
-                <div class="members__card margin-left">
+                <div class="members__card members__card--homePage margin-left">
                     <figure class="members__fig">
                         <img src="img/member-4.jpg" alt="" class="members__img">
                         <figcaption class="members__name">Audrey</figcaption>
@@ -520,7 +518,7 @@
                     </div>
                 </div>
                 <!--card -4-->
-                <div class="members__card margin-left">
+                <div class="members__card members__card--homePage margin-left">
                     <figure class="members__fig">
                         <img src="img/member-2.jpg" alt="" class="members__img">
                         <figcaption class="members__name">Negar</figcaption>
@@ -532,7 +530,7 @@
                     </div>
                 </div>
                 <!--card -5-->
-                <div class="members__card margin-left">
+                <div class="members__card members__card--homePage margin-left">
                     <figure class="members__fig">
                         <img src="img/member-3.jpg" alt="" class="members__img">
                         <figcaption class="members__name">Arianmehr</figcaption>
@@ -544,7 +542,7 @@
                     </div>
                 </div>
                 <!--card -6-->
-                <div class="members__card margin-left">
+                <div class="members__card members__card--homePage margin-left">
                     <figure class="members__fig">
                         <img src="img/progita.jpg" alt="" class="members__img">
                         <figcaption class="members__name">Proghita</figcaption>
@@ -562,9 +560,14 @@
             <div class="members__btn hover">
                 <a href="members.html" class="btn" target="_blank">See more of us</a>
             </div>
-
         </section>
     </main>
+    <!--*****************-->
+    <!--  popup for country -->
+    <!--*****************-->
+    <div class="popup-hidden">
+        <div class="popup__content"></div>
+    </div>
     <!--*****************-->
     <!--  footer -->
     <!--*****************-->
@@ -656,6 +659,7 @@
 <!--*****************-->
 <!--    JavaScript-->
 <!--*****************-->
+<script src="js/nav.js"></script>
 <script src="js/script.js"></script>
 <!--fortawesome-->
 <script defer src="node_modules/@fortawesome/fontawesome-free/js/brands.js"></script>

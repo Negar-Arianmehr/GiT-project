@@ -1,12 +1,4 @@
 .bg-header {
-  grid-row: 3/4;
-
-
-  &__bg {
-    //clip: rect(0, auto, 0, auto);
-
-  }
-
   &__box {
     background-image: url("../img/bg1.jpg");
     text-align: center;
@@ -22,6 +14,8 @@
 }
 
 .relative {
+  grid-row: 3/4;
+  backface-visibility: hidden;
   height: 100vh;
   width: 100%;
   position: relative;

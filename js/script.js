@@ -1,32 +1,4 @@
-/////////////////////////////////
-//scroll--sticky nav
-////////////////////////////////
-const bgHeader = document.querySelector(".bg-header")
-const nav = document.querySelector(".nav")
 
-const stickyNav = function (entries) {
-    const [entry] = entries;
-    console.log(entry)
-
-    if (!entry.isIntersecting) {
-        nav.classList.add("sticky")
-        nav.classList.remove("nav--stick")
-        // header.classList.add("noneDisplay")}
-    // } else if (entries.boundingClientRect.height < 600) {
-    //     // nav.classList.add("nav--stick")
-    } else {
-        nav.classList.remove("sticky")
-        nav.classList.add("nav--stick")
-    }
-    // header.classList.remove("noneDisplay")
-}
-
-const headerObserver = new IntersectionObserver(stickyNav, {
-    root: null,
-    threshold: 0,
-})
-
-headerObserver.observe(bgHeader)
 
 //for every section
 // const navAbout = document.querySelector("#about")
@@ -55,36 +27,35 @@ headerObserver.observe(bgHeader)
 //     }
 // })
 
-/////////////////////////////////
-//collapse-nav
-////////////////////////////////
-const btnMenu = document.querySelector(".menu")
-const navbar = document.getElementById("main-nav")
-
-btnMenu.addEventListener("click", function () {
-    if (navbar.className === "nav--ul") {
-        navbar.className = "collapse-nav"
-        document.querySelector(".close").classList.remove("hidden")
-        document.querySelector(".menu").classList.add("hidden")
-    }
-})
-
-const btnClose = document.querySelectorAll(".close,.nav__nav-box")
-
-for (let i = 0; i < btnClose.length; i++){
-    btnClose[i].addEventListener("click", function () {
-        if (navbar.className === "collapse-nav") {
-            navbar.className = "nav--ul"
-            document.querySelector(".close").classList.add("hidden")
-            document.querySelector(".menu").classList.remove("hidden")
-        }
-    })
-}
+// /////////////////////////////////
+// //collapse-nav
+// ////////////////////////////////
+// const btnMenu = document.querySelector(".menu")
+// const navbar = document.getElementById("main-nav")
+//
+// btnMenu.addEventListener("click", function () {
+//     if (navbar.className === "nav--ul") {
+//         navbar.className = "collapse-nav"
+//         document.querySelector(".close").classList.remove("hidden")
+//         document.querySelector(".menu").classList.add("hidden")
+//     }
+// })
+//
+// const btnClose = document.querySelectorAll(".close,.nav__nav-box")
+//
+// for (let i = 0; i < btnClose.length; i++) {
+//     btnClose[i].addEventListener("click", function () {
+//         if (navbar.className === "collapse-nav") {
+//             navbar.className = "nav--ul"
+//             document.querySelector(".close").classList.add("hidden")
+//             document.querySelector(".menu").classList.remove("hidden")
+//         }
+//     })
+// }
 
 /////////////////////////////////
 //scroll to up
 ////////////////////////////////
-
 
 
 /////////////////////////////////
@@ -218,14 +189,14 @@ console.log(maxCard)
 //CAeousalcards
 let width = window.innerWidth
 const carousalCards = function (card) {
-   cards.forEach((c, i) => (c.style.transform = `translateX(${100 * (i - 2 * card)}%)`))
+    cards.forEach((c, i) => (c.style.transform = `translateX(${100 * (i - 2 * card)}%)`))
 }
 carousalCards(0)
 
 //for Next cards
 const nextCard = function () {
-    if (curCard === maxCard - 1 && width <= 800 ) {
-curCard = 0
+    if (curCard === maxCard - 1 && width <= 800) {
+        curCard = 0
     }
     if (curCard === maxCard - 2 && width > 800) {
         curCard = 0
@@ -261,9 +232,5 @@ document.addEventListener("keydown", function (e) {
     if (e.key === "ArrowLeft") preCard()
     e.key === "ArrowRight" && nextCard()
 })
-
-///////////////////////////////////////////////////////////////
-//React
-
 
 

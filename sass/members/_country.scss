@@ -1,0 +1,129 @@
+.popup {
+  height: 100vh;
+  width: 100%;
+  background-color: rgba($color-gray-light-2, .5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 22222;
+
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.popup-hidden {
+  display: none;
+}
+
+.popup__content {
+  /* margin-bottom: 8rem; */
+  margin: 10rem auto;
+  width: 75%;
+  height: 70%;
+  //background-color: rgba($color-white, .6);
+  border-radius: 10px;
+  display: flex;
+
+  font-size: 2rem;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.country {
+  background-color: #fff;
+  box-shadow: 0 2rem 5rem 1rem rgba(0, 0, 0, 0.1);
+  font-size: 1.8rem;
+  width: 35rem;
+  height: max-content;
+  border-radius: 1rem;
+  margin: auto;
+  // opacity: 0;
+  //transition: opacity 1s;
+  /* overflow: hidden; */
+}
+
+//.neighbour::before {
+//  content: 'Neighbour country';
+//  width: 100%;
+//  position: absolute;
+//  top: -4rem;
+//
+//  text-align: center;
+//  font-size: 1.6rem;
+//  font-weight: 600;
+//  text-transform: uppercase;
+//  color: #888;
+//}
+
+//.neighbour {
+//  transform: scale(0.8) translateY(1rem);
+//  margin-left: 0;
+//}
+
+.country__img-box {
+  width: 100%;
+  height: 25rem;
+  text-align: center;
+}
+.country__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  //background-color: #eee;
+  border-top-left-radius: 0.7rem;
+  border-top-right-radius: 0.7rem;
+}
+
+.country__data {
+  padding: 2.5rem 3.75rem 3rem 3.75rem;
+}
+
+.country__name {
+  font-size: 2.2rem;
+  margin-bottom: 0.7rem;
+}
+
+.country__region {
+  font-size: 1.4rem;
+  margin-bottom: 2.5rem;
+  text-transform: uppercase;
+  color: #888;
+}
+
+.country__row:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.country__row span {
+  display: inline-block;
+  margin-right: 2rem;
+  font-size: 2.4rem;
+}
+
+//.btn-country {
+//  border: none;
+//  font-size: 2rem;
+//  padding: 2rem 5rem;
+//  border-radius: 0.7rem;
+//  color: white;
+//  background-color: orangered;
+//  cursor: pointer;
+//}
+//
+//.images {
+//  display: flex;
+//}
+//
+//.images img {
+//  display: block;
+//  width: 80rem;
+//  margin: 4rem;
+//}
+//
+//.images img.parallel {
+//  width: 40rem;
+//  margin: 2rem;
+//  border: 3rem solid white;
+//  box-shadow: 0 2rem 5rem 1rem rgba(0, 0, 0, 0.1);
+//}
