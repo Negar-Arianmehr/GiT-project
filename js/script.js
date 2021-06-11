@@ -1,58 +1,4 @@
 
-
-//for every section
-// const navAbout = document.querySelector("#about")
-// const aboutSection = document.querySelector("#About_us")
-//
-// navAbout.addEventListener("click", function (e) {
-//     const aboutCoords = aboutSection.getBoundingClientRect()
-//     console.log(aboutCoords)
-//     console.log(e.target.getBoundingClientRect())
-//     //scroll
-//     // window.scrollTo(aboutCoords.left, aboutCoords.top)
-//     aboutSection.scrollIntoView({behavior: "smooth"})
-// })
-//scroll to the section
-/////////////////////////////////
-//scroll to the section
-////////////////////////////////
-// document.querySelector(".nav--link").addEventListener("click", function (e) {
-//     e.preventDefault()
-//
-//     if (e.target.classList.contains("nav--link")) {
-//         const id = e.target.getAttribute("href")
-//         document.querySelector(id).scrollIntoView({
-//             behavior: "smooth"
-//         })
-//     }
-// })
-
-// /////////////////////////////////
-// //collapse-nav
-// ////////////////////////////////
-// const btnMenu = document.querySelector(".menu")
-// const navbar = document.getElementById("main-nav")
-//
-// btnMenu.addEventListener("click", function () {
-//     if (navbar.className === "nav--ul") {
-//         navbar.className = "collapse-nav"
-//         document.querySelector(".close").classList.remove("hidden")
-//         document.querySelector(".menu").classList.add("hidden")
-//     }
-// })
-//
-// const btnClose = document.querySelectorAll(".close,.nav__nav-box")
-//
-// for (let i = 0; i < btnClose.length; i++) {
-//     btnClose[i].addEventListener("click", function () {
-//         if (navbar.className === "collapse-nav") {
-//             navbar.className = "nav--ul"
-//             document.querySelector(".close").classList.add("hidden")
-//             document.querySelector(".menu").classList.remove("hidden")
-//         }
-//     })
-// }
-
 /////////////////////////////////
 //scroll to up
 ////////////////////////////////
@@ -65,7 +11,7 @@ const allSections = document.querySelectorAll(".section")
 
 const revealSection = function (entries, observer) {
     const [entry] = entries;
-    console.log(entry)
+    // console.log(entry)
 
     if (!entry.isIntersecting) return;
 
@@ -139,7 +85,9 @@ const nextSlide = function () {
     }
     goToSlide(curSlide)
     activeDot(curSlide)
+    setTimeout(nextSlide, 2000)
 }
+
 
 //Previous Slide function
 const prevSlide = function () {

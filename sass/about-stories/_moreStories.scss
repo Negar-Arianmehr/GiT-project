@@ -37,6 +37,7 @@ transform: skewX(0);
     padding: 2.2rem 6.5rem;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     //filter: drop-shadow(0 15px 30px rgb(222, 45, 13));
     @include respond(tab-port) {
       padding: 2rem 5rem;

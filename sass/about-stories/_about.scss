@@ -25,21 +25,13 @@
     //text-align: justify;
     margin-bottom: 1.5rem;
     margin-top: 2.5rem;
-
-    //&::first-letter {
-    //  font-size: 2rem;
-    //  color: $color-main;
-    //}
   }
 
-  //slider
+  //***slider***//
   &__title {
-    //padding-left: 3.5rem;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    //height: 5rem;
-    //margin-top: 2rem;
     margin-left: 2.5rem;
   }
 
@@ -54,12 +46,14 @@
 
   &__slider {
     max-width: 100rem;
-    height: 30rem;
     margin: 0 auto;
     position: relative;
     overflow: hidden;
+  }
 
-    @include respond(lab-medium) {
+  &__slider--height {
+     height: 30rem;
+     @include respond(lab-medium) {
       height: 34rem;
     }
   }
@@ -90,12 +84,6 @@
     height: 2rem;
     width: 2rem;
     fill: $color-main;
-//    @media only screen and (max-width: 600px) {
-//      margin: .5rem;
-//    }
-//    @media only screen and (min-width: 360px) and (max-width: 511px) {
-//margin: 0;
-//  }
   }
 
   &__slide--header {
@@ -180,17 +168,15 @@
 }
 
 .dots {
-
-
   &__about {
     position: absolute;
-  bottom: 5%;
-  left: 50%;
-  transform: translateX(-50%);
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
 
-  @include respond(most-phone) {
-    margin-top: 2.2rem;
-  }
+    @include respond(most-phone) {
+      margin-top: 2.2rem;
+    }
   }
 
   &__dot {
