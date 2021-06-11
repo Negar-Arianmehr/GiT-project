@@ -118,7 +118,7 @@
   }
 
   &__card {
-    box-shadow: 0 1rem 2.5rem #000;
+    box-shadow: 2px 2.5rem 2.5rem #919090;
     transition: all 1s ease-in-out;
     border: 1px solid transparent;
     border-radius: 5px;
@@ -196,6 +196,7 @@
     color: $color-black;
     font-style: italic;
     margin-bottom: 1.25rem;
+    wrap-option: max(2rem);
   }
 
   &__date {

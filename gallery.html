@@ -18,118 +18,239 @@
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
-
+    <!-- Link Swiper's CSS -->
+    <link
+            rel="stylesheet"
+            href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <link rel="shourtcut icon" type="img/png" href="img/GIT-LOGO.png">
     <title>Get In Touch</title>
 </head>
 <body>
-<!--**********************-->
-<!--    Container-->
-<!--**********************-->
-<div class="container">
-    <!--*****************-->
-    <!--    Header-->
-    <!--*****************-->
-    <header class="header header__sticky">
-        <div class="header__contents">
-            <ul class="header__ul">
-                <li class="header__items"><a href="#" class="header__link">
-                    <svg class="header__svg">
-                        <use xlink:href="img/sprite.svg#icon-facebook"></use>
-                    </svg>
-                </a></li>
-                <li class="header__items"><a href="#" class="header__link">
-                    <svg class="header__svg">
-                        <use xlink:href="img/sprite.svg#icon-mail2"></use>
-                    </svg>
-                </a></li>
-                <li class="header__items"><a href="#" class="header__link">
-                    <svg class="header__svg">
-                        <use xlink:href="img/sprite.svg#icon-phone"></use>
-                    </svg>
-                </a></li>
-                <li class="header__items"><a href="#" class="header__link">
-                    <svg class="header__svg">
-                        <use xlink:href="img/sprite.svg#icon-whatsapp"></use>
-                    </svg>
-                </a></li>
-            </ul>
-        </div>
-        <div class="header__eindhoven">
-            <img src="img/eindhoven-3.png" alt="logo of eindhoven" class="header__eindhoven-img">
-        </div>
 
-    </header>
-    <!--*****************-->
-    <!--    Nav-->
-    <!--*****************-->
-    <nav class="nav">
-        <div class="nav__icon-box">
-            <img src="img/GIT-LOGO.png" alt="" class="nav__icon-img">
-        </div>
-         <!--*****************-->
-        <!--btn for collapse nav-->
-        <!--*****************-->
-        <div class="collapse-nav__box menu">
-            <button class="collapse-nav__btn">
-                <svg class="collapse-nav__svg">
-                    <use xlink:href="img/sprite.svg#icon-th-menu-outline"></use>
+<!--*****************-->
+<!--    Header-->
+<!--*****************-->
+<header class="header header__sticky">
+    <div class="header__contents">
+        <ul class="header__ul">
+            <li class="header__items"><a href="#" class="header__link">
+                <svg class="header__svg">
+                    <use xlink:href="img/sprite.svg#icon-facebook"></use>
                 </svg>
-            </button>
-        </div>
-        <!--*****************-->
-        <!--close btn for collapse nav-->
-        <!--*****************-->
-        <div class="collapse-nav__box close hidden">
-            <button class="collapse-nav__btn">
-                <svg class="collapse-nav__svg">
-                    <use xlink:href="img/sprite.svg#icon-close"></use>
+            </a></li>
+            <li class="header__items"><a href="#" class="header__link">
+                <svg class="header__svg">
+                    <use xlink:href="img/sprite.svg#icon-mail2"></use>
                 </svg>
-            </button>
-        </div>
+            </a></li>
+            <li class="header__items"><a href="#" class="header__link">
+                <svg class="header__svg">
+                    <use xlink:href="img/sprite.svg#icon-phone"></use>
+                </svg>
+            </a></li>
+            <li class="header__items"><a href="#" class="header__link">
+                <svg class="header__svg">
+                    <use xlink:href="img/sprite.svg#icon-whatsapp"></use>
+                </svg>
+            </a></li>
+        </ul>
+    </div>
+    <div class="header__eindhoven">
+        <img src="img/eindhoven-3.png" alt="logo of eindhoven" class="header__eindhoven-img">
+    </div>
 
-        <div class="nav__nav-box">
-            <ul class="nav--ul" id="main-nav">
-                <li class="nav--items" id="Home">
-                    <a href="index.html" class="nav--link" target="_blank">Home</a>
-                </li>
-                <li class="nav--items">
-                    <a href="stories.html" class="nav--link about--us" target="_blank">About us</a>
-                </li>
-                <li class="nav--items">
-                    <a href="activities.html" class="nav--link" target="_blank">Activities</a>
-                </li>
-                <li class="nav--items">
-                    <a href="gallery.html" class="nav--link" target="_blank">Gallery</a>
-                </li>
-                <li class="nav--items">
-                    <a href="#Project" class="nav--link" target="_blank">project</a>
-                </li>
-                <li class="nav--items">
-                    <a href="members.html" class="nav--link" target="_blank">Members</a>
-                </li>
-                <li class="nav--items">
-                    <a href="#Contact" class="nav--link" target="_blank">Contact</a>
-                </li>
-            </ul>
-        </div>
-
-
-    </nav>
-
+</header>
+<!--*****************-->
+<!--    Nav-->
+<!--*****************-->
+<nav class="nav">
+    <div class="nav__icon-box">
+        <img src="img/GIT-LOGO.png" alt="" class="nav__icon-img">
+    </div>
     <!--*****************-->
-    <!--    background-->
+    <!--btn for collapse nav-->
     <!--*****************-->
-    <div class="bg-header relative">
-        <div class="bg-header__bg absolute">
-            <div class="bg-header__box fixed">
-                <!--            <img src="img/bg1.jpg" alt="">-->
-                <h1 class="heading bg-header__header animate__animated animate__bounceInLeft">Welcome to GiT Family</h1>
-            </div>
+    <div class="collapse-nav__box menu">
+        <button class="collapse-nav__btn">
+            <svg class="collapse-nav__svg">
+                <use xlink:href="img/sprite.svg#icon-th-menu-outline"></use>
+            </svg>
+        </button>
+    </div>
+    <!--*****************-->
+    <!--close btn for collapse nav-->
+    <!--*****************-->
+    <div class="collapse-nav__box close hidden">
+        <button class="collapse-nav__btn">
+            <svg class="collapse-nav__svg">
+                <use xlink:href="img/sprite.svg#icon-close"></use>
+            </svg>
+        </button>
+    </div>
+
+    <div class="nav__nav-box">
+        <ul class="nav--ul" id="main-nav">
+            <li class="nav--items" id="Home">
+                <a href="index.html" class="nav--link" target="_blank">Home</a>
+            </li>
+            <li class="nav--items">
+                <a href="stories.html" class="nav--link about--us" target="_blank">About us</a>
+            </li>
+            <li class="nav--items">
+                <a href="activities.html" class="nav--link" target="_blank">Activities</a>
+            </li>
+            <li class="nav--items">
+                <a href="gallery.html" class="nav--link" target="_blank">Gallery</a>
+            </li>
+            <li class="nav--items">
+                <a href="#Project" class="nav--link" target="_blank">project</a>
+            </li>
+            <li class="nav--items">
+                <a href="members.html" class="nav--link" target="_blank">Members</a>
+            </li>
+            <li class="nav--items">
+                <a href="#Contact" class="nav--link" target="_blank">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!--**********************-->
+<!--Container-gallery-collection-->
+<!--**********************-->
+<main class="collection">
+    <!--*****************-->
+    <!--header-background-collection-->
+    <!--*****************-->
+    <div class="bg-header">
+        <div class="collection__bg">
+            <!--            <div class="collection__box">-->
+            <!--            <img src="img/bg1.jpg" alt="">-->
+            <h1 class="heading heading-hug">our experience in pictures</h1>
+            <!--            </div>-->
         </div>
         <!--        <h2 class="heading heading-small">Eindhoven</h2>-->
         <!--                <button class="btn bg-header__btn">Watch us</button>-->
     </div>
-</div>
+    <!--*****************-->
+    <!--collection__section-->
+    <!--*****************-->
+    <section class="collection__section">
+        <div class="collection__content">
+            <div class="collection__pics">
+
+            </div>
+            <div class="collection__text">
+
+            </div>
+        </div>
+    </section>
+</main>
+<!--*****************-->
+<!--  footer -->
+<!--*****************-->
+<footer class="footer" id="Contact">
+    <div class="footer__content">
+        <div class="footer__left">
+            <div>
+                <!--*****************-->
+                <!--  footer--header -->
+                <!--*****************-->
+                <h1 class="heading heading-hug">Get in touch</h1>
+            </div>
+            <!--*****************-->
+            <!--  footer-social-media -->
+            <!--*****************-->
+            <div>
+                <ul class="footer__ul">
+                    <li class="footer__items"><a href="#" class="footer__link">
+                        <svg class="footer__svg">
+                            <use xlink:href="img/sprite.svg#icon-facebook"></use>
+                        </svg>
+                    </a></li>
+                    <li class="footer__items"><a href="#" class="footer__link">
+                        <svg class="footer__svg">
+                            <use xlink:href="img/sprite.svg#icon-mail2"></use>
+                        </svg>
+                    </a></li>
+                    <li class="footer__items"><a href="#" class="footer__link">
+                        <svg class="footer__svg">
+                            <use xlink:href="img/sprite.svg#icon-phone"></use>
+                        </svg>
+                    </a></li>
+                    <li class="footer__items"><a href="#" class="footer__link">
+                        <svg class="footer__svg">
+                            <use xlink:href="img/sprite.svg#icon-whatsapp"></use>
+                        </svg>
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__right">
+            <!--*****************-->
+            <!--  footer--form -->
+            <!--*****************-->
+            <form action="" class="footer__form">
+                <input type="text" class="footer__input" placeholder="Name">
+                <input type="text" class="footer__input" placeholder="Email address">
+                <textarea class="footer__input" rows="5" cols="50" placeholder="Message"></textarea>
+            </form>
+        </div>
+        <!--*****************-->
+        <!--  footer-arrow -->
+        <!--*****************-->
+        <div class="footer__arrow">
+            <svg class="footer__arrow--svg">
+                <use xlink:href="img/sprite.svg#icon-arrow-circle-up"></use>
+            </svg>
+        </div>
+    </div>
+    <!--*****************-->
+    <!--  footer--maker -->
+    <!--*****************-->
+    <div class="footer__maker">
+        <div>
+            <p class="footer__maker--name">illustrated by: delaram ashtari</p>
+            <span>
+                    <svg class="footer__maker--email">
+                        <use xlink:href="img/sprite.svg#icon-mail2"></use>
+                    </svg>
+                </span>
+        </div>
+
+        <div>
+            <p class="footer__maker--name"> developed by: Negar Arianmehr</p>
+            <span>
+                    <svg class="footer__maker--email">
+                        <use xlink:href="img/sprite.svg#icon-mail2"></use>
+                    </svg>
+                </span>
+        </div>
+    </div>
+
+</footer>
+
+
+<!--*****************-->
+<!--    JavaScript-->
+<!--*****************-->
+<script src="js/nav.js"></script>
+<!--&lt;!&ndash; Swiper JS &ndash;&gt;-->
+<!--<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>-->
+
+<!--&lt;!&ndash; Initialize Swiper &ndash;&gt;-->
+<!--<script>-->
+<!--    const swiper = new Swiper(".mySwiper", {-->
+<!--        direction: "vertical",-->
+<!--        slidesPerView: 1,-->
+<!--        spaceBetween: 30,-->
+<!--        mousewheel: true,-->
+<!--        pagination: {-->
+<!--            el: ".swiper-pagination",-->
+<!--            clickable: true,-->
+<!--        },-->
+<!--    });-->
+<!--    swiper-->
+<!--</script>-->
 </body>
 </html>

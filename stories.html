@@ -23,163 +23,227 @@
     <title>Get In Touch</title>
 </head>
 <body>
+<!--*****************-->
+<!--    Header-->
+<!--*****************-->
+<header class="header header__sticky">
+    <div class="header__contents">
+        <ul class="header__ul">
+            <li class="header__items"><a href="#" class="header__link">
+                <svg class="header__svg">
+                    <use xlink:href="img/sprite.svg#icon-facebook"></use>
+                </svg>
+            </a></li>
+            <li class="header__items"><a href="#" class="header__link">
+                <svg class="header__svg">
+                    <use xlink:href="img/sprite.svg#icon-mail2"></use>
+                </svg>
+            </a></li>
+            <li class="header__items"><a href="#" class="header__link">
+                <svg class="header__svg">
+                    <use xlink:href="img/sprite.svg#icon-phone"></use>
+                </svg>
+            </a></li>
+            <li class="header__items"><a href="#" class="header__link">
+                <svg class="header__svg">
+                    <use xlink:href="img/sprite.svg#icon-whatsapp"></use>
+                </svg>
+            </a></li>
+        </ul>
+    </div>
+    <div class="header__eindhoven">
+        <img src="img/eindhoven-3.png" alt="logo of eindhoven" class="header__eindhoven-img">
+    </div>
+
+</header>
+<!--*****************-->
+<!--    Nav-->
+<!--*****************-->
+<nav class="nav">
+    <div class="nav__icon-box">
+        <img src="img/GIT-LOGO.png" alt="" class="nav__icon-img">
+    </div>
+    <!--*****************-->
+    <!--btn for collapse nav-->
+    <!--*****************-->
+    <div class="collapse-nav__box menu">
+        <button class="collapse-nav__btn">
+            <svg class="collapse-nav__svg">
+                <use xlink:href="img/sprite.svg#icon-th-menu-outline"></use>
+            </svg>
+        </button>
+    </div>
+    <!--*****************-->
+    <!--close btn for collapse nav-->
+    <!--*****************-->
+    <div class="collapse-nav__box close hidden">
+        <button class="collapse-nav__btn">
+            <svg class="collapse-nav__svg">
+                <use xlink:href="img/sprite.svg#icon-close"></use>
+            </svg>
+        </button>
+    </div>
+
+    <div class="nav__nav-box">
+        <ul class="nav--ul" id="main-nav">
+            <li class="nav--items" id="Home">
+                <a href="index.html" class="nav--link" target="_blank">Home</a>
+            </li>
+            <li class="nav--items">
+                <a href="stories.html" class="nav--link about--us" target="_blank">About us</a>
+            </li>
+            <li class="nav--items">
+                <a href="activities.html" class="nav--link" target="_blank">Activities</a>
+            </li>
+            <li class="nav--items">
+                <a href="gallery.html" class="nav--link" target="_blank">Gallery</a>
+            </li>
+            <li class="nav--items">
+                <a href="#Project" class="nav--link" target="_blank">project</a>
+            </li>
+            <li class="nav--items">
+                <a href="members.html" class="nav--link" target="_blank">Members</a>
+            </li>
+            <li class="nav--items">
+                <a href="#Contact" class="nav--contact" target="_blank">Contact</a>
+            </li>
+        </ul>
+    </div>
+
+
+</nav>
 <!--**********************-->
 <!--    Container-->
 <!--**********************-->
-<div class="stories__container">
+<main class="stories">
     <!--*****************-->
-    <!--    Header-->
+    <!--    bg-header part -->
     <!--*****************-->
-    <header class="header header__sticky">
-        <div class="header__contents">
-            <ul class="header__ul">
-                <li class="header__items"><a href="#" class="header__link">
-                    <svg class="header__svg">
-                        <use xlink:href="img/sprite.svg#icon-facebook"></use>
-                    </svg>
-                </a></li>
-                <li class="header__items"><a href="#" class="header__link">
-                    <svg class="header__svg">
-                        <use xlink:href="img/sprite.svg#icon-mail2"></use>
-                    </svg>
-                </a></li>
-                <li class="header__items"><a href="#" class="header__link">
-                    <svg class="header__svg">
-                        <use xlink:href="img/sprite.svg#icon-phone"></use>
-                    </svg>
-                </a></li>
-                <li class="header__items"><a href="#" class="header__link">
-                    <svg class="header__svg">
-                        <use xlink:href="img/sprite.svg#icon-whatsapp"></use>
-                    </svg>
-                </a></li>
-            </ul>
-        </div>
-        <div class="header__eindhoven">
-            <img src="img/eindhoven-3.png" alt="logo of eindhoven" class="header__eindhoven-img">
-        </div>
-    </header>
+    <div class="bg-header stories__header">
+<!--        <div class="stories__header__heading">-->
+            <h1 class="heading heading-hug">Read our stories</h1>
+<!--        </div>-->
+    </div>
     <!--*****************-->
-    <!--    Nav-->
+    <!--    stories- cards -->
     <!--*****************-->
-    <nav class="nav">
-        <div class="nav__icon-box">
-            <img src="img/GIT-LOGO.png" alt="" class="nav__icon-img">
-        </div>
-        <div class="nav__nav-box">
-            <ul class="nav--ul">
-                <li class="nav--items" id="Home">
-                    <a href="index.html" class="nav--link" >Home</a>
-                </li>
-                <li class="nav--items">
-                    <a href="stories.html" class="nav--link about--us">About us</a>
-                </li>
-                <li class="nav--items">
-                    <a href="activities.html" class="nav--link">Activities</a>
-                </li>
-                <li class="nav--items">
-                    <a href="gallery.html" class="nav--link">Gallery</a>
-                </li>
-                <li class="nav--items">
-                    <a href="#Project" class="nav--link">Current project</a>
-                </li>
-                <li class="nav--items">
-                    <a href="members.html" class="nav--link">Meet The Members</a>
-                </li>
-                <li class="nav--items">
-                    <a href="#Contact" class="nav--link">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <section class="stories__section">
+        <div class="stories__box--shadow"></div>
 
-</div>
-
-   <!--*****************-->
-    <!--  footer -->
-    <!--*****************-->
-    <footer class="footer" id="Contact">
-        <div class="footer__content">
-            <div class="footer__left">
-                <!--                <div class="footer__icon-box">-->
-                <!--                    <img src="img/GIT-LOGO-footer.png" alt="" class="footer__icon-img">-->
-                <!--                </div>-->
-                <div>
-                    <!--*****************-->
-    <!--  footer--header -->
-    <!--*****************-->
-                    <h1 class="heading heading-hug">Get in touch</h1>
+        <div class="stories__content">
+            <div class="stories__box">
+                <svg class="about__slide--svg">
+                    <use xlink:href="img/sprite.svg#icon-quotes-left"></use>
+                </svg>
+                <h4 class="about__slide--header">I changed my life with joining GiT</h4>
+                <blockquote class="about__slide--quote">
+                    I felt lonly when I started to live abroad...I had difficult time...but when I joined GiT,
+                    it
+                    made me and my life happy
+                    with new great friends
+                    It made me busy with different plans and happy time. I am really happy when I spend my time
+                    with the group, who understand me
+                </blockquote>
+                <div class="about__slide--address">
+                    <img src="img/Negar.jpg" alt="Pic of Negar" class="about__slide--img">
+                    <h6 class="about__slide--name">
+                        Negar Arianmehr
+                        <span class="about__slide--location">From Iran</span>
+                    </h6>
                 </div>
-                <!--*****************-->
-    <!--  footer-social-media -->
-    <!--*****************-->
-                <div>
-                    <ul class="footer__ul">
-                        <li class="footer__items"><a href="#" class="footer__link">
-                            <svg class="footer__svg">
-                                <use xlink:href="img/sprite.svg#icon-facebook"></use>
-                            </svg>
-                        </a></li>
-                        <li class="footer__items"><a href="#" class="footer__link">
-                            <svg class="footer__svg">
-                                <use xlink:href="img/sprite.svg#icon-mail2"></use>
-                            </svg>
-                        </a></li>
-                        <li class="footer__items"><a href="#" class="footer__link">
-                            <svg class="footer__svg">
-                                <use xlink:href="img/sprite.svg#icon-phone"></use>
-                            </svg>
-                        </a></li>
-                        <li class="footer__items"><a href="#" class="footer__link">
-                            <svg class="footer__svg">
-                                <use xlink:href="img/sprite.svg#icon-whatsapp"></use>
-                            </svg>
-                        </a></li>
-                    </ul>
-                </div>
+                <!--                    </div>-->
             </div>
-            <div class="footer__right">
+        </div>
+    </section>
+
+</main>
+<!--*****************-->
+<!--  footer -->
+<!--*****************-->
+<footer class="footer" id="Contact">
+    <div class="footer__content">
+        <div class="footer__left">
+            <!--                <div class="footer__icon-box">-->
+            <!--                    <img src="img/GIT-LOGO-footer.png" alt="" class="footer__icon-img">-->
+            <!--                </div>-->
+            <div>
                 <!--*****************-->
-    <!--  footer--form -->
-    <!--*****************-->
-                <form action="" class="footer__form">
-                    <input type="text" class="footer__input" placeholder="Name">
-                    <input type="text" class="footer__input" placeholder="Email address">
-                    <textarea class="footer__input" rows="5" cols="50" placeholder="Message"></textarea>
-                </form>
+                <!--  footer--header -->
+                <!--*****************-->
+                <h1 class="heading heading-hug">Get in touch</h1>
             </div>
             <!--*****************-->
-    <!--  footer-arrow -->
-    <!--*****************-->
-            <div class="footer__arrow">
-                <svg class="footer__arrow--svg">
-                    <use xlink:href="img/sprite.svg#icon-arrow-circle-up"></use>
-                </svg>
+            <!--  footer-social-media -->
+            <!--*****************-->
+            <div>
+                <ul class="footer__ul">
+                    <li class="footer__items"><a href="#" class="footer__link">
+                        <svg class="footer__svg">
+                            <use xlink:href="img/sprite.svg#icon-facebook"></use>
+                        </svg>
+                    </a></li>
+                    <li class="footer__items"><a href="#" class="footer__link">
+                        <svg class="footer__svg">
+                            <use xlink:href="img/sprite.svg#icon-mail2"></use>
+                        </svg>
+                    </a></li>
+                    <li class="footer__items"><a href="#" class="footer__link">
+                        <svg class="footer__svg">
+                            <use xlink:href="img/sprite.svg#icon-phone"></use>
+                        </svg>
+                    </a></li>
+                    <li class="footer__items"><a href="#" class="footer__link">
+                        <svg class="footer__svg">
+                            <use xlink:href="img/sprite.svg#icon-whatsapp"></use>
+                        </svg>
+                    </a></li>
+                </ul>
             </div>
         </div>
-<!--*****************-->
+        <div class="footer__right">
+            <!--*****************-->
+            <!--  footer--form -->
+            <!--*****************-->
+            <form action="" class="footer__form">
+                <input type="text" class="footer__input" placeholder="Name">
+                <input type="text" class="footer__input" placeholder="Email address">
+                <textarea class="footer__input" rows="5" cols="50" placeholder="Message"></textarea>
+            </form>
+        </div>
+        <!--*****************-->
+        <!--  footer-arrow -->
+        <!--*****************-->
+        <div class="footer__arrow">
+            <svg class="footer__arrow--svg">
+                <use xlink:href="img/sprite.svg#icon-arrow-circle-up"></use>
+            </svg>
+        </div>
+    </div>
+    <!--*****************-->
     <!--  footer--maker -->
     <!--*****************-->
-        <div class="footer__maker">
-            <div >
-                <p class="footer__maker--name">illustrated by: delaram ashtari</p>
-                <span>
+    <div class="footer__maker">
+        <div>
+            <p class="footer__maker--name">illustrated by: delaram ashtari</p>
+            <span>
                     <svg class="footer__maker--email">
                         <use xlink:href="img/sprite.svg#icon-mail2"></use>
                     </svg>
                 </span>
-            </div>
-
-            <div>
-                <p class="footer__maker--name"> developed by: Negar Arianmehr</p>
-                <span>
-                    <svg class="footer__maker--email">
-                        <use xlink:href="img/sprite.svg#icon-mail2"></use>
-                    </svg>
-                </span>
-            </div>
         </div>
 
-    </footer>
+        <div>
+            <p class="footer__maker--name"> developed by: Negar Arianmehr</p>
+            <span>
+                    <svg class="footer__maker--email">
+                        <use xlink:href="img/sprite.svg#icon-mail2"></use>
+                    </svg>
+                </span>
+        </div>
+    </div>
+
+</footer>
+
+<script src="js/nav.js"></script>
 </body>
 </html>

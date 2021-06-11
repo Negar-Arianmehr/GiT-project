@@ -380,6 +380,10 @@ li {
     font-family: "PT Serif", serif;
     padding-left: 1.2rem;
     padding-top: 2.1rem; }
+    @media only screen and (max-width: 700px) {
+      .about__slide--header {
+        padding-left: 1rem;
+        padding-top: 1.5rem; } }
   .about__slide--quote {
     grid-row: 2/3;
     grid-column: 1/-1;
@@ -936,7 +940,7 @@ li {
         max-width: 25rem;
         margin: 6rem auto; } }
   .members__card {
-    box-shadow: 0 1rem 2.5rem #000;
+    box-shadow: 2px 2.5rem 2.5rem #919090;
     transition: all 1s ease-in-out;
     border: 1px solid transparent;
     border-radius: 5px;
@@ -995,7 +999,8 @@ li {
     font-size: 1.5rem;
     color: #000;
     font-style: italic;
-    margin-bottom: 1.25rem; }
+    margin-bottom: 1.25rem;
+    wrap-option: 2rem; }
   .members__date {
     font-size: 1.35rem;
     color: #3d3d3d;
@@ -1109,7 +1114,7 @@ li {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 2.2rem; }
+    padding-bottom: 2.2rem; }
     @media only screen and (max-width: 500px) {
       .footer__maker {
         flex-direction: column; } }
@@ -1118,7 +1123,7 @@ li {
       font-style: oblique;
       font-size: 1.2rem;
       letter-spacing: .3rem;
-      color: #cccccc;
+      color: #f4f4f4;
       padding-bottom: 1rem;
       display: inline-block;
       text-transform: capitalize;
@@ -1139,6 +1144,82 @@ li {
         fill: #0b1024;
         transform: rotate(0) scale(1.2); }
 
+.stories__header {
+  background: url("../img/stories-bg.jpg") top;
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.stories__section {
+  position: relative;
+  z-index: 100; }
+
+.stories__content {
+  width: 80%;
+  transform: skewX(-12deg);
+  background-color: #fffbee;
+  margin: 4.5rem auto;
+  z-index: 100; }
+  @media only screen and (max-width: 570px) {
+    .stories__content {
+      transform: skewX(0); } }
+
+.stories__box {
+  width: 100%;
+  height: 25rem;
+  transform: skewX(12deg);
+  padding: 2.2rem 6.5rem;
+  display: flex;
+  flex-direction: column; }
+  @media only screen and (max-width: 900px) {
+    .stories__box {
+      padding: 2rem 5rem; } }
+  @media only screen and (max-width: 800px) {
+    .stories__box {
+      padding: 1.5rem 5rem;
+      margin-left: 1rem; } }
+  @media only screen and (max-width: 650px) {
+    .stories__box {
+      padding: 1.5rem 2.9rem; } }
+  @media only screen and (max-width: 570px) {
+    .stories__box {
+      transform: skewX(0);
+      margin-left: 0;
+      padding: 1rem .4rem; } }
+
+.stories__box--shadow {
+  position: absolute;
+  width: 80%;
+  height: 20rem;
+  bottom: -6rem;
+  right: 12.5rem;
+  background-color: #bfbaa9;
+  transform: skewX(-12deg);
+  z-index: -1;
+  margin: 4.5rem auto; }
+  @media only screen and (max-width: 570px) {
+    .stories__box--shadow {
+      transform: skewX(0);
+      right: 10rem; } }
+  @media only screen and (max-width: 500px) {
+    .stories__box--shadow {
+      right: 7.5rem; } }
+
+.collection__bg {
+  height: 45vh;
+  background: linear-gradient(to right, rgba(224, 224, 224, 0.5), rgba(119, 119, 119, 0.8)), url("../img/DSCF5656.jpg") bottom;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.collection__content {
+  height: 100%;
+  display: grid;
+  grid-template-columns: minmax(2rem, 5rem) repeat(8, 1fr) minmax(2rem, 5rem); }
+
 .moreMembers__header {
   height: 80vh;
   background-image: linear-gradient(to right, rgba(20, 20, 20, 0.35), rgba(119, 119, 119, 0.5)), url("../img/DSCF5697.JPG");
@@ -1148,41 +1229,38 @@ li {
   .moreMembers__header__heading {
     text-align: center; }
 
-.moreMembers__box {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-content: space-around;
-  height: max-content; }
-  .moreMembers__box > * {
-    margin: 5rem 5rem; }
-
-.moreMembers__card {
-  max-width: 35rem;
-  width: 100%;
-  height: 50rem;
-  background-color: rgba(255, 255, 255, 0.5); }
-
-.moreMembers__fig {
-  position: relative;
-  margin-left: 2.2rem; }
-
-.moreMembers__shadow {
-  position: absolute;
-  top: 2.5rem;
-  left: -2.5rem;
-  height: 25rem;
-  width: 25rem;
-  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); }
-
-.moreMembers__img--box {
-  height: 30rem;
-  width: 30rem;
-  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); }
-
-.moreMembers__img {
-  width: 100%;
-  height: auto; }
+.moreMembers {
+  max-height: 200rem;
+  margin-bottom: 10rem; }
+  .moreMembers__box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 2rem 5rem; }
+    .moreMembers__box > * {
+      margin: 5rem 5rem; }
+  .moreMembers__card {
+    max-width: 35rem;
+    width: 100%;
+    height: 50rem;
+    background-color: rgba(255, 255, 255, 0.5); }
+  .moreMembers__fig {
+    position: relative;
+    margin-left: 2.2rem; }
+  .moreMembers__shadow {
+    position: absolute;
+    top: 2.5rem;
+    left: -2.5rem;
+    height: 25rem;
+    width: 25rem;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); }
+  .moreMembers__img--box {
+    height: 30rem;
+    width: 30rem;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); }
+  .moreMembers__img {
+    width: 100%;
+    height: auto; }
 
 .popup {
   height: 100vh;
@@ -1194,36 +1272,34 @@ li {
   z-index: 22222;
   display: flex;
   flex-flow: column;
+  justify-content: center;
   align-items: center; }
 
 .popup-hidden {
   display: none; }
 
-.popup__content {
-  /* margin-bottom: 8rem; */
-  margin: 10rem auto;
-  width: 75%;
-  height: 70%;
-  border-radius: 10px;
-  display: flex;
-  font-size: 2rem;
-  opacity: 0;
-  transition: opacity 1s; }
+.popup__close--btn {
+  position: fixed;
+  top: 7rem;
+  right: 20rem;
+  z-index: 33333333; }
 
 .country {
   background-color: #fff;
-  box-shadow: 0 2rem 5rem 1rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.5);
   font-size: 1.8rem;
   width: 35rem;
   height: max-content;
-  border-radius: 1rem;
-  margin: auto;
-  /* overflow: hidden; */ }
+  border-radius: 5rem;
+  margin-top: 2.2rem; }
 
 .country__img-box {
   width: 100%;
   height: 25rem;
-  text-align: center; }
+  text-align: center;
+  border-top-right-radius: 5rem;
+  border-top-left-radius: 5rem;
+  overflow: hidden; }
 
 .country__img {
   width: 100%;

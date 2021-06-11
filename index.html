@@ -378,7 +378,7 @@
             </div>
 
             <div class="gallery__btn hover">
-                <a href="gallery.html" class="btn" target="_blank">watch us more</a>
+                <a href="gallery.html" class="btn" target="_blank">watch more</a>
             </div>
         </section>
 
@@ -483,7 +483,15 @@
                         </q>
                         <div>
                             <span class="members__date">since October, 2016</span>
-                            <span class="members__from">From Nepal</span>
+                            <span>
+                                <button class="members__from">
+                                    <svg class="members__from--svg">
+                                        <use xlink:href="img/sprite.svg#icon-info"></use>
+                                    </svg>
+                                    <span>From <span class="from">Nepal</span></span>
+                                </button>
+                             </span>
+                            <span class="members__data">Currently Live in Utrecht</span>
                         </div>
                     </div>
                 </div>
@@ -499,7 +507,16 @@
                             and exploring the city
                         </q>
                         <div><span class="members__date">since February, 2020</span>
-                            <span class="members__from">From India</span></div>
+                            <span>
+                                <button class="members__from">
+                                    <svg class="members__from--svg">
+                                        <use xlink:href="img/sprite.svg#icon-info"></use>
+                                    </svg>
+                                    <span>From <span class="from">Nepal</span></span>
+                                </button>
+                             </span>
+                            <span class="members__data">Currently Live in Utrecht</span>
+                        </div>
                     </div>
                 </div>
                 <!--card -3-->
@@ -513,8 +530,18 @@
                             GiT helped me to make Eindhoven my home, by meeting new friends, building a social network
                             and exploring the city
                         </q>
-                        <div><span class="members__date">since August, 2016</span>
-                            <span class="members__from">From France</span></div>
+                        <div>
+                            <span class="members__date">since August, 2016</span>
+                            <span>
+                                <button class="members__from">
+                                    <svg class="members__from--svg">
+                                        <use xlink:href="img/sprite.svg#icon-info"></use>
+                                    </svg>
+                                    <span>From <span class="from">Nepal</span></span>
+                                </button>
+                             </span>
+                            <span class="members__data">Currently Live in Utrecht</span>
+                        </div>
                     </div>
                 </div>
                 <!--card -4-->
@@ -526,7 +553,15 @@
                     <div class="members__card--info">
                         <q class="text members__text">I made great friends with GiT group.</q>
                         <div><span class="members__date">At 2019</span>
-                            <span class="members__from">From Iran</span></div>
+                            <span>
+                                <button class="members__from">
+                                    <svg class="members__from--svg">
+                                        <use xlink:href="img/sprite.svg#icon-info"></use>
+                                    </svg>
+                                    <span>From <span class="from">Nepal</span></span>
+                                </button>
+                             </span>
+                            <span class="members__data">Currently Live in Utrecht</span></div>
                     </div>
                 </div>
                 <!--card -5-->
@@ -538,7 +573,15 @@
                     <div class="members__card--info">
                         <q class="text members__text">I made great friends with GiT group.</q>
                         <div><span class="members__date">At 2019</span>
-                            <span class="members__from">From Iran</span></div>
+                            <span>
+                                <button class="members__from">
+                                    <svg class="members__from--svg">
+                                        <use xlink:href="img/sprite.svg#icon-info"></use>
+                                    </svg>
+                                    <span>From <span class="from">Nepal</span></span>
+                                </button>
+                             </span>
+                            <span class="members__data">Currently Live in Utrecht</span></div>
                     </div>
                 </div>
                 <!--card -6-->
@@ -550,7 +593,15 @@
                     <div class="members__card--info">
                         <q class="text members__text">I made great friends with GiT group.</q>
                         <div><span class="members__date">At 2019</span>
-                            <span class="members__from">From Iran</span></div>
+                            <span>
+                                <button class="members__from">
+                                    <svg class="members__from--svg">
+                                        <use xlink:href="img/sprite.svg#icon-info"></use>
+                                    </svg>
+                                    <span>From <span class="from">Nepal</span></span>
+                                </button>
+                             </span>
+                            <span class="members__data">Currently Live in Utrecht</span></div>
                     </div>
                 </div>
                 <!--                <button class="members__slider__btn members__slider__btn&#45;&#45;right">-->
@@ -565,8 +616,16 @@
     <!--*****************-->
     <!--  popup for country -->
     <!--*****************-->
-    <div class="popup-hidden">
-        <div class="popup__content"></div>
+    <div class="popup-hidden" id="popup">
+        <div class="popup__content">
+        </div>
+    </div>
+    <div class="popup__close--btn popup-hidden" id="close">
+        <button class="collapse-nav__btn">
+            <svg class="collapse-nav__svg">
+                <use xlink:href="img/sprite.svg#icon-close"></use>
+            </svg>
+        </button>
     </div>
     <!--*****************-->
     <!--  footer -->
@@ -661,6 +720,7 @@
 <!--*****************-->
 <script src="js/nav.js"></script>
 <script src="js/script.js"></script>
+<script src="js/country.js"></script>
 <!--fortawesome-->
 <script defer src="node_modules/@fortawesome/fontawesome-free/js/brands.js"></script>
 <script defer src="node_modules/@fortawesome/fontawesome-free/js/solid.js"></script>

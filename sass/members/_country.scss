@@ -9,6 +9,7 @@
 
   display: flex;
   flex-flow: column;
+  justify-content: center;
   align-items: center;
 }
 
@@ -16,55 +17,34 @@
   display: none;
 }
 
-.popup__content {
-  /* margin-bottom: 8rem; */
-  margin: 10rem auto;
-  width: 75%;
-  height: 70%;
-  //background-color: rgba($color-white, .6);
-  border-radius: 10px;
-  display: flex;
+.popup__close--btn {
+  position: fixed;
+  top: 7rem;
+  right: 20rem;
+  z-index: 33333333;
+}
 
-  font-size: 2rem;
-  opacity: 0;
-  transition: opacity 1s;
+.popup__content {
+
 }
 
 .country {
   background-color: #fff;
-  box-shadow: 0 2rem 5rem 1rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.5);
   font-size: 1.8rem;
   width: 35rem;
   height: max-content;
-  border-radius: 1rem;
-  margin: auto;
-  // opacity: 0;
-  //transition: opacity 1s;
-  /* overflow: hidden; */
+  border-radius: 5rem;
+  margin-top: 2.2rem;
 }
-
-//.neighbour::before {
-//  content: 'Neighbour country';
-//  width: 100%;
-//  position: absolute;
-//  top: -4rem;
-//
-//  text-align: center;
-//  font-size: 1.6rem;
-//  font-weight: 600;
-//  text-transform: uppercase;
-//  color: #888;
-//}
-
-//.neighbour {
-//  transform: scale(0.8) translateY(1rem);
-//  margin-left: 0;
-//}
 
 .country__img-box {
   width: 100%;
   height: 25rem;
   text-align: center;
+  border-top-right-radius: 5rem;
+  border-top-left-radius: 5rem;
+  overflow: hidden;
 }
 .country__img {
   width: 100%;
@@ -100,30 +80,3 @@
   margin-right: 2rem;
   font-size: 2.4rem;
 }
-
-//.btn-country {
-//  border: none;
-//  font-size: 2rem;
-//  padding: 2rem 5rem;
-//  border-radius: 0.7rem;
-//  color: white;
-//  background-color: orangered;
-//  cursor: pointer;
-//}
-//
-//.images {
-//  display: flex;
-//}
-//
-//.images img {
-//  display: block;
-//  width: 80rem;
-//  margin: 4rem;
-//}
-//
-//.images img.parallel {
-//  width: 40rem;
-//  margin: 2rem;
-//  border: 3rem solid white;
-//  box-shadow: 0 2rem 5rem 1rem rgba(0, 0, 0, 0.1);
-//}

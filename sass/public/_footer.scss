@@ -122,7 +122,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 2.2rem;
+    padding-bottom: 2.2rem;
     @media only screen and (max-width: 500px) {
       flex-direction: column;
     }
@@ -132,16 +132,16 @@
       font-style: oblique;
       font-size: 1.2rem;
       letter-spacing: .3rem;
-      color: $color-gray-light-3;
+      color: $color-gray-light-1;
       padding-bottom: 1rem;
       display: inline-block;
       text-transform: capitalize;
       text-align: center;
 
-       @media only screen and (max-width: 500px) {
-letter-spacing: .1rem;
-         margin-top: 2.2rem;
-       }
+      @media only screen and (max-width: 500px) {
+        letter-spacing: .1rem;
+        margin-top: 2.2rem;
+      }
     }
 
     &--email {

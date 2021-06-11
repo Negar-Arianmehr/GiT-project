@@ -2,10 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="118319de-ae63-4a5f-b3ae-30acab8bb243" name="Default Changelist" comment="new commits">
+      <change afterPath="$PROJECT_DIR$/img/DSCF5651.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/DSCF5656.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/stories.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/gallery/_collection.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/country.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/country.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/members.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/shadow-members.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/members.html" beforeDir="false" afterPath="$PROJECT_DIR$/members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/about-stories/_about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/about-stories/_about.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/about-stories/_moreStories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/about-stories/_moreStories.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/members/_country.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/members/_country.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/members/_members.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/members/_members.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/members/_more-members.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/members/_more-members.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/public/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/public/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stories.html" beforeDir="false" afterPath="$PROJECT_DIR$/stories.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +63,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../exercise/JAVASCRIPT-COURSE/complete-javascript-course-master/complete-javascript-course-master/16-Asynchronous" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -145,14 +161,9 @@
       <workItem from="1623062710487" duration="2922000" />
       <workItem from="1623086273258" duration="10838000" />
       <workItem from="1623139810315" duration="25377000" />
-      <workItem from="1623223777981" duration="7831000" />
-    </task>
-    <task id="LOCAL-00010" summary="add new css">
-      <created>1617870815388</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1617870815388</updated>
+      <workItem from="1623223777981" duration="18027000" />
+      <workItem from="1623307954785" duration="25896000" />
+      <workItem from="1623393633482" duration="1988000" />
     </task>
     <task id="LOCAL-00011" summary="add new css">
       <created>1617872608238</created>
@@ -490,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623249247836</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="new commits">
+      <created>1623250926656</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1623250926656</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

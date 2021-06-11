@@ -1,10 +1,12 @@
 /////////////////////////////////
 //country
 ////////////////////////////////
-const clickCountry = document.querySelector(".members__from")
-const popupContent = document.querySelector(".popup__content")
+const clickCountry = document.querySelectorAll(".members__from")
 const popupContainer = document.querySelector("#popup")
-const from = document.getElementById("from").textContent
+const popupContent = document.querySelector(".popup__content")
+const countryCard = document.querySelector(".country")
+const closePopupBtn = document.querySelector("#close")
+const [from] = document.querySelectorAll(".from")
 console.log(from)
 //get info about country from API
 const getCountryData = function (country) {
@@ -15,7 +17,6 @@ const getCountryData = function (country) {
     request.addEventListener("load", function () {
 
         const [data] = JSON.parse(this.responseText)
-        console.log(data)
         const html =
             `<article class="country"> 
                 <div class="country__img-box">
@@ -31,39 +32,48 @@ const getCountryData = function (country) {
             </article>`
 
         popupContent.insertAdjacentHTML("beforeend", html);
-        popupContent.style.opacity = 1;
-        console.log("data.name")
+//         countryCard.style.opacity =1;
+// countryCard.setAttribute("style", "opacity: 1 !important")
+    })
+}
+
+// //open popup
+clickCountry.forEach((i) => i.addEventListener("click", function () {
+    if (popupContainer.className === "popup-hidden") {
+        popupContainer.className = "popup";
+        popupContainer.classList.remove("popup-hidden")
+        // countryCard.style.opacity = 1;
+
+        closePopupBtn.classList.remove("popup-hidden")
+        // from.forEach((i) => {
+            const text = from.textContent
+            getCountryData(text)
+        // })
+    }
+}))
+
+//close popup
+const closePopup = document.querySelectorAll("#close, #popup")
+
+for (let i = 0; i < closePopup.length; i++) {
+    closePopup[i].addEventListener("click", function () {
+        if (popupContainer.className === "popup") {
+            popupContainer.className = "popup-hidden"
+            closePopupBtn.classList.add("popup-hidden")
+            //remove the html part we add with getCountryData with function
+            popupContent.innerHTML = ""
+        }
     })
 }
 
 
 
-
-// const showCountry = function () {
-//     clickCountry.forEach((from) => {
-//         from.addEventListener("click", function () {
-//             getCountryData(from)
-//         })
-//     })
-// }
-// console.log(showCountry())
-// showCountry("from")
-
-
-// //open popup
-clickCountry.addEventListener("click", function () {
-    if (popupContainer.className === "popup-hidden") {
-        popupContainer.className = "popup";
-        popupContainer.classList.remove("popup-hidden")
-        popupContent.setAttribute("style", "opacity : 1")
-        getCountryData(from)
-    }
-})
-
-//close popup
-
-const closePopup = document.querySelectorAll("#close, #popup")
-
-for (let i = 0; i < closePopup.length; i++) {
-    closePopup[i].addEventListener("click", function ())
-}
+    // closePopup.forEach( () => addEventListener("click", function () {
+    //     if (popupContainer.className === "popup") {
+    //         popupContainer.className = "popup-hidden"
+    //         closePopupBtn.classList.add("popup-hidden")
+    //         //remove the html part we add with getCountryData with function
+    //         popupContent.innerHTML = ""
+    //         // popupContainer.childNodes(countryCard)
+    //     }
+    // }))

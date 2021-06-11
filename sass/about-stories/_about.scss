@@ -3,28 +3,28 @@
   margin: 1.5rem 15rem 3.5rem;
 
   @include respond(lab-medium) {
-      margin: 1.5rem 12rem;
+    margin: 1.5rem 12rem;
   }
-    @include respond(small-phone) {
-      margin: 1.5rem 6rem;
+  @include respond(small-phone) {
+    margin: 1.5rem 6rem;
   }
 
   @include respond(most-phone) {
-      margin: 1.5rem 2.5rem;
+    margin: 1.5rem 2.5rem;
   }
 
   &__history {
     padding-left: 2.5rem;
   }
 
-   &__text {
+  &__text {
     font-size: 1.6rem;
-     line-height: 2;
+    line-height: 2;
     font-family: $font-family-simple;
     color: $color-gray-dark-2;
     //text-align: justify;
     margin-bottom: 1.5rem;
-     margin-top: 2.5rem;
+    margin-top: 2.5rem;
 
     //&::first-letter {
     //  font-size: 2rem;
@@ -33,14 +33,14 @@
   }
 
   //slider
-    &__title {
+  &__title {
     //padding-left: 3.5rem;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     //height: 5rem;
     //margin-top: 2rem;
-      margin-left: 2.5rem;
+    margin-left: 2.5rem;
   }
 
   &__svg {
@@ -51,6 +51,7 @@
     margin-top: 1.1rem;
     align-self: center;
   }
+
   &__slider {
     max-width: 100rem;
     height: 30rem;
@@ -58,9 +59,9 @@
     position: relative;
     overflow: hidden;
 
-      @include respond(lab-medium) {
+    @include respond(lab-medium) {
       height: 34rem;
-  }
+    }
   }
 
   &__slide {
@@ -89,6 +90,12 @@
     height: 2rem;
     width: 2rem;
     fill: $color-main;
+//    @media only screen and (max-width: 600px) {
+//      margin: .5rem;
+//    }
+//    @media only screen and (min-width: 360px) and (max-width: 511px) {
+//margin: 0;
+//  }
   }
 
   &__slide--header {
@@ -98,6 +105,10 @@
     font-family: $font-family-simple;
     padding-left: 1.2rem;
     padding-top: 2.1rem;
+    @media only screen and (max-width: 700px) {
+      padding-left: 1rem;
+      padding-top: 1.5rem;
+    }
   }
 
   &__slide--quote {
@@ -133,7 +144,6 @@
 
   &__slide--location {
     display: block;
-    //align-self: center;
   }
 
   &__slider__btn {
@@ -158,12 +168,12 @@
     transform: translate(50%, -50%);
   }
 
-    &__btn {
+  &__btn {
     text-align: center;
     margin-top: 2.75rem;
-      margin-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
 
-       @include respond(lab-medium) {
+    @include respond(lab-medium) {
       margin-bottom: 2.5rem;
     }
   }
