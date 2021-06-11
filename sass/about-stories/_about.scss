@@ -177,18 +177,20 @@
       margin-bottom: 2.5rem;
     }
   }
-
-
 }
 
 .dots {
-  position: absolute;
+
+
+  &__about {
+    position: absolute;
   bottom: 5%;
   left: 50%;
   transform: translateX(-50%);
 
   @include respond(most-phone) {
     margin-top: 2.2rem;
+  }
   }
 
   &__dot {

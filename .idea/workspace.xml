@@ -1,27 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="118319de-ae63-4a5f-b3ae-30acab8bb243" name="Default Changelist" comment="new commits">
-      <change afterPath="$PROJECT_DIR$/img/DSCF5651.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/DSCF5656.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/stories.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/gallery/_collection.scss" afterDir="false" />
+    <list default="true" id="118319de-ae63-4a5f-b3ae-30acab8bb243" name="Default Changelist" comment="new commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/country.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/country.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/members.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/shadow-members.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/members.html" beforeDir="false" afterPath="$PROJECT_DIR$/members.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/about-stories/_about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/about-stories/_about.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/about-stories/_moreStories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/about-stories/_moreStories.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/gallery/_collection.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/gallery/_collection.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/members/_country.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/members/_country.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/members/_members.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/members/_members.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/members/_more-members.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/members/_more-members.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/public/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/public/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stories.html" beforeDir="false" afterPath="$PROJECT_DIR$/stories.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,14 +150,7 @@
       <workItem from="1623139810315" duration="25377000" />
       <workItem from="1623223777981" duration="18027000" />
       <workItem from="1623307954785" duration="25896000" />
-      <workItem from="1623393633482" duration="1988000" />
-    </task>
-    <task id="LOCAL-00011" summary="add new css">
-      <created>1617872608238</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1617872608238</updated>
+      <workItem from="1623393633482" duration="10810000" />
     </task>
     <task id="LOCAL-00012" summary="add new css">
       <created>1617968726643</created>
@@ -508,7 +488,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623250926656</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="new commit">
+      <created>1623395770474</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1623395770475</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -539,8 +526,8 @@
     <MESSAGE value="process of adding map in the new page" />
     <MESSAGE value="made new html file" />
     <MESSAGE value="new code" />
-    <MESSAGE value="new commit" />
     <MESSAGE value="new commits" />
-    <option name="LAST_COMMIT_MESSAGE" value="new commits" />
+    <MESSAGE value="new commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="new commit" />
   </component>
 </project>

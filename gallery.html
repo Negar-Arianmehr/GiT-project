@@ -13,21 +13,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
           rel="stylesheet">
-
     <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
-    <!-- Link Swiper's CSS -->
-    <link
-            rel="stylesheet"
-            href="https://unpkg.com/swiper/swiper-bundle.min.css"
-    />
+
     <link rel="shourtcut icon" type="img/png" href="img/GIT-LOGO.png">
     <title>Get In Touch</title>
 </head>
 <body>
-
 <!--*****************-->
 <!--    Header-->
 <!--*****************-->
@@ -138,10 +132,47 @@
     <section class="collection__section">
         <div class="collection__content">
             <div class="collection__pics">
-
+                <!--*****************-->
+                <!--collection__slider-->
+                <!--*****************-->
+                <div class="about__slider">
+                    <div class="about__slide">
+                        <!--collection-img--box-->
+                        <div class="collection__img--box">
+                            <!--collection-img--1-->
+                            <img src="img/pic-1.jpg" alt="" class="collection__img">
+                        </div>
+                    </div>
+                    <div class="about__slide">
+                        <!--collection-img--box-->
+                        <div class="collection__img--box">
+                            <!--collection-img--2-->
+                            <img src="img/pic-2.jpg" alt="" class="collection__img">
+                        </div>
+                    </div>
+                    <button class="about__slider__btn about__slider__btn--left">
+                        <svg class="about__svg">
+                            <use xlink:href="img/sprite.svg#icon-arrow-circle-left"></use>
+                        </svg>
+                    </button>
+                    <button class="about__slider__btn about__slider__btn--right">
+                        <svg class="about__svg">
+                            <use xlink:href="img/sprite.svg#icon-arrow-circle-right"></use>
+                        </svg>
+                    </button>
+                </div>
             </div>
-            <div class="collection__text">
-
+            <div class="dots collection__dots"></div>
+<!--collection-text--box-->
+            <div class="collection__text--box">
+<!--                <div class="collection__text&#45;&#45;box">-->
+                    <div class="collection__text--title">
+                        <h2 class="heading heading-medium">name of activity</h2>
+                    </div>
+                    <div class="collection__text--date">
+                        <h4 class="heading heading-small">date</h4>
+                    </div>
+<!--                </div>-->
             </div>
         </div>
     </section>
@@ -235,22 +266,6 @@
 <!--    JavaScript-->
 <!--*****************-->
 <script src="js/nav.js"></script>
-<!--&lt;!&ndash; Swiper JS &ndash;&gt;-->
-<!--<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>-->
-
-<!--&lt;!&ndash; Initialize Swiper &ndash;&gt;-->
-<!--<script>-->
-<!--    const swiper = new Swiper(".mySwiper", {-->
-<!--        direction: "vertical",-->
-<!--        slidesPerView: 1,-->
-<!--        spaceBetween: 30,-->
-<!--        mousewheel: true,-->
-<!--        pagination: {-->
-<!--            el: ".swiper-pagination",-->
-<!--            clickable: true,-->
-<!--        },-->
-<!--    });-->
-<!--    swiper-->
-<!--</script>-->
+<script src="js/script.js"></script>
 </body>
 </html>
