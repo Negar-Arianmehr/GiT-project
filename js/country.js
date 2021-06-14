@@ -7,7 +7,6 @@ const popupContent = document.querySelector(".popup__content")
 const countryCard = document.querySelector(".country")
 const closePopupBtn = document.querySelector("#close")
 const [from] = document.querySelectorAll(".from")
-console.log(from)
 //get info about country from API
 const getCountryData = function (country) {
     const request = new XMLHttpRequest();

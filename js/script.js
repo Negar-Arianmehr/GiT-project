@@ -1,17 +1,11 @@
 
 /////////////////////////////////
-//scroll to up
-////////////////////////////////
-
-
-/////////////////////////////////
 //Reveal section
 ////////////////////////////////
 const allSections = document.querySelectorAll(".section")
 
 const revealSection = function (entries, observer) {
     const [entry] = entries;
-    // console.log(entry)
 
     if (!entry.isIntersecting) return;
 
@@ -42,10 +36,6 @@ const dotContainer = document.querySelector(".dots")
 let curSlide = 0
 const maxSlide = slides.length
 
-//for understanding what happen
-// const slider = document.querySelector(".about__slider")
-// slider.style.transform = "scale(0.4) translateX(-800px)"
-
 //function for creat Dots
 const createDots = function () {
     slides.forEach(function (_, i) {
@@ -60,11 +50,6 @@ const activeDot = function (slide) {
 
     document.querySelector(`.dots__dot[data-slide="${slide}"]`).classList.add("dots__dot--active")
 }
-
-
-//because we put gotoslide in 0
-// slides.forEach((s, i) => (s.style.transform = `translateX(${100 * i}%)`))
-//0%, 100%, 200%,
 
 //function for changing slides
 const goToSlide = function (slide) {
@@ -111,7 +96,7 @@ document.addEventListener("keydown", function (e) {
     e.key === "ArrowRight" && nextSlide()
 })
 
-//for works dots in slidershow
+//for works dots in slideershow
 dotContainer.addEventListener("click", function (e) {
     if (e.target.classList.contains("dots__dot")) {
         const {slide} = e.target.dataset
@@ -127,12 +112,9 @@ const cards = document.querySelectorAll(".members__card")
 const btnCardLeft = document.querySelector(".members__slider__btn--left")
 const btnCardRight = document.querySelector(".members__slider__btn--right")
 
-//,-50%, -25%, 0%, 25%, 50%
-// cards.forEach((c, i) => (c.style.transform = `translateX(${100 * i}%)`))
 
 let curCard = 0
 const maxCard = cards.length
-console.log(maxCard)
 
 //CAeousalcards
 let width = window.innerWidth
@@ -180,5 +162,6 @@ document.addEventListener("keydown", function (e) {
     if (e.key === "ArrowLeft") preCard()
     e.key === "ArrowRight" && nextCard()
 })
+
 
 

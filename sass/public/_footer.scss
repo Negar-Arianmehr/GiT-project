@@ -113,13 +113,18 @@
 
   &__arrow {
     align-self: flex-end;
-    fill: $color-main-dark;
+    fill: $color-gray-dark;
     padding: 1.5rem 2.5rem;
-
+    transition: trsnsform .8s;
+    cursor: pointer;
 
     &--svg {
       width: 3rem;
       height: 3rem;
+    }
+
+    &:hover {
+      transform: translateY(-10px);
     }
   }
 
