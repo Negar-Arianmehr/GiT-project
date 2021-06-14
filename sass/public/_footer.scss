@@ -42,9 +42,9 @@
   &__ul {
     text-align: center;
     display: flex;
-    flex-direction: column;
+    //flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   &__items {
@@ -56,13 +56,20 @@
     }
   }
 
-  &__link {
-    &:after {
+  &__last--item {
+    flex: 100;
+
+    & svg:after {
       content: ":";
       color: $color-gray-light-3;
       margin-left: -2rem;
       margin-bottom: -2rem;
     }
+  }
+
+  &__number {
+    font-size: 1.4rem;
+    color: $color-gray-light-2;
   }
 
   &__svg {
@@ -84,7 +91,7 @@
   &__form {
     display: flex;
     flex-direction: column;
-    width: 30rem;
+    width: 30vw;
     padding: 2.5rem;
     margin-top: 1.75rem;
 

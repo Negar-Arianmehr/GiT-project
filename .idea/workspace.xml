@@ -2,7 +2,72 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="118319de-ae63-4a5f-b3ae-30acab8bb243" name="Default Changelist" comment="new commit">
+      <change afterPath="$PROJECT_DIR$/img/members/JennyCampos.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/members/Megha.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/members/bg-members.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/members/member-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/members/member-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/members/member-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/members/member-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/members/proghita.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/DSCF5651.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/DSCF5656.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/img/DSCF5656.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/DSCF5697.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/GIT FLYER.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/GIT-LOGO-footer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/GIT-LOGO-footer.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/GiT outing in Pairs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/IMG_20210224_141336.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/IMG_20210304_144902-COLLAGE.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/JennyCampos.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Megha.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Mexican Wedding.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/P1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/SVG/angellist.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/SVG/arrow-circle-o-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/SVG/arrow-circle-o-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/SVG/cancel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/SVG/instagram.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/SVG/menu.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/SVG/menu1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/SVG/th-menu.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/SVG/twitter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/contact.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/eindhoven.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/eindhoven2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/member-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/member-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/member-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/member-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pexels-fwstudio-172289.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pic-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery/pic-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pic-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery/pic-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pic-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery/pic-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pic-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery/pic-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pic-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery/pic-5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pic-6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery/pic-6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pic-7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery/pic-7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pic-8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery/pic-8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pic-9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery/pic-9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/progita.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/project-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/project-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/project.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/project.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sprite0.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/stories.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/members.html" beforeDir="false" afterPath="$PROJECT_DIR$/members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_nowProject.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_projects.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bases/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/bases/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/gallery/_gallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/gallery/_gallery.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/public/_btn.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/public/_btn.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/public/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/public/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/public/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/public/_nav.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,11 +119,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\HTML\HTML\portfolio\GiT-Advancebootstrap\new\img\members" />
+      <recent name="D:\HTML\HTML\portfolio\GiT-Advancebootstrap\new\img\galler" />
       <recent name="D:\HTML\HTML\portfolio\GiT-Advancebootstrap\new\sass\about-stories" />
       <recent name="D:\HTML\HTML\portfolio\GiT-Advancebootstrap\new\sass\members" />
       <recent name="D:\HTML\HTML\portfolio\GiT-Advancebootstrap\new\sass\activities" />
-      <recent name="D:\HTML\HTML\portfolio\GiT-Advancebootstrap\new\sass\stories" />
-      <recent name="D:\HTML\HTML\portfolio\GiT-Advancebootstrap\new\sass\gallery" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start">
@@ -147,21 +212,7 @@
       <workItem from="1623393633482" duration="18076000" />
       <workItem from="1623415532933" duration="1997000" />
       <workItem from="1623429311336" duration="5247000" />
-      <workItem from="1623485158113" duration="1043000" />
-    </task>
-    <task id="LOCAL-00014" summary="add new css">
-      <created>1618906977440</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1618906977440</updated>
-    </task>
-    <task id="LOCAL-00015" summary="add new css">
-      <created>1618908740442</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1618908740442</updated>
+      <workItem from="1623485158113" duration="15497000" />
     </task>
     <task id="LOCAL-00016" summary="add new css">
       <created>1619009090538</created>
@@ -492,7 +543,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623436473587</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="new commit">
+      <created>1623487061826</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1623487061826</updated>
+    </task>
+    <task id="LOCAL-00064" summary="new commit">
+      <created>1623488683806</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1623488683806</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
