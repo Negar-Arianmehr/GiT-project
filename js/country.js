@@ -6,9 +6,11 @@ const popupContainer = document.querySelector("#popup")
 const popupContent = document.querySelector(".popup__content")
 const countryCard = document.querySelector(".country")
 const closePopupBtn = document.querySelector("#close")
-const [from] = document.querySelectorAll(".from")
+const from = document.querySelectorAll(".from")
+
 //get info about country from API
 const getCountryData = function (country) {
+
     const request = new XMLHttpRequest();
     request.open("GET", `https://restcountries.eu/rest/v2/name/${country}`)
     request.send()
@@ -31,8 +33,7 @@ const getCountryData = function (country) {
             </article>`
 
         popupContent.insertAdjacentHTML("beforeend", html);
-//         countryCard.style.opacity =1;
-// countryCard.setAttribute("style", "opacity: 1 !important")
+        popupContent.style.opacity = 1;
     })
 }
 
@@ -44,9 +45,17 @@ clickCountry.forEach((i) => i.addEventListener("click", function () {
         // countryCard.style.opacity = 1;
 
         closePopupBtn.classList.remove("popup-hidden")
-        // from.forEach((i) => {
-            const text = from.textContent
-            getCountryData(text)
+
+        // from.forEach((i, n) => {
+        //     console.log(i)
+        //     const text = []
+        //     text[n].push(i.textContent)
+        //
+        //     console.log(listText)
+        //     // // const text = from[i].textContent
+        //     // getCountryData(text)
+        //     // console.log(from)
+        //     // console.log(text)
         // })
     }
 }))
@@ -61,18 +70,19 @@ for (let i = 0; i < closePopup.length; i++) {
             closePopupBtn.classList.add("popup-hidden")
             //remove the html part we add with getCountryData with function
             popupContent.innerHTML = ""
+            popupContent.style.opacity = 0;
+
         }
     })
 }
 
 
-
-    // closePopup.forEach( () => addEventListener("click", function () {
-    //     if (popupContainer.className === "popup") {
-    //         popupContainer.className = "popup-hidden"
-    //         closePopupBtn.classList.add("popup-hidden")
-    //         //remove the html part we add with getCountryData with function
-    //         popupContent.innerHTML = ""
-    //         // popupContainer.childNodes(countryCard)
-    //     }
-    // }))
+// closePopup.forEach( () => addEventListener("click", function () {
+//     if (popupContainer.className === "popup") {
+//         popupContainer.className = "popup-hidden"
+//         closePopupBtn.classList.add("popup-hidden")
+//         //remove the html part we add with getCountryData with function
+//         popupContent.innerHTML = ""
+//         // popupContainer.childNodes(countryCard)
+//     }
+// }))

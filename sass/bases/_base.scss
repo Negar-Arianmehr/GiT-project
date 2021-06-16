@@ -76,11 +76,10 @@ li {
   display: inline-block;
 }
 
-.container {
-  display: grid;
-  grid-template-rows: repeat(6, min-content);
-  //grid-template-columns: ;
-}
+//.container {
+//  display: grid;
+//  grid-template-rows: repeat(4, min-content) max-content min-content;
+//}
 
 .main {
   background-color: $color-white;

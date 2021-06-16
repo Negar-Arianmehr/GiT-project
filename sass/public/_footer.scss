@@ -58,18 +58,20 @@
 
   &__last--item {
     flex: 100;
-
-    & svg:after {
-      content: ":";
-      color: $color-gray-light-3;
-      margin-left: -2rem;
-      margin-bottom: -2rem;
-    }
+    display: flex;
+    align-items: baseline;
   }
 
   &__number {
     font-size: 1.4rem;
     color: $color-gray-light-2;
+    &:before {
+      content: ":";
+      color: $color-gray-light-3;
+      margin-left: -2rem;
+      margin-right: 1rem;
+      //margin-bottom: -2rem;
+    }
   }
 
   &__svg {

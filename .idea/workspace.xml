@@ -2,21 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="118319de-ae63-4a5f-b3ae-30acab8bb243" name="Default Changelist" comment="new commit">
+      <change afterPath="$PROJECT_DIR$/admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/SVG/bubbles3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/SVG/calendar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/SVG/camera.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/SVG/cool.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/SVG/flag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/SVG/gift.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/SVG/laughing-face.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/SVG/megaphone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/SVG/shopping-cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/SVG/smiling-face.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/SVG/sound.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/SVG/sports-shoe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/SVG/store-front.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/SVG/study.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/SVG/video.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/SVG/woman.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cycling-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cycling-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cycling-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cycling-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/members/members-bg-homePage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sample-of-gallery.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/_admin.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/activities.html" beforeDir="false" afterPath="$PROJECT_DIR$/activities.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gallery-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/bg-test.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/bg-test.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/members-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/members/bg-members.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/img/members/bg-members.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/sprite.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/country.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/country.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/nav-scrollUp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/nav-scrollUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/_nav.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/members.html" beforeDir="false" afterPath="$PROJECT_DIR$/members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_bg-header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_bg-header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/activities/_activities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/activities/_activities.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/activities/_more-activities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/activities/_more-activities.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bases/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/bases/_base.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/members/_country.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/members/_country.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/members/_members.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/members/_members.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/members/_more-members.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/members/_more-members.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/public/_btn.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/public/_btn.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/public/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/public/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/public/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/public/_nav.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stories.html" beforeDir="false" afterPath="$PROJECT_DIR$/stories.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +63,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="SCSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -59,7 +94,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../exercise/JAVASCRIPT-COURSE/complete-javascript-course-master/complete-javascript-course-master/16-Asynchronous" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../exercise/JAVASCRIPT-COURSE/complete-javascript-course-master/complete-javascript-course-master/16-Asynchronous/starter" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -163,14 +198,9 @@
       <workItem from="1623415532933" duration="1997000" />
       <workItem from="1623429311336" duration="5247000" />
       <workItem from="1623485158113" duration="15497000" />
-      <workItem from="1623651904129" duration="5167000" />
-    </task>
-    <task id="LOCAL-00017" summary="add new css">
-      <created>1619009340308</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1619009340308</updated>
+      <workItem from="1623651904129" duration="26350000" />
+      <workItem from="1623739369382" duration="26174000" />
+      <workItem from="1623825380522" duration="1811000" />
     </task>
     <task id="LOCAL-00018" summary="add new css">
       <created>1619084910127</created>
@@ -508,7 +538,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623652033448</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="new commit">
+      <created>1623657271699</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1623657271699</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

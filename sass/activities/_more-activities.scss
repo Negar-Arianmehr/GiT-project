@@ -1,9 +1,37 @@
-.more-activities__container {
-
-}
 
 .more-activities {
+  &__contents {
+//position: relative;
+  }
 
+  &__title {
+    position: relative;
+    height: 30rem;
+width: 30rem;
+    text-align: center;
+  }
+ &__heading--box {
+   height: 100%;
+   width: 100%;
+    position: absolute;
+   top: 2rem;
+    left: 1rem;
+   background-color: #460000;
+   clip-path: circle(50% at 50% 50%);
+
+  }
+  &__heading {
+margin: auto;
+  }
+  &__date {
+    height: 50%;
+   width: 50%;
+    position: absolute;
+   bottom: -4rem;
+    right: 1rem;
+    background-color: gray;
+clip-path: circle(50% at 50% 50%);
+  }
   &__header {
     height: 60vh;
     background-image: url("../img/activities.png");
@@ -11,9 +39,7 @@
     background-position: top;
   }
 
-  &__heading {
-    position: relative;
-  }
+
 
   &__heading--place {
       position: absolute;

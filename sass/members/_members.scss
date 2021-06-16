@@ -1,5 +1,6 @@
 .members {
-  background-image: linear-gradient(rgba($color-gray-light-3, .5), rgba($color-white, .5)), url("../img/members-bg.jpg");
+  height: max-content;
+  background-image: linear-gradient(rgba($color-gray-light-3, .5), rgba($color-white, .5)), url("../img/members/members-bg-homepage.jpg");
   max-height: 130vh;
   background-position: top;
   background-size: cover;

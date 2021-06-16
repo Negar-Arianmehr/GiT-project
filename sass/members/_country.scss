@@ -13,6 +13,11 @@
   align-items: center;
 }
 
+.popup__content {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
 .popup-hidden {
   display: none;
 }

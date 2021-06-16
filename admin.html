@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>admin</title>
+</head>
+<body>
+<!--form-->
+<form>
+    <!--    *********************
+    img for header of every page
+    ******************************-->
+    <fieldset class="admin__header--img" style="background: #eabfbf">
+        <legend>Push a image for every header of every page</legend>
+        <!--    *********************
+        img for header of home page
+        ******************************-->
+        <div class="header--img__inputs">
+            <label for="home-header-img">Background of <strong>Home</strong> Page Header: </label>
+            <input type="file" name="Header-home-img" id="home-header-img" accept="img/*">
+            <input type="submit">
+        </div>
+        <!--    *********************
+        img for header of stories page
+        ******************************-->
+        <div class="header--img__inputs">
+            <label for="stories-header-img">Background of <strong>Stories</strong> Page Header: </label>
+            <input type="file" name="Header-stories-img" id="stories-header-img" accept="img/*">
+            <input type="submit">
+        </div>
+        <!--    *********************
+        img for header of activities page
+        ******************************-->
+        <div class="header--img__inputs">
+            <label for="activities-header-img">Background of <strong>Activities</strong> Page Header: </label>
+            <input type="file" name="Header-activities-img" id="activities-header-img" accept="img/*">
+            <input type="submit">
+        </div>
+        <!--    *********************
+        img for header of gallery page
+        ******************************-->
+        <div class="header--img__inputs">
+            <label for="gallery-header-img">Background of <strong>Gallery</strong> Page Header: </label>
+            <input type="file" name="Header-gallery-img" id="gallery-header-img" accept="img/*">
+            <input type="submit">
+        </div>
+        <!--    *********************
+        img for header of projects page
+        ******************************-->
+        <div class="header--img__inputs">
+            <label for="projects-header-img">Background of <strong>Projects</strong> Page Header: </label>
+            <input type="file" name="Header-projects-img" id="projects-header-img" accept="img/*">
+            <input type="submit">
+        </div>
+        <!--    *********************
+        img for header of members page
+        ******************************-->
+        <div class="header--img__inputs">
+            <label for="members-header-img">Background of <strong>Members</strong> Page Header: </label>
+            <input type="file" name="Header-members-img" id="members-header-img" accept="img/*">
+            <input type="submit" value="Browse">
+        </div>
+    </fieldset>
+    <!--    *********************
+              Stories
+    ******************************-->
+    <fieldset class="admin__stories" style="background: #9be3db">
+        <legend>Push New Story</legend>
+        <!--    *********************
+        Story Number 1
+        ******************************-->
+        <fieldset>
+            <legend>Story number <strong>1</strong></legend>
+            <!--    *********************
+        text of story 1
+        ******************************-->
+            <label for="stories-1">Story:</label>
+            <textarea id="stories-1" name="text-of-story-1" cols="100%" rows="10"
+                      placeholder="Put the story 1:"></textarea>
+            <!--    *********************
+            Title of story1
+            ******************************-->
+            <div class="admin__stories--title-1">
+                <label for="story-member-title-1">Title of Member for Story Part-1: </label>
+                <input type="text" name="story-member-title-1" id="story-member-title-1">
+            </div>
+            <!--    *********************
+            img  of member for story1
+            ******************************-->
+            <div class="admin__stories--img-1">
+                <label for="stories-member-img-1">Picture of Member for Story Part-1: </label>
+                <input type="file" name="story-member-img-1" id="stories-member-img-1" accept="img/*">
+            </div>
+            <!--    *********************
+            name of member for story1
+            ******************************-->
+            <div class="admin__stories--name-1">
+                <label for="story-member-name-1">Name of Member for Story Part-1: </label>
+                <input type="text" name="story-member-name-1" id="story-member-name-1">
+            </div>
+            <!--    *********************
+            country of member for story1
+            ******************************-->
+            <div class="admin__stories--country-1">
+                <label for="story-member-country-1">Country of Member for Story Part-1: </label>
+                <input type="text" name="story-member-country-1" id="story-member-country-1">
+            </div>
+            <!--    *********************
+            submit story1
+            ******************************-->
+            <input type="submit" name="submit-story-1">
+        </fieldset>
+        <!--    *********************
+       Story number 2
+       ******************************-->
+        <fieldset>
+            <legend>Story number <strong>2</strong></legend>
+            <!--    *********************
+        text of story2
+        ******************************-->
+            <label for="stories-2">Story-2:</label>
+            <textarea id="stories-2" cols="100%" rows="10" placeholder="Put the story2:"></textarea>
+            <!--    *********************
+            Title of story2
+            ******************************-->
+            <div class="admin__stories--title-2">
+                <label for="story-member-title-2">Title of Member for Story Part2: </label>
+                <input type="text" name="story-member-title-2" id="story-member-title-2">
+            </div>
+            <!--    *********************
+            img  of member for story2
+            ******************************-->
+            <div class="admin__stories--img-2">
+                <label for="stories-member-img-2">Picture of Member for Story Part-2: </label>
+                <input type="file" name="story-member-img-2" id="stories-member-img-2" accept="img/*">
+            </div>
+            <!--    *********************
+            name of member for story2
+            ******************************-->
+            <div class="admin__stories--name-2">
+                <label for="story-member-name-2">Name of Member for Story Part2: </label>
+                <input type="text" name="story-member-name-2" id="story-member-name-2">
+            </div>
+            <!--    *********************
+            country of member for story2
+            ******************************-->
+            <div class="admin__stories--country-2">
+                <label for="story-member-country-2">Country of Member for Story Part2: </label>
+                <input type="text" name="story-member-country-2" id="story-member-country-2">
+            </div>
+            <!--    *********************
+            submit story2
+            ******************************-->
+            <input type="submit" name="submit-story-2">
+        </fieldset>
+
+        <!--    *********************
+          Story number 3
+          ******************************-->
+        <fieldset>
+            <legend>Story number <strong>3</strong></legend>
+            <!--    *********************
+        text of story2
+        ******************************-->
+            <label for="stories-3">Story-3:</label>
+            <textarea id="stories-3" cols="100%" rows="10" placeholder="Put the story3:"></textarea>
+            <!--    *********************
+            Title of story2
+            ******************************-->
+            <div class="admin__stories--title-3">
+                <label for="story-member-title-3">Title of Member for Story Part3: </label>
+                <input type="text" name="story-member-title-3" id="story-member-title-3">
+            </div>
+            <!--    *********************
+            img  of member for story2
+            ******************************-->
+            <div class="admin__stories--img-3">
+                <label for="stories-member-img-3">Picture of Member for Story Part-3: </label>
+                <input type="file" name="story-member-img-3" id="stories-member-img-3" accept="img/*">
+            </div>
+            <!--    *********************
+            name of member for story2
+            ******************************-->
+            <div class="admin__stories--name-3">
+                <label for="story-member-name-3">Name of Member for Story Part3: </label>
+                <input type="text" name="story-member-name-3" id="story-member-name-3">
+            </div>
+            <!--    *********************
+            country of member for story2
+            ******************************-->
+            <div class="admin__stories--country-3">
+                <label for="story-member-country-3">Country of Member for Story Part3: </label>
+                <input type="text" name="story-member-country-3" id="story-member-country-3">
+            </div>
+            <!--    *********************
+            submit story3
+            ******************************-->
+            <input type="submit" name="submit-story-3">
+        </fieldset>
+    </fieldset>
+    <!--    *********************
+          Home-Activities
+******************************-->
+    <fieldset style="background: #e9e0ae">
+        <legend>Home Activities Part</legend>
+        <!--    *********************
+           Home-Activities 1
+ ******************************-->
+        <fieldset>
+            <legend>Activity 1</legend>
+            <!--    *********************
+             Home-Activities svg 1
+   ******************************-->
+            <div class="admin__homeActivities--svg-1">
+                <label for="homeActivities--svg-1">Icon for Home Activities 1: </label>
+                <input type="file" name="homeActivities--svg-1" id="homeActivities--svg-1">
+            </div>
+            <!--    *********************
+                  Home-Activities title 1
+        ******************************-->
+            <div class="admin__homeActivities--title-1">
+                <label for="homeActivities-title-1">Title of Activity 1: </label>
+                <input type="text" name="homeActivities-title-1" id="homeActivities-title-1">
+            </div>
+            <!--    *********************
+                  Home-Activities context 1
+        ******************************-->
+            <div class="admin__homeActivities--context-1">
+                <label for="homeActivities-context-1">Context of Activity 1: </label>
+                <textarea name="homeActivities-context-1" id="homeActivities-context-1" cols="100%" rows="10"
+                          placeholder="Context of Activity 1"></textarea>
+            </div>
+            <!--    *********************
+        submit Activity 1
+        ******************************-->
+            <input type="submit" name="submit-activity-1">
+        </fieldset>
+        <!--    *********************
+           Home-Activities 2
+ ******************************-->
+        <fieldset>
+            <legend>Activity 1</legend>
+            <!--    *********************
+             Home-Activities svg 2
+   ******************************-->
+            <div class="admin__homeActivities--svg-2">
+                <label for="homeActivities--svg-2">Icon for Home Activities 2: </label>
+                <input type="file" name="homeActivities--svg-2" id="homeActivities--svg-2">
+            </div>
+            <!--    *********************
+                  Home-Activities title
+        ******************************-->
+            <div class="admin__homeActivities--title-2">
+                <label for="homeActivities-title-2">Title of Activity 1: </label>
+                <input type="text" name="homeActivities-title-2" id="homeActivities-title-2">
+            </div>
+            <!--    *********************
+                  Home-Activities title
+        ******************************-->
+            <div class="admin__homeActivities--context-2">
+                <label for="homeActivities-context-2">Context of Activity 2: </label>
+                <textarea name="homeActivities-text-2" id="homeActivities-context-2" cols="100%" rows="10"
+                          placeholder="Context of Activity 2"></textarea>
+            </div>
+            <!--    *********************
+        submit Activity 2
+        ******************************-->
+            <input type="submit" name="submit-activity-2">
+        </fieldset>
+        <!--    *********************
+            Home-Activities 3
+  ******************************-->
+        <fieldset>
+            <legend>Activity 3</legend>
+            <!--    *********************
+             Home-Activities svg 3
+   ******************************-->
+            <div class="admin__homeActivities--svg-3">
+                <label for="homeActivities--svg-3">Icon for Home Activities 3: </label>
+                <input type="file" name="homeActivities--svg-3" id="homeActivities--svg-3">
+            </div>
+            <!--    *********************
+                  Home-Activities title 3
+        ******************************-->
+            <div class="admin__homeActivities--title-3">
+                <label for="homeActivities-title-3">Title of Activity 1: </label>
+                <input type="text" name="homeActivities-title-3" id="homeActivities-title-3">
+            </div>
+            <!--    *********************
+                  Home-Activities context 3
+        ******************************-->
+            <div class="admin__homeActivities--context-3">
+                <label for="homeActivities-context-3">Context of Activity 2: </label>
+                <textarea name="homeActivities-text-3" id="homeActivities-context-3" cols="100%" rows="10"
+                          placeholder="Context of Activity 3"></textarea>
+            </div>
+            <!--    *********************
+        submit Activity 3
+        ******************************-->
+            <input type="submit" name="submit-activity-3">
+        </fieldset>
+    </fieldset>
+
+    <!--    *********************
+        Home-gallery
+******************************-->
+    <fieldset style="background: #c4db9f">
+        <legend>Home Gallery</legend>
+        <img src="img/sample-of-gallery.JPG" alt="sample of gallery" style="width: 25rem">
+        <!--    *********************
+        img for homeGallery 1
+        ******************************-->
+        <div class="homeGallery__inputs">
+            <label for="homeGallery-img-1">img <strong>1</strong> : </label>
+            <input type="file" name="homeGallery-img-1" id="homeGallery-img-1" accept="img/*">
+            <input type="submit">
+        </div>
+        <!--    *********************
+        img for homeGallery 2
+        ******************************-->
+        <div class="homeGallery__inputs">
+            <label for="homeGallery-img-2">img <strong>2</strong> : </label>
+            <input type="file" name="homeGallery-img-2" id="homeGallery-img-2" accept="img/*">
+            <input type="submit">
+        </div>
+        <!--    *********************
+        imgimg for homeGallery 3
+        ******************************-->
+        <div class="homeGallery__inputs">
+            <label for="homeGallery-img-3">img <strong>3</strong> : </label>
+            <input type="file" name="homeGallery-img-3" id="homeGallery-img-3" accept="img/*">
+            <input type="submit">
+        </div>
+        <!--    *********************
+        img for homeGallery 4
+        ******************************-->
+        <div class="homeGallery__inputs">
+            <label for="homeGallery-img-4">img <strong>4</strong> : </label>
+            <input type="file" name="homeGallery-img-4" id="homeGallery-img-4" accept="img/*">
+            <input type="submit">
+        </div>
+        <!--    *********************
+        iimg for homeGallery 5
+        ******************************-->
+        <div class="homeGallery__inputs">
+            <label for="homeGallery-img-5">img <strong>5</strong> : </label>
+            <input type="file" name="homeGallery-img-5" id="homeGallery-img-5" accept="img/*">
+            <input type="submit">
+        </div>
+        <!--    *********************
+        img for homeGallery 6
+        ******************************-->
+        <div class="homeGallery__inputs">
+            <label for="homeGallery-img-6">img <strong>6</strong> : </label>
+            <input type="file" name="homeGallery-img-6" id="homeGallery-img-6" accept="img/*">
+            <input type="submit" value="Browse">
+        </div>
+        <!--    *********************
+        img for homeGallery 7
+        ******************************-->
+        <div class="homeGallery__inputs">
+            <label for="homeGallery-img-7">img <strong>6</strong> : </label>
+            <input type="file" name="homeGallery-img-7" id="homeGallery-img-7" accept="img/*">
+            <input type="submit" value="Browse">
+        </div>
+        <!--    *********************
+        img for homeGallery 8
+        ******************************-->
+        <div class="homeGallery__inputs">
+            <label for="homeGallery-img-8">img <strong>6</strong> : </label>
+            <input type="file" name="homeGallery-img-8" id="homeGallery-img-8" accept="img/*">
+            <input type="submit" value="Browse">
+        </div>
+        <!--    *********************
+        img for homeGallery 9
+        ******************************-->
+        <div class="homeGallery__inputs">
+            <label for="homeGallery-img-9">img <strong>6</strong> : </label>
+            <input type="file" name="homeGallery-img-9" id="homeGallery-img-9" accept="img/*">
+            <input type="submit" value="Browse">
+        </div>
+    </fieldset>
+    <!--    *********************
+            projects
+            ******************************-->
+    <fieldset style="background: #acbae2">
+        <!--    *********************
+            img for home projects
+            ******************************-->
+        <legend>Project for Home page</legend>
+        <!--    *********************
+        img for Project
+        ******************************-->
+        <div class="homeProject__inputs">
+            <label for="Project-img-background">img <strong>background</strong> : </label>
+            <input type="file" name="Project-img-background" id="Project-img-background" accept="img/*">
+            <input type="submit" value="Browse">
+        </div>
+        <div class="homeProject__inputs">
+            <label for="Project-img-1">img <strong>1</strong> : </label>
+            <input type="file" name="Project-img-1" id="Project-img-1" accept="img/*">
+            <input type="submit" value="Browse">
+        </div>
+        <div class="homeProject__inputs">
+            <label for="Project-img-2">img <strong>2</strong> : </label>
+            <input type="file" name="Project-img-2" id="Project-img-2" accept="img/*">
+            <input type="submit" value="Browse">
+        </div>
+        <!--    *********************
+        main sentence for Project
+        ******************************-->
+        <div class="homeProject--main-sentence">
+            <label for="homeProject-main-sentence">Main Sentence: </label>
+            <textarea name="homeProject-main-sentence" id="homeProject-main-sentence" placeholder="context" cols="100%"
+                      rows="2"></textarea>
+        </div>
+        <!--    *********************
+        context for Project
+        ******************************-->
+        <div class="homeProject--main-sentence">
+            <label for="homeProject-context">Context: </label>
+            <textarea name="homeProject-context" id="homeProject-context" placeholder="context" cols="100%"
+                      rows="15"></textarea>
+        </div>
+<!--    *********************
+        submit for homeProject
+        ******************************-->
+        <input type="submit" value="Browse">
+    </fieldset>
+
+    <fieldset style="background: #ddb8ad">
+        <legend>Members</legend>
+        <!--    *********************
+                 img of members
+                 ******************************-->
+        <div class="members__inputs">
+            <label for="members-img">img : </label>
+            <input type="file" name="members-img-2" id="members-img" accept="img/*">
+        </div>
+        <!--    *********************
+        name for members
+        ******************************-->
+        <div class="members__inputs">
+            <label for="members-name">name : </label>
+            <input type="text" name="members-name" id="members-name">
+        </div>
+        <!--    *********************
+        context for members
+        ******************************-->
+       <div class="members__inputs">
+            <label for="members-sentences">sentences : </label>
+           <textarea name="members-sentences" id="members-sentences" cols="100%" rows="3"></textarea>
+        </div>
+        <!--    *********************
+        date for members
+        ******************************-->
+       <div class="members__inputs">
+            <label for="members-date">date : </label>
+            <input type="text" name="members-date" id="members-date">
+        </div>
+        <!--    *********************
+        country for members
+        ******************************-->
+       <div class="members__inputs">
+            <label for="members-country">country : </label>
+            <input type="text" name="members-country" id="members-country">
+        </div>
+        <!--    *********************
+        current-city for members
+        ******************************-->
+       <div class="members__inputs">
+            <label for="members-current-city">current-city : </label>
+            <input type="text" name="members-current-city" id="members-current-city">
+        </div>
+        <!--    *********************
+        submit for members
+        ******************************-->
+        <input type="submit" value="Browse">
+    </fieldset>
+</form>
+
+
+</body>
+</html>

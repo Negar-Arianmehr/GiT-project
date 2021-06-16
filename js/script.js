@@ -70,7 +70,6 @@ const nextSlide = function () {
     }
     goToSlide(curSlide)
     activeDot(curSlide)
-    setTimeout(nextSlide, 2000)
 }
 
 
