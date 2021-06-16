@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Title</title>
+</head>
+<body>
+<!--Header-->
+<div class="admin__header">
+    <nav class="admin__nav">
+        <ul class="admin__ul">
+            <li class="heading-small"><a href="admin.html">Home</a></li>
+            <li class="heading-small"><a href="admin-stories.html">Stories</a></li>
+            <li class="heading-small"><a href="admin-activities.html">Activities</a></li>
+            <li class="heading-small"><a href="admin-gallery.html">Gallery</a></li>
+            <li class="heading-small"><a href="admin-project.html">Project</a></li>
+            <li class="heading-small"><a href="admin-members.html">Members</a></li>
+            <li class="heading-small"><a href="admin-contact.html">contact</a></li>
+        </ul>
+    </nav>
+</div>
+ <!--    *********************
+               members
+               ******************************-->
+    <form class="admin" style="background: #ddb8ad">
+        <h3>Members</h3>
+        <!--    *********************
+                 img of members
+                 ******************************-->
+        <div class="admin__div">
+            <label for="members-img">img : </label>
+            <input type="file" name="members-img-2" id="members-img" accept="img/*">
+        </div>
+        <!--    *********************
+        name for members
+        ******************************-->
+        <div class="admin__div">
+            <label for="members-name">name : </label>
+            <input type="text" name="members-name" id="members-name">
+        </div>
+        <!--    *********************
+        context for members
+        ******************************-->
+        <div class="admin__div">
+            <label for="members-sentences">sentences : </label>
+            <textarea name="members-sentences" id="members-sentences" cols="100%" rows="3"></textarea>
+        </div>
+        <!--    *********************
+        date for members
+        ******************************-->
+        <div class="admin__div">
+            <label for="members-date">date : </label>
+            <input type="text" name="members-date" id="members-date">
+        </div>
+        <!--    *********************
+        country for members
+        ******************************-->
+        <div class="admin__div">
+            <label for="members-country">country : </label>
+            <input type="text" name="members-country" id="members-country">
+        </div>
+        <!--    *********************
+        current-city for members
+        ******************************-->
+        <div class="admin__div">
+            <label for="members-current-city">current-city : </label>
+            <input type="text" name="members-current-city" id="members-current-city">
+        </div>
+        <!--    *********************
+        submit for members
+        ******************************-->
+        <input type="submit" value="Browse">
+    </form>
+</body>
+</html>

@@ -925,7 +925,7 @@ li {
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
 }
 .project__pics {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(153, 153, 153, 0.8)), url("../img/image.jpg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(153, 153, 153, 0.8)), url("../../img/image.jpg");
   background-position: center;
   background-size: cover;
   grid-column: 1/2;
@@ -2022,6 +2022,48 @@ li {
   color: #141414;
   font-size: 1.5rem;
   font-weight: 400;
+}
+
+.admin {
+  width: 80%;
+  margin: 0 auto;
+}
+.admin > * {
+  font-size: 1.6rem;
+  color: black;
+  margin: 1.5rem 2.5rem;
+}
+.admin__header {
+  background-color: #eee;
+}
+.admin__ul {
+  height: 7rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.admin textarea,
+.admin label {
+  display: block;
+}
+.admin__div > :not(:last-child) {
+  font-size: 1.4rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+}
+.admin__div :last-child {
+  padding: 0.8rem 1rem;
+  margin-left: 2.2rem;
+  margin-bottom: 1.2rem;
+  border-radius: 8px;
+}
+.admin__home-activities :last-child {
+  padding: 0.8rem 1rem;
+  margin: 2.2rem 5rem;
+  border-radius: 8px;
+}
+.admin__home-gallery img {
+  margin: 2rem;
 }
 
 /*# sourceMappingURL=main.css.map */
