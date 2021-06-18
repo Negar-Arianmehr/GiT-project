@@ -150,7 +150,10 @@
     height: 100%;
     object-fit: cover;
     display: block;
-    transition: all .4s ease-in-out;
+  }
+
+  &__img--hover {
+transition: all .4s ease-in-out;
 
     &:hover {
       cursor: zoom-in;

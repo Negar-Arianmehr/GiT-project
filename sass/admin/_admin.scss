@@ -1,6 +1,7 @@
 .admin {
   width: 80%;
   margin: 0 auto;
+
   & > * {
     font-size: 1.6rem;
     color: black;
@@ -19,11 +20,17 @@
     align-items: center;
   }
 
- textarea,
+  textarea,
   label {
     display: block;
-   //margin-left: 5rem;
+    border-radius: 5px;
+    //margin-left: 5rem;
   }
+
+  &__title {
+    width: 80%;
+  }
+
 
   &__div {
     & > :not(:last-child) {
@@ -36,7 +43,7 @@
       padding: .8rem 1rem;
       margin-left: 2.2rem;
       margin-bottom: 1.2rem;
-      border-radius: 8px;
+      border-radius: 5px;
     }
   }
 
@@ -52,5 +59,27 @@
     img {
       margin: 2rem;
     }
+  }
+
+  //table part
+  &__stories--table {
+    margin-left: 2.2rem;
+      tr:nth-of-type(odd) {
+      background-color: #4d8683;
+    }
+  }
+
+  &__tr {
+    & > * {
+      padding: 1rem 2.5rem 0;
+      text-align: center;
+    }
+
+
+
+  }
+
+  &__checkbox {
+    transform: scale(1.4);
   }
 }

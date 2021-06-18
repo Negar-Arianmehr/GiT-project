@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shourtcut icon" type="img/png" href="img/GIT-LOGO.png">
+    <title>Admin Activities</title>
+</head>
+<body>
+<!--Header-->
+<div class="admin__header">
+    <nav class="admin__nav">
+        <ul class="admin__ul">
+            <li class="heading-small"><a href="admin.html">Home</a></li>
+            <li class="heading-small"><a href="admin-stories.html">Stories</a></li>
+            <li class="heading-small"><a href="admin-activities.html">Activities</a></li>
+            <li class="heading-small"><a href="admin-gallery.html">Gallery</a></li>
+            <li class="heading-small"><a href="admin-project.html">Project</a></li>
+            <li class="heading-small"><a href="admin-members.html">Members</a></li>
+            <li class="heading-small"><a href="admin-contact.html">contact</a></li>
+        </ul>
+    </nav>
+</div>
+ <!--    *********************
+          Activities
+******************************-->
+    <form class="admin" style="background: #e9e0ae">
+        <h3 class="heading heading-big"> Activities Part</h3>
+            <!--    *********************
+             -Activities svg
+   ******************************-->
+            <div class="admin__div">
+                <label for="Activities--svg-1">Icon for Activities 1: </label>
+                <input type="file" name="Activities--svg-1" id="Activities--svg-1">
+            </div>
+            <!--    *********************
+                  -Activities title
+        ******************************-->
+            <div class="admin__div">
+                <label for="Activities-title">Title of Activity : </label>
+                <input type="text" name="Activities-title" id="Activities-title" class="admin__title">
+            </div>
+            <!--    *********************
+                  -Activities context 1
+        ******************************-->
+            <div class="admin__div">
+                <label for="Activities-context">Context of Activity 1: </label>
+                <textarea name="Activities-context" id="Activities-context" cols="100%" rows="10"
+                          placeholder="Context of Activity"></textarea>
+            </div>
+            <!--    *********************
+        submit Activity 1
+        ******************************-->
+            <input type="submit" name="submit-activity" class="btn">
+    </form>
+</body>
+</html>

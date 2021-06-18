@@ -1,21 +1,22 @@
 .collection {
-background-image: url("../img/pexels-francesco-ungaro-673648.jpg");
-  background-size: cover;
-  background-position: bottom;
+
 
   &__bg {
-    height: 33vh;
-    //background: linear-gradient(to right, rgba($color-gray-light-2, .5), rgba($color-gray, .8)), url("../img/DSCF5656.jpg") bottom;
+    height: 100vh;
+    background-image: url("../img/gallery/pexels-francesco-ungaro-673648-2.jpg");
     background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-position: bottom;
+    //  //background: linear-gradient(to right, rgba($color-gray-light-2, .5), rgba($color-gray, .8)), url("../img/DSCF5656.jpg") bottom;
+    //  background-size: cover;
+    //  display: flex;
+    //  justify-content: center;
+    //  align-items: center;
   }
 
-  &__section {
-
+  &__main {
+    background-image: url("../img/gallery/bg-collection.jpg");
+    padding: 5rem 0;
   }
-
   &__content {
     height: 100%;
     width: 100%;
@@ -24,7 +25,7 @@ background-image: url("../img/pexels-francesco-ungaro-673648.jpg");
     grid-template-columns: 1fr repeat(8, 1fr) 1fr;
     justify-content: center;
     align-content: center;
-    //margin-top: 10rem;
+    padding: 2.5rem;
   }
 
   &__slider--height {
@@ -101,34 +102,173 @@ background-image: url("../img/pexels-francesco-ungaro-673648.jpg");
   }
 
   &--1 {
-    grid-row: 1/ 5;
+    grid-row: 3/ 7;
     grid-column: 1/ 4 span;
     transform: rotate(-25deg);
     z-index: 115;
-    outline: 10px solid #ec5c38;
+    outline: 10px solid #ffffff;
   }
 
   &--2 {
-    grid-row: 5/8;
+    grid-row: 6/9;
     grid-column: 1/ 4 span;
-    transform: rotate3d(9,6,10,-20deg);
-    z-index: 110;
-    outline: 10px solid #378c31;
+    transform: rotate3d(9, 6, 10, -20deg);
+    z-index: 118;
+    outline: 10px solid #fdfdfd;
   }
 
   &--3 {
-    grid-row: 2/5;
+    grid-row: 3/6;
     grid-column: 4/ 6 span;
-    transform:rotate3d(2,-5,-8, -30deg);
+    transform: rotate3d(2, -5, -8, -30deg);
     z-index: 130;
-    outline: 10px solid #f19e21;
+    outline: 10px solid #ffffff;
   }
 
   &--4 {
-    grid-row: 4/8;
+    grid-row: 5/9;
     grid-column: 4/ 8;
     transform: rotate3d(20, 50, 10, 30deg);
     z-index: 120;
-    outline: 10px solid #2b21f1;
+    outline: 10px solid #ffffff;
   }
+
+  &__section {
+
+  }
+
+  &__form {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+     margin-top: 2.5rem;
+    & > * {
+      font-size: 1.6rem;
+      font-family: $font-family-complex;
+    }
+  }
+
+  &__select {
+    width: max-content;
+    padding: .5rem .75rem;
+    font-size: inherit;
+    font-family: inherit;
+    margin-left: 1.2rem;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    outline: none;
+    & option {
+      font-family: inherit;
+      font-size: inherit;
+      color: #8a8a8a;
+    }
+  }
+
+  &__submit {
+    //flex-basis: 100%;
+    //width: 100%;
+    //margin: 1.75rem auto;
+    //justify-self: center;
+    //align-self: center;
+  }
+}
+//<!--*****************-->
+//<!--collection slideShow
+//*****************--><!---->
+.collection {
+
+/* Position the image container (needed to position the left and right arrows) */
+  &__slideshow {
+     position: relative;
+  }
+}
+img {
+  vertical-align: middle;
+}
+
+//.container {
+//  position: relative;
+//}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  margin: 0 auto;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: #070707;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
 }

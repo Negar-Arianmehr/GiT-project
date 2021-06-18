@@ -112,25 +112,13 @@
 <!--**********************-->
 <!--Container-gallery-collection-->
 <!--**********************-->
-<main class="collection">
-    <!--*****************-->
-    <!--header-background-collection-->
-    <!--*****************-->
-    <div class="bg-header">
-        <div class="collection__bg">
-            <!--            <div class="collection__box">-->
-            <!--            <img src="img/bg1.jpg" alt="">-->
-            <h1 class="heading heading-hug">our experience in pictures</h1>
-            <!--            </div>-->
-        </div>
-        <!--        <h2 class="heading heading-small">Eindhoven</h2>-->
-        <!--                <button class="btn bg-header__btn">Watch us</button>-->
-    </div>
-    <!--*****************-->
-    <!--collection__section-->
-    <!--*****************-->
-    <section class="collection__section">
 
+<!--*****************-->
+<!--header-background-collection-->
+<!--*****************-->
+<div class="bg-header">
+
+    <div class="collection__bg">
         <div class="collection__content">
             <div class="collection__pics">
                 <div class="collection__album">
@@ -152,20 +140,145 @@
                     </figure>
                 </div>
             </div>
+        </div>
+    </div>
+</div>
+<main class="collection__main">
+    <div class="center-heading">
+        <h1 class="heading heading-hug">our experience in pictures</h1>
+    </div>
+    <!--*****************-->
+    <!--form__for---collection
+    ***********************-->
+    <form action="" class="collection__form">
+        <!--*****************-->
+        <!--form__for---collection--year
+        ***********************-->
+        <div class="collection__year">
+            <label for="choose-year">Choose Year:</label>
+            <select id="choose-year" name="Choose-Year" class="collection__select">
+                <option value="2020">2021</option>
+                <option value="2020">2020</option>
+            </select>
+        </div>
+        <!--*****************-->
+        <!--form__for---collection--season
+        ***********************-->
+        <div class="collection__year">
+            <label for="choose-season">Choose Season:</label>
+            <select id="choose-season" name="Choose-season" class="collection__select">
+                <option value="spring" class="heading">spring</option>
+                <option value="winter" class="heading">winter</option>
+                <option value="summer" class="heading">summer</option>
+                <option value="2020" class="heading">fall</option>
+            </select>
+        </div>
+        <!--*****************-->
+        <!--form__for---title of activities
+        ***********************-->
+        <div class="collection__year">
+            <label for="choose-title-of-activity">Choose One of Activities:</label>
+            <select id="choose-title-of-activity" name="Choose-season" class="collection__select">
+                <option value="Name of an activity" class="heading">Name of activity</option>
+                <option value="Name of another activity" class="heading">Name of activity</option>
+            </select>
+        </div>
 
-            <div class="collection__text--location">
-                <div class="collection__text--box">
-                    <div class="collection__text--title">
-                        <h2 class="heading heading-medium">name of activity</h2>
-                        <h4 class="heading heading-small">07/.2/2021</h4>
+        <!--*****************-->
+        <!--form__Submit-btn
+        ***********************-->
+        <div class="collection__submit">
+            <input type="submit" name="submit-choose-year" class="btn">
+        </div>
+    </form>
+    <!--*****************-->
+    <!--collection__section
+    *****************--><!---->
+    <section class="collection__section">
+        <div class="collection__text--location">
+            <div class="collection__text--box">
+                <div class="collection__text--title">
+                    <h2 class="heading heading-medium">name of activity</h2>
+                    <h4 class="heading heading-small">07/02/2021</h4>
+                </div>
+                <div class="collection__text--date">
+                </div>
+            </div>
+            <!--*****************-->
+            <!--collection slideShow
+            *****************--><!---->
+            <div class="collection__slideshow">
+                <div class="mySlides">
+<!--                    <div class="numbertext">1 / 6</div>-->
+                    <img src="img/gallery/pic-1.jpg" alt="Picture of Activity" class="gallery__img">
+                </div>
+
+                <div class="mySlides">
+<!--                    <div class="numbertext">2 / 6</div>-->
+                    <img src="img/gallery/pic-2.jpg" alt="Picture of Activity" class="gallery__img">
+                </div>
+
+                <div class="mySlides">
+<!--                    <div class="numbertext">3 / 6</div>-->
+                    <img src="img/gallery/pic-3.jpg" alt="Picture of Activity" class="gallery__img">
+                </div>
+
+                <div class="mySlides">
+<!--                    <div class="numbertext">4 / 6</div>-->
+                    <img src="img/gallery/pic-4.jpg" alt="Picture of Activity" class="gallery__img">
+                </div>
+
+                <div class="mySlides">
+<!--                    <div class="numbertext">5 / 6</div>-->
+                    <img src="img/gallery/pic-5.jpg" alt="Picture of Activity" class="gallery__img">
+                </div>
+
+                <div class="mySlides">
+<!--                    <div class="numbertext">6 / 6</div>-->
+                    <img src="img/gallery/pic-7.jpg" alt="Picture of Activity" class="gallery__img">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+
+                <div class="row">
+                    <div class="column">
+                        <img class="demo cursor" src="img/gallery/pic-1.jpg" style="width:100%"
+                             onclick="currentSlide(1)"
+                             alt="Picture of Activity">
                     </div>
-                    <div class="collection__text--date">
-
+                    <div class="column">
+                        <img class="demo cursor" src="img/gallery/pic-2.jpg" style="width:100%"
+                             onclick="currentSlide(2)"
+                             alt="Picture of Activity">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="img/gallery/pic-3.jpg" style="width:100%"
+                             onclick="currentSlide(3)"
+                             alt="Picture of Activity">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="img/gallery/pic-4.jpg" style="width:100%"
+                             onclick="currentSlide(4)"
+                             alt="Picture of Activity">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="img/gallery/pic-5.jpg" style="width:100%"
+                             onclick="currentSlide(5)"
+                             alt="Picture of Activity">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="img/gallery/pic-7.jpg" style="width:100%"
+                             onclick="currentSlide(6)"
+                             alt="Picture of Activity">
                     </div>
                 </div>
 
             </div>
-
         </div>
     </section>
 </main>

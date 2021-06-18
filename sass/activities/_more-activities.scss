@@ -1,50 +1,124 @@
+.more-activities__header {
+  height: 44vh;
+  background-image: url("../img/activities/activities.png");
+  background-size: cover;
+  background-position: bottom;
+
+}
 
 .more-activities {
-  &__contents {
-//position: relative;
+  &__header-heading {
+    @include respond(tab-port) {
+      position: absolute;
+      top: 8.5rem;
+      left: 5%;
+      right: 5%;
+    }
+  }
+
+  &__section {
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2.2rem 1.75rem;
+
+    &:last-child {
+      margin-bottom: 4.5rem;
+    }
+
+    //@include respond(small-phone) {
+    //  flex-direction: column;
+    //  flex-wrap: nowrap;
+    //}
   }
 
   &__title {
     position: relative;
     height: 30rem;
-width: 30rem;
+    width: 30rem;
     text-align: center;
+    flex-basis: 30rem;
+    margin: .75rem;
+    //@include respond(small-phone) {
+    //  //clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+    //height: 20rem;
+    //width: 20rem;
+    //  margin: 0 .5rem ;
+    //  //flex-basis: 40rem;
+    //}
   }
- &__heading--box {
-   height: 100%;
-   width: 100%;
+
+  &__circle {
+    height: 100%;
+    width: 100%;
     position: absolute;
-   top: 2rem;
+    clip-path: circle(50% at 50% 50%);
+  }
+
+  &__shadow {
+    top: 3rem;
+    left: -.5rem;
+    background-color: #460000;
+  }
+
+  &__img--box {
+    top: 2rem;
     left: 1rem;
-   background-color: #460000;
-   clip-path: circle(50% at 50% 50%);
-
   }
+
+  &__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &__contents {
+    flex-basis: 60%;
+    @include respond(phone) {
+      padding: 0 2.2rem;
+    }
+    @include respond(small-phone) {
+      flex-basis: 70%;
+    }
+    @media only screen and (max-width: 500px) {
+      flex-basis: 90%;
+    }
+  }
+
   &__heading {
-margin: auto;
+    margin-top: 1.2rem;
+    padding: 2.5rem 10%;
   }
+
   &__date {
-    height: 50%;
-   width: 50%;
+    height: 30%;
+    width: 30%;
     position: absolute;
-   bottom: -4rem;
-    right: 1rem;
-    background-color: gray;
-clip-path: circle(50% at 50% 50%);
+    bottom: -3.5rem;
+    right: -2rem;
+    background-color: #d6d6d6;
+    clip-path: circle(50% at 50% 50%);
+    color: #460000;
+    //    @include respond(small-phone) {
+    //clip-path: none;
+    //      width: max-content;
+    //      padding: .5rem 1rem;
+    //       bottom: -5.2rem;
+    //    right: 0;
+    //    }
   }
-  &__header {
-    height: 60vh;
-    background-image: url("../img/activities.png");
-    background-size: cover;
-    background-position: top;
-  }
-
-
 
   &__heading--place {
-      position: absolute;
-      bottom: 5rem;
-      left: 50%;
-    }
+    position: absolute;
+    bottom: 5rem;
+    left: 50%;
+  }
 
+  &__text {
+    font-size: 1.6rem;
+    color: $color-gray;
+    width: 100%;
+  }
 }

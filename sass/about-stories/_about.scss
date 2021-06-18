@@ -106,6 +106,9 @@
     font-style: italic;
     color: $color-gray-dark;
     margin-left: 2.2rem;
+     @media only screen and (max-width: 570px) {
+       margin: 0 1.2rem;
+     }
   }
 
   &__slide--address {
