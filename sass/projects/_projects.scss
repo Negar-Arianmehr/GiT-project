@@ -12,25 +12,16 @@
   }
 
   &__pics {
-    background-image: linear-gradient(rgba($color-white, .4), rgba($color-gray-light, .8)), url("../../img/project/project_bg.jpg");
+    background-image: linear-gradient(rgba($color-white, .4), rgba($color-gray-light, .8)), url("../../img/projects/project_bg.jpg");
     background-position: center;
     background-size: cover;
     grid-column: 1/2;
     height: 70rem;
 
- @include respond(small-phone) {
-grid-column: 1/-1;
+    @include respond(small-phone) {
+      grid-column: 1/-1;
     }
 
-  }
-
-  &__text-content {
-    grid-column: 2/3;
-    background-color: $color-gray-light-1;
-
-     @include respond(small-phone) {
-grid-column: 1/-1;
-    }
   }
 
   &__img--box {
@@ -46,14 +37,16 @@ grid-column: 1/-1;
     align-self: center;
     z-index: 100;
   }
+
   &__img--1 {
     grid-column: 2/7;
     grid-row: 3/6;
     width: 100%;
     @include respond(tab-land) {
       grid-column: 2/8;
-    grid-row: 2/8;
+      grid-row: 2/8;
     }
+
     img {
       width: 100%;
     }
@@ -96,30 +89,39 @@ grid-column: 1/-1;
     }
   }
 
+  &__text-content {
+    grid-column: 2/3;
+    background-color: $color-gray-light-1;
+    padding: 10rem 10rem 0;
+    //display: flex;
+    //flex-direction: column;
+    //align-content: space-evenly;
+
+    @include respond(lab-big) {
+      padding: 8rem 8rem 0;
+    }
+
+    @include respond(lab-medium) {
+      padding: 6rem 6rem;
+    }
+
+    @include respond(tab-port) {
+      padding: 5rem 7rem;
+    }
+
+    @include respond(phone) {
+      padding: 3rem 4rem;
+    }
+     @include respond(small-phone) {
+      grid-column: 1/-1;
+    }
+  }
 
   &__text-box {
     font-size: 1.6rem;
     color: $color-gray-dark;
     line-height: 3rem;
-    margin: 2.5rem 10rem;
     text-align: justify;
-
-    @include respond(lab-big) {
-      margin: 2.2rem 8rem;
-    }
-
-    @include respond(lab-medium) {
-      margin: 2rem 6rem;
-    }
-
-    @include respond(tab-port) {
-      margin: 2.1rem 7rem;
-    }
-
-    @include respond(phone) {
-      margin: 1rem 4rem;
-    }
-
     p {
       margin-top: 2.5rem;
       text-indent: 2.5rem;
@@ -128,20 +130,21 @@ grid-column: 1/-1;
 
   &__quoits {
     font-style: italic;
+    margin-top: 3.2rem;
   }
 
   &__btn {
     margin-top: 5rem;
     text-align: center;
     @include respond(lab-medium) {
-      margin-top: 2.2rem;
+      margin-top: 4.5rem;
     }
     @include respond(tab-port) {
-      margin-top: 1.2rem;
+      margin-top: 3rem;
     }
     @include respond(phone) {
       margin-top: 3rem;
-  }
+    }
     @include respond(small-phone) {
       margin-bottom: 2.6rem;
       margin-top: 1.5rem;

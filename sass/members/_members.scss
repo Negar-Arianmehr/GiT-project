@@ -134,6 +134,7 @@
     height: 50rem;
     background-color: rgba($color-gray-light-3, 0.5);
     overflow: hidden;
+    position: relative;
 
     &:hover {
       background-color: rgba($color-gray-light-3, 0.9);
@@ -146,35 +147,44 @@
   }
 
   &__fig {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    //display: grid;
+    //grid-template-columns: repeat(4, 1fr);
+    //grid-template-rows: 25rem 3rem;
+    width: 25rem;
+    height: 25rem;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    overflow: hidden;
+    //position: relative;
   }
 
   &__img {
-    grid-column: 1/-1;
-    grid-row: 1/2;
-    height: 25rem;
-    width: auto;
+    //grid-column: 1/-1;
+    //grid-row: 1/2;
+    width: 100%;
+    object-fit: cover;
     display: block;
-    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%)
   }
 
   &__name {
     font-size: 1.4rem;
     color: $color-secondary-dark;
     font-family: $font-family-simple;
-    grid-column: 2/-1;
-    grid-row: 1/2;
-    justify-self: end;
-    align-self: end;
+    //grid-column: 2/-1;
+    //grid-row: 2/3;
+    //justify-self: end;
+    //align-self: end;
+    position: absolute;
+    top: 21rem;
+    right: 2.5rem;
     width: max-content;
     height: min-content;
     padding: .65rem .75rem;
-    margin-right: 1.75rem;
+    //margin-right: 1.75rem;
+    //margin-bottom: 3rem;
     border: 1px solid transparent;
     border-radius: 5px;
     background-color: $color-main-light-1;
-    z-index: 10;
+    //z-index: 10;
   }
 
   &__card--info {
@@ -213,9 +223,9 @@
     border: none;
     font-size: 1.25rem;
     font-style: italic;
-    color: $color-secondary-light;
+
     justify-self: flex-end;
-    cursor: pointer;
+
     display: flex;
     align-items: stretch;
     margin-bottom: .5rem;
@@ -232,4 +242,8 @@
     text-align: center;
     margin-bottom: 10rem;
   }
+}
+.from {
+       cursor: pointer;
+  color: $color-secondary-light;
 }

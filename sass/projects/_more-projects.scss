@@ -1,0 +1,36 @@
+.more-projects {
+
+  &__content {
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    //flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 5rem;
+  }
+
+  &__bg {
+    height: 50vh;
+    background-image: linear-gradient(rgba(white, .5), rgba(#eee, .5)), url("../img/projects/project.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+
+  &__img--box {
+    justify-self: center;
+    display: inline-block;
+    width: 50%;
+    height: 50%;
+    padding-top: 2.5rem;
+    border-radius: 5px;
+  }
+
+  &__date {
+    border-bottom: 1px solid #eee;
+  }
+
+  &__context {
+    width: 80%;
+  }
+}

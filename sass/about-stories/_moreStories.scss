@@ -1,4 +1,45 @@
+.history {
+  position: relative;
+  max-height: 100rem;
+  height: 60rem;
+
+  //justify-content: space-between;
+
+  &__carola {
+    position: absolute;
+    top: 3.5rem;
+    left: -3.8%;
+  }
+
+  &__megha {
+    height: 36rem;
+    width: 30rem;
+    position: absolute;
+    bottom: -10rem;
+    right: 5%;
+  }
+
+  &__context {
+    position: absolute;
+    top: 2.5rem;
+    left: 25%;
+    color: $color-gray-dark-2;
+    font-size: 1.6rem;
+    width: 50%;
+    height: inherit;
+    padding: 2.75rem;
+    text-align: justify;
+    font-style: italic;
+    font-weight: bold;
+  }
+  &__read-more{
+    color: $color-gray;
+    cursor: pointer;
+  }
+}
+
 .stories {
+  background-color: black;
 
   &__header {
     background: url("../img/stories-bg.jpg") top;

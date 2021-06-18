@@ -111,6 +111,13 @@
     margin-bottom: 2.5rem;
     padding: .75rem 1.5rem;
     outline: none;
+    opacity: .4;
+    transition: opacity .5s ease-in-out;
+
+    &:hover,
+    &:active {
+      opacity: 1;
+    }
   }
 
   &__arrow {
