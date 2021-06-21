@@ -357,7 +357,6 @@ li {
     margin-bottom: 1.5rem;
     margin-top: 2.5rem; }
   .about__megha {
-    width: 30rem;
     height: 30rem;
     position: relative;
     flex: 0 0 35rem; }
@@ -752,7 +751,7 @@ li {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); }
   .project__pics {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(153, 153, 153, 0.8)), url("../../img/projects/project_bg.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(153, 153, 153, 0.8)), url("../img/projects/project_bg.jpg");
     background-position: center;
     background-size: cover;
     grid-column: 1/2;
