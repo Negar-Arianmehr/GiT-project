@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="118319de-ae63-4a5f-b3ae-30acab8bb243" name="Default Changelist" comment="some edition for some part">
+      <change afterPath="$PROJECT_DIR$/img/Megha-2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/admin/_admin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/admin/_admin.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/About.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Background of GiT.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/about-stories/_about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/about-stories/_about.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/about-stories/_moreStories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/about-stories/_moreStories.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bases/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/bases/_variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stories.html" beforeDir="false" afterPath="$PROJECT_DIR$/stories.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,14 +162,7 @@
       <workItem from="1623825380522" duration="40104000" />
       <workItem from="1623997376168" duration="37599000" />
       <workItem from="1624122326131" duration="3254000" />
-      <workItem from="1624170699406" duration="22817000" />
-    </task>
-    <task id="LOCAL-00024" summary="work on sections">
-      <created>1619803663911</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1619803663911</updated>
+      <workItem from="1624170699406" duration="25129000" />
     </task>
     <task id="LOCAL-00025" summary="work on sections">
       <created>1620032417705</created>
@@ -503,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624277875703</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="some edition for some part">
+      <created>1624287700895</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1624287700895</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
