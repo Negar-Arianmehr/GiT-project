@@ -4,11 +4,9 @@
   height: 60rem;
 
   &__megha {
-    height: 30rem;
+    height: 35rem;
     width: 30rem;
-    //clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
-//clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
-
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
     position: absolute;
     top: 6%;
     right: 10%;
@@ -21,16 +19,11 @@
     max-height: 200rem;
     width: 80vw;
     padding-right: 10rem;
-//clip-path: polygon(0 0, 78% 0, 78% 48%, 100% 47%, 78% 64%, 77% 100%, 0 100%);
   }
 
   &__paragraph {
-//clip-path: polygon(0 0, 78% 0, 78% 48%, 100% 47%, 78% 64%, 77% 100%, 0 100%);
-
-
     clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
     background-color: white;
-
     color: $color-gray-dark-2;
     font-size: 1.6rem;
     width: 60vw;
@@ -38,7 +31,6 @@
     padding: 2.75rem;
     text-align: justify;
     font-style: italic;
-    //font-weight: ;
   }
 
   &__read-more {
