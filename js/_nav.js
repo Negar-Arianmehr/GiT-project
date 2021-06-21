@@ -3,6 +3,7 @@
 ////////////////////////////////
 const bgHeader = document.querySelector(".bg-header")
 const nav = document.querySelector(".nav")
+const scrollArrow = document.querySelector(".footer__arrow")
 
 const navSticky = function (entries) {
     const [entry] = entries;
@@ -12,13 +13,12 @@ const navSticky = function (entries) {
         nav.classList.add("sticky")
         nav.classList.remove("nav--stick")
         document.querySelector(".nav__icon-img").setAttribute("style", "height : 4rem")
-        // header.classList.add("noneDisplay")}
-        // } else if (entries.boundingClientRect.height < 600) {
-        //     // nav.classList.add("nav--stick")
+        scrollArrow.classList.add("footer__arrow--scroll")
     } else {
         nav.classList.remove("sticky")
         nav.classList.add("nav--stick")
         document.querySelector(".nav__icon-img").setAttribute("style", "height : 5.2rem")
+        scrollArrow.classList.remove("footer__arrow--scroll")
     }
     // header.classList.remove("noneDisplay")
 }

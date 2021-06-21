@@ -1,5 +1,5 @@
 .footer {
-  max-height: 100vh;
+  max-height: 200vh;
   background-image: linear-gradient(rgba($color-secondary-dark, .9), rgba($color-secondary-light, .5)), url("../img/contact2.jpg");
   background-position: bottom;
   background-size: cover;
@@ -65,6 +65,7 @@
   &__number {
     font-size: 1.4rem;
     color: $color-gray-light-2;
+
     &:before {
       content: ":";
       color: $color-gray-light-3;
@@ -135,6 +136,12 @@
     &:hover {
       transform: translateY(-10px);
     }
+  }
+
+  &__arrow--scroll {
+    position: fixed;
+    top: 90vh;
+    right: 1rem;
   }
 
   &__maker {

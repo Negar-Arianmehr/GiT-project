@@ -411,14 +411,19 @@ li {
   background-color: #ffffff;
   margin: 1.5rem 15rem 3.5rem;
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 1200px) and (max-width: 1300px) {
   .about {
-    margin: 1.5rem 12rem;
+    margin: 1.5rem 10rem;
+  }
+}
+@media only screen and (max-width: 1008px) {
+  .about {
+    margin: 1.5rem 9rem;
   }
 }
 @media only screen and (max-width: 650px) {
   .about {
-    margin: 1.5rem 6rem;
+    margin: 1.5rem 4rem;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -428,6 +433,14 @@ li {
 }
 .about__history {
   padding-left: 2.5rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+@media only screen and (max-width: 650px) {
+  .about__history {
+    flex-direction: column;
+  }
 }
 .about__text {
   font-size: 1.6rem;
@@ -436,6 +449,19 @@ li {
   color: #3d3d3d;
   margin-bottom: 1.5rem;
   margin-top: 2.5rem;
+}
+.about__megha {
+  width: 30rem;
+  height: 30rem;
+  position: relative;
+  flex: 0 0 35rem;
+}
+.about__megha--img {
+  position: absolute;
+  height: 39rem;
+  top: 1rem;
+  right: 10%;
+  clip-path: circle(50% at 50% 50%);
 }
 .about__title {
   display: flex;
@@ -1228,9 +1254,8 @@ li {
 }
 
 .members {
-  height: max-content;
   background-image: linear-gradient(rgba(204, 204, 204, 0.5), rgba(255, 255, 255, 0.5)), url("../img/members/members-bg-homepage.jpg");
-  max-height: 130vh;
+  max-height: 200vh;
   background-position: top;
   background-size: cover;
   padding: 5rem 2.5rem;
@@ -1490,7 +1515,7 @@ li {
 }
 
 .footer {
-  max-height: 100vh;
+  max-height: 200vh;
   background-image: linear-gradient(rgba(11, 16, 36, 0.9), rgba(100, 146, 202, 0.5)), url("../img/contact2.jpg");
   background-position: bottom;
   background-size: cover;
@@ -1613,6 +1638,11 @@ li {
 }
 .footer__arrow:hover {
   transform: translateY(-10px);
+}
+.footer__arrow--scroll {
+  position: fixed;
+  top: 90vh;
+  right: 1rem;
 }
 .footer__maker {
   width: 95%;
@@ -2151,7 +2181,7 @@ img {
   font-size: 1.8rem;
   width: 35rem;
   height: max-content;
-  border-radius: 5rem;
+  border-radius: 10px;
   margin-top: 2.2rem;
 }
 .country__img-box {

@@ -2,11 +2,18 @@
   background-color: $color-white;
   margin: 1.5rem 15rem 3.5rem;
 
-  @include respond(lab-medium) {
-    margin: 1.5rem 12rem;
+  @media only screen and (min-width: 1200px) and (max-width: 1300px) {
+    margin: 1.5rem 10rem;
+  }
+
+  //@include respond(lab-medium) {
+  //  margin: 1.5rem 12rem;
+  //}
+  @include respond(tab-land) {
+    margin: 1.5rem 9rem;
   }
   @include respond(small-phone) {
-    margin: 1.5rem 6rem;
+    margin: 1.5rem 4rem;
   }
 
   @include respond(most-phone) {
@@ -15,6 +22,12 @@
 
   &__history {
     padding-left: 2.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    @include respond(small-phone) {
+      flex-direction: column;
+    }
   }
 
   &__text {
@@ -22,9 +35,26 @@
     line-height: 2;
     font-family: $font-family-simple;
     color: $color-gray-dark-2;
-    //text-align: justify;
     margin-bottom: 1.5rem;
     margin-top: 2.5rem;
+  }
+
+  &__megha {
+    width: 30rem;
+    height: 30rem;
+    position: relative;
+    flex: 0 0 35rem;
+    @include respond(small-phone) {
+
+    }
+  }
+
+  &__megha--img {
+    position: absolute;
+    height: 39rem;
+    top: 1rem;
+    right: 10%;
+    clip-path: circle(50% at 50% 50%);
   }
 
   //***slider***//
@@ -52,8 +82,8 @@
   }
 
   &__slider--height {
-     height: 30rem;
-     @include respond(lab-medium) {
+    height: 30rem;
+    @include respond(lab-medium) {
       height: 34rem;
     }
   }
@@ -106,9 +136,9 @@
     font-style: italic;
     color: $color-gray-dark;
     margin-left: 2.2rem;
-     @media only screen and (max-width: 570px) {
-       margin: 0 1.2rem;
-     }
+    @media only screen and (max-width: 570px) {
+      margin: 0 1.2rem;
+    }
   }
 
   &__slide--address {
