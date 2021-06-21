@@ -2319,6 +2319,9 @@ img {
 .admin__title {
   width: 80%;
 }
+.admin__div {
+  border-bottom: 5px solid #020202;
+}
 .admin__div > :not(:last-child) {
   font-size: 1.4rem;
   padding: 0.75rem 1.5rem;

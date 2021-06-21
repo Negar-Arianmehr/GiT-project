@@ -24,19 +24,18 @@
     </nav>
 </div>
 <!--form-->
-<form class="admin">
+<div class="admin">
     <!--    *********************
     img for header of every page
     ******************************-->
-    <fieldset style="background: #eabfbf">
-        <legend>Push a image for every header of every page</legend>
+    <form style="background: #eabfbf">
+        <h2 class="heading-big">image for every header of every page</h2>
         <!--    *********************
         img for header of home page
         ******************************-->
         <div class="admin__div">
             <label for="home-header-img">Background of <strong>Home</strong> Page Header: </label>
             <input type="file" name="Header-home-img" id="home-header-img" accept="img/*">
-            <input type="submit" name="Header-home-img_submit">
         </div>
         <!--    *********************
         img for header of stories page
@@ -44,7 +43,6 @@
         <div class="admin__div">
             <label for="stories-header-img">Background of <strong>Stories</strong> Page Header: </label>
             <input type="file" name="Header-stories-img" id="stories-header-img" accept="img/*">
-            <input type="submit" name="Header-stories-img_submit">
         </div>
         <!--    *********************
         img for header of activities page
@@ -52,7 +50,6 @@
         <div class="admin__div">
             <label for="activities-header-img">Background of <strong>Activities</strong> Page Header: </label>
             <input type="file" name="Header-activities-img" id="activities-header-img" accept="img/*">
-            <input type="submit" name="Header-activities-img_submit">
         </div>
         <!--    *********************
         img for header of gallery page
@@ -60,7 +57,6 @@
         <div class="admin__div">
             <label for="gallery-header-img">Background of <strong>Gallery</strong> Page Header: </label>
             <input type="file" name="Header-gallery-img" id="gallery-header-img" accept="img/*">
-            <input type="submit" name="Header-gallery-img_submit">
         </div>
         <!--    *********************
         img for header of projects page
@@ -68,7 +64,6 @@
         <div class="admin__div">
             <label for="projects-header-img">Background of <strong>Projects</strong> Page Header: </label>
             <input type="file" name="Header-projects-img" id="projects-header-img" accept="img/*">
-            <input type="submit" name="Header-projects-img_submit">
         </div>
         <!--    *********************
         img for header of members page
@@ -76,15 +71,55 @@
         <div class="admin__div">
             <label for="members-header-img">Background of <strong>Members</strong> Page Header: </label>
             <input type="file" name="Header-members-img" id="members-header-img" accept="img/*">
-            <input type="submit" name="Header-members-img_submit">
         </div>
-    </fieldset>
+        <!--    *********************
+        submit for header of members page
+        ******************************-->
+        <div class="admin__div">
+            <input type="submit" name="Header-img_submit" class="btn">
+        </div>
+    </form>
+
+    <!--    *********************
+          Home-About US
+******************************-->
+    <form style="background: #aee9b1">
+        <h2 class="heading-big">Home About Us Part</h2>
+        <!--    *********************
+           Home-About-US
+ ******************************-->
+        <!--    *********************
+                  Home-About-US-Title
+        ******************************-->
+            <div class="admin__div">
+                <label for="Home-About-US-Title">Home-About-US-Title: </label>
+                <input type="text" name="Home-About-US-Title" id="Home-About-US-Title" class="admin__title">
+            </div>
+        <div class="admin__div">
+                <label for="Home-About-US-context">Context of Home-About-US: </label>
+                <textarea name="Home-About-US-context" id="Home-About-US-context" cols="100%" rows="10"
+                          placeholder="Context of Home-About-US"></textarea>
+            </div>
+         <!--    *********************
+                  Home-About-US
+        ******************************-->
+            <div class="admin__div">
+                <label for="Home-About-US--img">Img for Home Activities 1: </label>
+                <input type="file" name="Home-About-US--img" id="Home-About-US--img">
+            </div>
+        <!--    *********************
+                  Home-About-US-submit
+        ******************************-->
+        <div class="admin__div">
+            <input type="submit" name="Home-About-US-submit" class="btn">
+        </div>
+        </form>
 
     <!--    *********************
           Home-Activities
 ******************************-->
-    <fieldset style="background: #e9e0ae">
-        <legend>Home Activities Part</legend>
+    <form style="background: #e9d3ae">
+        <h2 class="heading-big">Home Activities Part</h2>
         <!--    *********************
            Home-Activities 1
  ******************************-->
@@ -112,10 +147,6 @@
                 <textarea name="homeActivities-context-1" id="homeActivities-context-1" cols="100%" rows="10"
                           placeholder="Context of Activity 1"></textarea>
             </div>
-            <!--    *********************
-        submit Activity 1
-        ******************************-->
-            <input type="submit" name="submit-activity-1">
         </fieldset>
         <!--    *********************
            Home-Activities 2
@@ -144,10 +175,6 @@
                 <textarea name="homeActivities-text-2" id="homeActivities-context-2" cols="100%" rows="10"
                           placeholder="Context of Activity 2"></textarea>
             </div>
-            <!--    *********************
-        submit Activity 2
-        ******************************-->
-            <input type="submit" name="submit-activity-2">
         </fieldset>
         <!--    *********************
             Home-Activities 3
@@ -176,18 +203,21 @@
                 <textarea name="homeActivities-text-3" id="homeActivities-context-3" cols="100%" rows="10"
                           placeholder="Context of Activity 3"></textarea>
             </div>
-            <!--    *********************
-        submit Activity 3
-        ******************************-->
-            <input type="submit" name="submit-activity-3">
+
         </fieldset>
-    </fieldset>
+            <!--    *********************
+        submit Activities
+        ******************************-->
+        <div class="admin__div">
+            <input type="submit" name="submit-Home-Activity" class="btn">
+        </div>
+    </form>
 
     <!--    *********************
         Home-gallery
 ******************************-->
-    <fieldset class="admin__home-gallery" style="background: #c4db9f">
-        <legend>Home Gallery</legend>
+    <form class="admin__home-gallery" style="background: #c4db9f">
+        <h2 class="heading-big">Home Gallery</h2>
         <img src="img/gallery/sample-of-gallery.JPG" alt="sample of gallery" style="width: 25rem">
         <!--    *********************
         img for homeGallery 1
@@ -195,7 +225,6 @@
         <div class="admin__div">
             <label for="homeGallery-img-1">img <strong>1</strong> : </label>
             <input type="file" name="homeGallery-img-1" id="homeGallery-img-1" accept="img/*">
-            <input type="submit" name="homeGallery-img-1_submit">
         </div>
         <!--    *********************
         img for homeGallery 2
@@ -203,7 +232,6 @@
         <div class="admin__div">
             <label for="homeGallery-img-2">img <strong>2</strong> : </label>
             <input type="file" name="homeGallery-img-2" id="homeGallery-img-2" accept="img/*">
-            <input type="submit" name="homeGallery-img-2_submit">
         </div>
         <!--    *********************
         imgimg for homeGallery 3
@@ -211,7 +239,6 @@
         <div class="admin__div">
             <label for="homeGallery-img-3">img <strong>3</strong> : </label>
             <input type="file" name="homeGallery-img-3" id="homeGallery-img-3" accept="img/*">
-            <input type="submit" name="homeGallery-img-3_submit">
         </div>
         <!--    *********************
         img for homeGallery 4
@@ -219,7 +246,6 @@
         <div class="admin__div">
             <label for="homeGallery-img-4">img <strong>4</strong> : </label>
             <input type="file" name="homeGallery-img-4" id="homeGallery-img-4" accept="img/*">
-            <input type="submit" name="homeGallery-img-4_submit">
         </div>
         <!--    *********************
         iimg for homeGallery 5
@@ -227,7 +253,6 @@
         <div class="admin__div">
             <label for="homeGallery-img-5">img <strong>5</strong> : </label>
             <input type="file" name="homeGallery-img-5" id="homeGallery-img-5" accept="img/*">
-            <input type="submit" name="homeGallery-img-5_submit">
         </div>
         <!--    *********************
         img for homeGallery 6
@@ -235,7 +260,6 @@
         <div class="admin__div">
             <label for="homeGallery-img-6">img <strong>6</strong> : </label>
             <input type="file" name="homeGallery-img-6" id="homeGallery-img-6" accept="img/*">
-            <input type="submit" name="homeGallery-img-6_submit">
         </div>
         <!--    *********************
         img for homeGallery 7
@@ -243,7 +267,6 @@
         <div class="admin__div">
             <label for="homeGallery-img-7">img <strong>7</strong> : </label>
             <input type="file" name="homeGallery-img-7" id="homeGallery-img-7" accept="img/*">
-            <input type="submit" name="homeGallery-img-7_submit">
         </div>
         <!--    *********************
         img for homeGallery 8
@@ -251,7 +274,6 @@
         <div class="admin__div">
             <label for="homeGallery-img-8">img <strong>8</strong> : </label>
             <input type="file" name="homeGallery-img-8" id="homeGallery-img-8" accept="img/*">
-            <input type="submit" name="homeGallery-img-8_submit">
         </div>
         <!--    *********************
         img for homeGallery 9
@@ -259,34 +281,36 @@
         <div class="admin__div">
             <label for="homeGallery-img-9">img <strong>9</strong> : </label>
             <input type="file" name="homeGallery-img-9" id="homeGallery-img-9" accept="img/*">
-            <input type="submit" name="homeGallery-img-9_submit">
         </div>
-    </fieldset>
+        <!--    *********************
+        homeGallery-img-submit
+        ******************************-->
+        <div class="admin__div">
+            <input type="submit" name="homeGallery-img-submit" class="btn">
+        </div>
+    </form>
     <!--    *********************
             projects
             ******************************-->
-    <fieldset style="background: #acbae2">
+    <form style="background: #acc6e2">
         <!--    *********************
             img for home projects
             ******************************-->
-        <legend>Project for Home page</legend>
+        <h2 class="heading-big">Project for Home page</h2>
         <!--    *********************
         img for Project
         ******************************-->
         <div class="admin__div">
             <label for="homeProject-img-background">img <strong>background</strong> : </label>
             <input type="file" name="homeProject-img-background" id="homeProject-img-background" accept="img/*">
-            <input type="submit" name="homeProject-img-background_submit">
         </div>
         <div class="admin__div">
             <label for="Project-img-1">img <strong>1</strong> : </label>
             <input type="file" name="homeProject-img-1" id="Project-img-1" accept="img/*">
-            <input type="submit" name="homeProject-img-1_submit">
         </div>
         <div class="admin__div">
             <label for="Project-img-2">img <strong>2</strong> : </label>
             <input type="file" name="homeProject-img-2" id="Project-img-2" accept="img/*">
-            <input type="submit" name="homeProject-img-2_submit">
         </div>
         <!--    *********************
         main sentence for Project
@@ -301,15 +325,17 @@
             <label for="homeProject-context">Context: </label>
             <textarea name="homeProject-context" id="homeProject-context" placeholder="context" cols="100%"
                       rows="15"></textarea>
-            <!--    *********************
+        </div>
+         <!--    *********************
         submit for homeProject
         ******************************-->
-            <input type="submit" name="homeProject-text_submit" style="margin-top: 2rem">
+        <div class="admin__div">
+            <input type="submit" name="homeProject-text_submit" class="btn">
         </div>
-    </fieldset>
+    </form>
 
 
-</form>
+</div>
 
 
 </body>
