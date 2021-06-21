@@ -1,19 +1,19 @@
 .about {
   background-color: $color-white;
-  margin: 1.5rem 15rem 3.5rem;
+  margin: 1.5rem 13rem 3.5rem;
 
   @media only screen and (min-width: 1200px) and (max-width: 1300px) {
-    margin: 1.5rem 10rem;
+    margin: 1.5rem 8rem;
   }
 
-  //@include respond(lab-medium) {
-  //  margin: 1.5rem 12rem;
-  //}
-  @include respond(tab-land) {
-    margin: 1.5rem 9rem;
+  @include respond(lab-medium) {
+    margin: 1.5rem 7rem;
   }
-  @include respond(small-phone) {
-    margin: 1.5rem 4rem;
+  @include respond(tab-land) {
+    margin: 1.5rem 6rem;
+  }
+  @include respond(phone) {
+    margin: 1.5rem 1.75rem;
   }
 
   @include respond(most-phone) {
@@ -44,8 +44,17 @@
     height: 30rem;
     position: relative;
     flex: 0 0 35rem;
-    @include respond(small-phone) {
 
+    @media only screen and (max-width: 1400px) and (min-width: 800px) {
+      margin-right: -4rem;
+    }
+    //    @include respond(phone) {
+    //width: 20rem;
+    //    height: 20rem;
+    //    }
+    @include respond(small-phone) {
+      margin-bottom: 3rem;
+      margin-top: -3rem;
     }
   }
 

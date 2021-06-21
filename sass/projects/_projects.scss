@@ -21,6 +21,12 @@
     @include respond(small-phone) {
       grid-column: 1/-1;
     }
+    @media only screen and (min-width: 479px) and (max-width: 540px) {
+      height: 65rem;
+    }
+    @include respond(most-phone) {
+      height: 60rem;
+    }
 
   }
 
@@ -36,6 +42,7 @@
     justify-self: center;
     align-self: center;
     z-index: 100;
+    padding-bottom: 1.2rem;
   }
 
   &__img--1 {
@@ -63,10 +70,12 @@
       grid-column: 5/8;
       grid-row: 5/7;
     }
+
     @include respond(tab-land) {
       grid-column: 2/8;
       grid-row: 6/8;
     }
+
     @include respond(small-phone) {
       grid-column: 4/-1;
       grid-row: 5/6;
@@ -79,9 +88,11 @@
         width: 110%;
       }
       @include respond(tab-land) {
-        width: 100%;
+        width: 95%;
       }
-
+      @media only screen and (min-width: 719px) and (max-width: 811px) {
+        width: 90%;
+      }
       @include respond(small-phone) {
         width: 90%;
       }
@@ -112,7 +123,7 @@
     @include respond(phone) {
       padding: 3rem 4rem;
     }
-     @include respond(small-phone) {
+    @include respond(small-phone) {
       grid-column: 1/-1;
     }
   }
@@ -122,6 +133,7 @@
     color: $color-gray-dark;
     line-height: 3rem;
     text-align: justify;
+
     p {
       margin-top: 2.5rem;
       text-indent: 2.5rem;

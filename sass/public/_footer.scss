@@ -124,7 +124,7 @@
   &__arrow {
     align-self: flex-end;
     fill: $color-gray-dark;
-    padding: 1.5rem 2.5rem;
+    padding: 1.5rem 2.2rem;
     transition: trsnsform .8s;
     cursor: pointer;
 
@@ -141,7 +141,7 @@
   &__arrow--scroll {
     position: fixed;
     top: 90vh;
-    right: 1rem;
+    right: .5rem;
   }
 
   &__maker {

@@ -7,6 +7,9 @@
   padding: 5rem 2.5rem;
   position: relative;
 
+  @include respond(phone) {
+    padding: 2.5rem 2rem;
+  }
   @include respond(small-phone) {
     padding: 3.2rem 2rem;
   }
@@ -114,7 +117,7 @@
     }
     @include respond(phone) {
       max-width: 25rem;
-      margin: 6rem auto;
+      margin: 0 auto;
     }
   }
 
