@@ -60,10 +60,6 @@ body {
   line-height: 1.7;
   color: $color-gray;
   box-sizing: border-box;
-
-  //background-image: url("../img/P1.jpg");
-  //background-size: cover;
-  //background-position: top;
 }
 
 a {
@@ -75,11 +71,6 @@ li {
   list-style: none;
   display: inline-block;
 }
-
-//.container {
-//  display: grid;
-//  grid-template-rows: repeat(4, min-content) max-content min-content;
-//}
 
 .main {
   background-color: $color-white;

@@ -1410,7 +1410,6 @@ li {
     width: 80vw;
     padding-right: 10rem; }
   .history__paragraph {
-    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
     background-color: white;
     color: #454444;
     font-size: 1.6rem;
