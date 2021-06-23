@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="118319de-ae63-4a5f-b3ae-30acab8bb243" name="Default Changelist" comment="some edition for some part">
-      <change afterPath="$PROJECT_DIR$/img/Megha-stories.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Megha.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/members/Megha-about.png" afterDir="false" />
+    <list default="true" id="118319de-ae63-4a5f-b3ae-30acab8bb243" name="Default Changelist" comment="working on responsive website">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-activities.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin-activities.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-stories.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin-stories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activities.html" beforeDir="false" afterPath="$PROJECT_DIR$/activities.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/about-stories/_about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/about-stories/_about.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/members.html" beforeDir="false" afterPath="$PROJECT_DIR$/members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.html" beforeDir="false" afterPath="$PROJECT_DIR$/project.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/about-stories/_moreStories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/about-stories/_moreStories.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/activities/_activities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/activities/_activities.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/bases/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/bases/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/gallery/_collection.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/gallery/_collection.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/members/_country.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/members/_country.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/members/_members.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/members/_members.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stories.html" beforeDir="false" afterPath="$PROJECT_DIR$/stories.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -168,14 +168,7 @@
       <workItem from="1624122326131" duration="3254000" />
       <workItem from="1624170699406" duration="31022000" />
       <workItem from="1624344010133" duration="13184000" />
-      <workItem from="1624428933878" duration="1774000" />
-    </task>
-    <task id="LOCAL-00029" summary="new scss">
-      <created>1620661468261</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1620661468261</updated>
+      <workItem from="1624428933878" duration="7202000" />
     </task>
     <task id="LOCAL-00030" summary="new scss">
       <created>1620661835087</created>
@@ -513,7 +506,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624295756164</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="working on responsive website">
+      <created>1624431889382</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1624431889383</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -551,6 +551,7 @@
     <MESSAGE value="making gallery page" />
     <MESSAGE value="making projects page" />
     <MESSAGE value="some edition for some part" />
-    <option name="LAST_COMMIT_MESSAGE" value="some edition for some part" />
+    <MESSAGE value="working on responsive website" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on responsive website" />
   </component>
 </project>
