@@ -357,22 +357,27 @@ li {
     margin-bottom: 1.5rem;
     margin-top: 2.5rem; }
   .about__megha {
+    width: 30rem;
     height: 30rem;
-    position: relative;
-    flex: 0 0 35rem; }
-    @media only screen and (max-width: 1400px) and (min-width: 800px) {
+    flex: 0 0 30rem; }
+    @media only screen and (max-width: 940px) and (min-width: 900px) {
       .about__megha {
-        margin-right: -4rem; } }
+        margin-right: -5rem; } }
+    @media only screen and (max-width: 750px) {
+      .about__megha {
+        height: 25rem;
+        flex: 0 0 25rem; } }
     @media only screen and (max-width: 650px) {
       .about__megha {
-        margin-bottom: 3rem;
-        margin-top: -3rem; } }
+        flex: 0 0 39rem;
+        margin-top: -2.5rem; } }
   .about__megha--img {
-    position: absolute;
-    height: 39rem;
-    top: 1rem;
-    right: 10%;
-    clip-path: circle(50% at 50% 50%); }
+    clip-path: circle(50% at 50% 50%);
+    margin-top: -2.5rem; }
+    @media only screen and (max-width: 650px) {
+      .about__megha--img {
+        height: 39rem;
+        margin-top: 0; } }
   .about__title {
     display: flex;
     justify-content: flex-start;
@@ -507,12 +512,9 @@ li {
   position: relative;
   overflow-x: hidden;
   overflow-y: hidden; }
-  @media only screen and (max-width: 900px) and (min-width: 800px) {
-    .activities {
-      height: 60vh; } }
   @media only screen and (max-width: 650px) {
     .activities {
-      height: 80rem; } }
+      height: 90rem; } }
   .activities__background {
     position: absolute;
     bottom: 0;
@@ -974,7 +976,7 @@ li {
     height: 4rem; }
 
 .members {
-  background-image: linear-gradient(rgba(204, 204, 204, 0.5), rgba(255, 255, 255, 0.5)), url("../img/members/members-bg-homepage.jpg");
+  background-image: linear-gradient(rgba(109, 109, 109, 0.5), rgba(255, 255, 255, 0.5)), url("../img/members/members-bg-homepage.jpg");
   max-height: 200vh;
   background-position: top;
   background-size: cover;
@@ -1093,11 +1095,11 @@ li {
     max-width: 25rem;
     width: 100%;
     height: 50rem;
-    background-color: rgba(204, 204, 204, 0.5);
+    background-color: rgba(109, 109, 109, 0.5);
     overflow: hidden;
     position: relative; }
     .members__card--homePage:hover {
-      background-color: rgba(204, 204, 204, 0.9); }
+      background-color: rgba(109, 109, 109, 0.9); }
     @media only screen and (max-width: 800px) {
       .members__card--homePage {
         max-width: 100%;
@@ -1216,7 +1218,7 @@ li {
     color: #e0e0e0; }
     .footer__number:before {
       content: ":";
-      color: #cccccc;
+      color: #6d6d6d;
       margin-left: -2rem;
       margin-right: 1rem; }
   .footer__svg {
@@ -1224,7 +1226,7 @@ li {
     height: 2.2rem;
     margin-right: 2.5rem;
     margin-top: 2.5rem;
-    fill: #cccccc;
+    fill: #6d6d6d;
     box-shadow: 12px 10px 10px rgba(0, 0, 0, 0.1); }
   .footer__right {
     align-self: flex-end; }
@@ -1391,38 +1393,40 @@ li {
   width: 100%; }
 
 .history {
-  position: relative;
   max-height: 100rem;
-  height: 60rem; }
+  display: flex;
+  align-items: center;
+  margin: 2.5rem 3.5rem; }
+  @media only screen and (max-width: 800px) {
+    .history {
+      margin: 1.5rem 1.75rem; } }
+  @media only screen and (max-width: 800px) {
+    .history {
+      flex-direction: column; } }
   .history__megha {
-    height: 35rem;
-    width: 30rem;
+    width: 40rem;
     clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
-    position: absolute;
-    top: 6%;
-    right: 10%; }
+    flex: 0 0 40rem;
+    padding: 2.5rem 3.5rem; }
   .history__context {
-    position: absolute;
-    top: 2.5rem;
-    left: 5%;
     max-height: 200rem;
-    width: 80vw;
-    padding-right: 10rem; }
-  .history__paragraph {
-    background-color: white;
-    color: #454444;
-    font-size: 1.6rem;
     width: 60vw;
-    height: 90%;
+    flex: 0 0 1; }
+  .history__paragraph {
+    color: #6d6d6d;
+    font-size: 1.6rem;
     padding: 2.75rem;
     text-align: justify;
     font-style: italic; }
+    @media only screen and (max-width: 800px) {
+      .history__paragraph {
+        padding: 1.75rem; } }
   .history__read-more {
     color: #777777;
     cursor: pointer; }
 
 .stories {
-  background-color: #814242; }
+  background-color: #dbdbdb; }
   .stories__header {
     background: url("../img/stories-bg.jpg") top;
     background-size: cover;
@@ -1432,7 +1436,8 @@ li {
     align-items: center; }
   .stories__section {
     position: relative;
-    z-index: 100; }
+    z-index: 100;
+    margin-bottom: 10rem; }
   .stories__content {
     width: 75%;
     transform: skewX(-12deg);
@@ -1471,11 +1476,14 @@ li {
     width: 70%;
     height: 20rem;
     bottom: -7rem;
-    right: 12.5rem;
+    right: 15.5rem;
     background-color: #bfbaa9;
     transform: skewX(-12deg);
     z-index: -1;
     margin: 4.5rem auto; }
+    @media only screen and (max-width: 1300px) {
+      .stories__box--shadow {
+        right: 12.5rem; } }
     @media only screen and (max-width: 570px) {
       .stories__box--shadow {
         transform: skewX(0);

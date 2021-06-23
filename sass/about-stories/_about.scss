@@ -38,29 +38,38 @@
     margin-bottom: 1.5rem;
     margin-top: 2.5rem;
   }
-
+//img
   &__megha {
-    //width: 30rem;
+    width: 30rem;
     height: 30rem;
-    position: relative;
-    flex: 0 0 35rem;
-
-    @media only screen and (max-width: 1400px) and (min-width: 800px) {
-      margin-right: -4rem;
-    }
+    //position: relative;
+    flex: 0 0 30rem;
+@media only screen and (max-width: 940px) and (min-width: 900px) {
+          margin-right: -5rem;
+        }
+    @media only screen and (max-width: 750px) {
+           height: 25rem;
+    flex: 0 0 25rem;
+        }
     @include respond(small-phone) {
-      margin-bottom: 3rem;
-      margin-top: -3rem;
+      flex: 0 0 39rem;
+      margin-top: -2.5rem;
     }
   }
 
   &__megha--img {
-    position: absolute;
-    height: 39rem;
-    top: 1rem;
-    right: 10%;
+    //position: absolute;
+
+    //top: 1rem;
+    //right: 10%;
     clip-path: circle(50% at 50% 50%);
+    margin-top: -2.5rem;
+     @include respond(small-phone) {
+       height: 39rem;
+       margin-top: 0;
+     }
   }
+
 
   //***slider***//
   &__title {

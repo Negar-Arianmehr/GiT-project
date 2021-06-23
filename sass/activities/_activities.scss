@@ -5,12 +5,12 @@
   position: relative;
   overflow-x: hidden;
   overflow-y: hidden;
-  @media only screen and(max-width: 900px) and (min-width: 800px) {
-    height: 60vh;
-  }
+  //@media only screen and(max-width: 900px) and (min-width: 800px) {
+  //  height: 60rem;
+  //}
 
   @include respond(small-phone) {
-    height: 80rem;
+    height: 90rem;
   }
 
   &__background {

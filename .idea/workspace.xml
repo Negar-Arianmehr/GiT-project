@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="118319de-ae63-4a5f-b3ae-30acab8bb243" name="Default Changelist" comment="some edition for some part">
-      <change afterPath="$PROJECT_DIR$/img/Megha-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Megha-stories.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Megha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/members/Megha-about.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-activities.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin-activities.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-stories.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin-stories.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/About.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Background of GiT.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/about-stories/_about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/about-stories/_about.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/about-stories/_moreStories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/about-stories/_moreStories.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/activities/_activities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/activities/_activities.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/bases/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/bases/_variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stories.html" beforeDir="false" afterPath="$PROJECT_DIR$/stories.html" afterDir="false" />
@@ -162,35 +166,9 @@
       <workItem from="1623825380522" duration="40104000" />
       <workItem from="1623997376168" duration="37599000" />
       <workItem from="1624122326131" duration="3254000" />
-      <workItem from="1624170699406" duration="25129000" />
-    </task>
-    <task id="LOCAL-00025" summary="work on sections">
-      <created>1620032417705</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1620032417705</updated>
-    </task>
-    <task id="LOCAL-00026" summary="work on sections">
-      <created>1620032494974</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1620032494974</updated>
-    </task>
-    <task id="LOCAL-00027" summary="new scss">
-      <created>1620408021415</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1620408021415</updated>
-    </task>
-    <task id="LOCAL-00028" summary="new scss">
-      <created>1620412216065</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1620412216065</updated>
+      <workItem from="1624170699406" duration="31022000" />
+      <workItem from="1624344010133" duration="13184000" />
+      <workItem from="1624428933878" duration="1774000" />
     </task>
     <task id="LOCAL-00029" summary="new scss">
       <created>1620661468261</created>
@@ -507,7 +485,35 @@
       <option name="project" value="LOCAL" />
       <updated>1624287700895</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="some edition for some part">
+      <created>1624290088077</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1624290088077</updated>
+    </task>
+    <task id="LOCAL-00075" summary="some edition for some part">
+      <created>1624290293485</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1624290293485</updated>
+    </task>
+    <task id="LOCAL-00076" summary="some edition for some part">
+      <created>1624293805218</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1624293805218</updated>
+    </task>
+    <task id="LOCAL-00077" summary="some edition for some part">
+      <created>1624295756164</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1624295756164</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
