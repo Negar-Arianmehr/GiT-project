@@ -6,11 +6,6 @@
     background-image: url("../img/gallery/pexels-francesco-ungaro-673648-2.jpg");
     background-size: cover;
     background-position: bottom;
-    //  //background: linear-gradient(to right, rgba($color-gray-light-2, .5), rgba($color-gray, .8)), url("../img/DSCF5656.jpg") bottom;
-    //  background-size: cover;
-    //  display: flex;
-    //  justify-content: center;
-    //  align-items: center;
   }
 
   &__main {
@@ -57,7 +52,6 @@
     grid-column: 3/ 7;
     transform: rotate(-25deg);
     z-index: 115;
-    //outline: 10px solid #ffffff;
   }
 
   &--2 {
@@ -65,7 +59,6 @@
     grid-column: 4/ 6;
     transform: rotate3d(9, 6, 10, -20deg);
     z-index: 118;
-    //outline: 10px solid #fdfdfd;
   }
 
   &--3 {
@@ -73,7 +66,6 @@
     grid-column: 7/ 10;
     transform: rotate3d(2, -5, -8, -30deg);
     z-index: 130;
-    //outline: 10px solid #ffffff;
   }
 
   &--4 {
@@ -81,7 +73,6 @@
     grid-column: 6/ 9;
     transform: rotate3d(20, 50, 10, 30deg);
     z-index: 120;
-    //outline: 10px solid #ffffff;
   }
   //Form Part
   &__form {
