@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="118319de-ae63-4a5f-b3ae-30acab8bb243" name="Default Changelist" comment="working on responsive website design and working on stories page">
+    <list default="true" id="118319de-ae63-4a5f-b3ae-30acab8bb243" name="Default Changelist" comment="last part of edit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/about-stories/_about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/about-stories/_about.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/about-stories/_moreStories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/about-stories/_moreStories.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/gallery/_collection.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/gallery/_collection.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/members/_more-members.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/members/_more-members.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,13 +156,7 @@
       <workItem from="1624170699406" duration="31022000" />
       <workItem from="1624344010133" duration="13184000" />
       <workItem from="1624428933878" duration="14235000" />
-    </task>
-    <task id="LOCAL-00031" summary="new scss">
-      <created>1620672520530</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1620672520530</updated>
+      <workItem from="1624519142834" duration="884000" />
     </task>
     <task id="LOCAL-00032" summary="new scss">
       <created>1620752802725</created>
@@ -507,7 +494,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624447293275</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="last part of edit">
+      <created>1624519387511</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1624519387512</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -547,6 +541,7 @@
     <MESSAGE value="some edition for some part" />
     <MESSAGE value="working on responsive website" />
     <MESSAGE value="working on responsive website design and working on stories page" />
-    <option name="LAST_COMMIT_MESSAGE" value="working on responsive website design and working on stories page" />
+    <MESSAGE value="last part of edit" />
+    <option name="LAST_COMMIT_MESSAGE" value="last part of edit" />
   </component>
 </project>
