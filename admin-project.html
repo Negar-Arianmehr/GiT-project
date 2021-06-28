@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shourtcut icon" type="img/png" href="img/GIT-LOGO.png">
+
+    <title>Admin Projects</title>
+</head>
+<body>
+<!--Header-->
+<div class="admin__header">
+    <nav class="admin__nav">
+        <ul class="admin__ul">
+            <li class="heading-small"><a href="admin.html">Home</a></li>
+            <li class="heading-small"><a href="admin-stories.html">Stories</a></li>
+            <li class="heading-small"><a href="admin-activities.html">Activities</a></li>
+            <li class="heading-small"><a href="admin-gallery.html">Gallery</a></li>
+            <li class="heading-small"><a href="admin-project.html">Project</a></li>
+            <li class="heading-small"><a href="admin-members.html">Members</a></li>
+            <li class="heading-small"><a href="admin-contact.html">contact</a></li>
+        </ul>
+    </nav>
+</div>
+<!--    *********************
+       Project Form
+******************************-->
+<form class="admin" action="" style="background: #acc6e2">
+
+    <h3 class="heading heading-big">New Project</h3>
+    <!--    *********************
+    Title
+    ******************************-->
+    <div class="admin__div">
+        <label for="project-title">Title: </label>
+        <input type="text" name="project-title" id="project-title" class="admin__title">
+    </div>
+<!--    *********************
+        img for project
+        ******************************-->
+        <div class="admin__div">
+            <label for="project-img">img : </label>
+            <input type="file" name="project-img" id="project-img" accept="img/*">
+        </div>
+        <!--    *********************
+text
+******************************-->
+    <label for="stories">Context:</label>
+    <textarea id="stories" name="text-of-story-1" cols="100%" rows="10"
+              placeholder="Context :"></textarea>
+    <!--    *********************
+    submit
+    ******************************-->
+    <div><input type="submit" name="submit-project" class="btn"></div>
+</form>
+
+</body>
+</html>

@@ -2,194 +2,88 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="shourtcut icon" type="img/png" href="img/GIT-LOGO.png">
-    <title>Admin Gallery</title>
+
+    <title>Admin Projects</title>
 </head>
 <body>
-<!--*****************-->
-<!--    Header-->
-<!--*****************-->
-<header class="header header__sticky">
-    <div class="header__contents">
-        <ul class="header__ul">
-            <li class="header__items"><a href="#" class="header__link">
-                <svg class="header__svg">
-                    <use xlink:href="img/sprite.svg#icon-facebook"></use>
-                </svg>
-            </a></li>
-            <li class="header__items"><a href="#" class="header__link">
-                <svg class="header__svg">
-                    <use xlink:href="img/sprite.svg#icon-mail2"></use>
-                </svg>
-            </a></li>
-            <li class="header__items"><a href="#" class="header__link">
-                <svg class="header__svg">
-                    <use xlink:href="img/sprite.svg#icon-phone"></use>
-                </svg>
-            </a></li>
-            <li class="header__items"><a href="#" class="header__link">
-                <svg class="header__svg">
-                    <use xlink:href="img/sprite.svg#icon-whatsapp"></use>
-                </svg>
-            </a></li>
+<!--Header-->
+<div class="admin__header">
+    <nav class="admin__nav">
+        <ul class="admin__ul">
+            <li class="heading-small"><a href="admin.html">Home</a></li>
+            <li class="heading-small"><a href="admin-stories.html">Stories</a></li>
+            <li class="heading-small"><a href="admin-activities.html">Activities</a></li>
+            <li class="heading-small"><a href="admin-collection.html">collection</a></li>
+            <li class="heading-small"><a href="admin-project.html">Project</a></li>
+            <li class="heading-small"><a href="admin-members.html">Members</a></li>
+            <li class="heading-small"><a href="admin-contact.html">contact</a></li>
         </ul>
-    </div>
-    <div class="header__eindhoven">
-        <img src="img/eindhoven-3.png" alt="logo of eindhoven" class="header__eindhoven-img">
-    </div>
+    </nav>
+</div>
 
-</header>
-<!--*****************-->
-<!--    Nav-->
-<!--*****************-->
-<nav class="nav">
-    <div class="nav__icon-box">
-        <img src="img/GIT-LOGO.png" alt="" class="nav__icon-img">
-    </div>
-    <!--*****************-->
-    <!--btn for collapse _nav-->
-    <!--*****************-->
-    <div class="collapse-nav__box menu">
-        <button class="collapse-nav__btn">
-            <svg class="collapse-nav__svg">
-                <use xlink:href="img/sprite.svg#icon-th-menu-outline"></use>
-            </svg>
-        </button>
-    </div>
-    <!--*****************-->
-    <!--close btn for collapse _nav-->
-    <!--*****************-->
-    <div class="collapse-nav__box close hidden">
-        <button class="collapse-nav__btn">
-            <svg class="collapse-nav__svg">
-                <use xlink:href="img/sprite.svg#icon-close"></use>
-            </svg>
-        </button>
-    </div>
-
-    <div class="nav__nav-box">
-        <ul class="nav--ul" id="main-nav">
-            <li class="nav--items" id="Home">
-                <a href="index.html" class="nav--link" target="_blank">Home</a>
-            </li>
-            <li class="nav--items">
-                <a href="stories.html" class="nav--link about--us" target="_blank">About us</a>
-            </li>
-            <li class="nav--items">
-                <a href="activities.html" class="nav--link" target="_blank">Activities</a>
-            </li>
-            <li class="nav--items">
-                <a href="gallery.html" class="nav--link" target="_blank">Gallery</a>
-            </li>
-            <li class="nav--items">
-                <a href="project.html" class="nav--link" target="_blank">project</a>
-            </li>
-            <li class="nav--items">
-                <a href="members.html" class="nav--link" target="_blank">Members</a>
-            </li>
-            <li class="nav--items">
-                <a href="#Contact" class="nav--contact" target="_blank">Contact</a>
-            </li>
-        </ul>
-    </div>
-</nav>
-<div class="bg-header"></div>
-<!--*****************-->
-<!--  admin gallery -->
-<!--*****************-->
-<main>
-
-</main>
-<!--*****************-->
-<!--  footer -->
-<!--*****************-->
-<footer class="footer" id="Contact">
-    <div class="footer__content">
-        <div class="footer__left">
-            <!--                <div class="footer__icon-box">-->
-            <!--                    <img src="img/GIT-LOGO-footer.png" alt="" class="footer__icon-img">-->
-            <!--                </div>-->
-            <div>
-                <!--*****************-->
-                <!--  footer--header -->
-                <!--*****************-->
-                <h1 class="heading heading-hug">Get in touch</h1>
-            </div>
-            <!--*****************-->
-            <!--  footer-social-media -->
-            <!--*****************-->
-            <div>
-                <ul class="footer__ul">
-                    <li class="footer__items"><a href="#" class="footer__link">
-                        <svg class="footer__svg">
-                            <use xlink:href="img/sprite.svg#icon-facebook"></use>
-                        </svg>
-                    </a></li>
-                    <li class="footer__items"><a href="#" class="footer__link">
-                        <svg class="footer__svg">
-                            <use xlink:href="img/sprite.svg#icon-mail2"></use>
-                        </svg>
-                    </a></li>
-                    <li class="footer__items"><a href="#" class="footer__link">
-                        <svg class="footer__svg">
-                            <use xlink:href="img/sprite.svg#icon-phone"></use>
-                        </svg>
-                    </a></li>
-                    <li class="footer__items"><a href="#" class="footer__link">
-                        <svg class="footer__svg">
-                            <use xlink:href="img/sprite.svg#icon-whatsapp"></use>
-                        </svg>
-                    </a></li>
-                </ul>
-            </div>
+    <!--    *********************
+      collection
+******************************-->
+    <form class="admin__div" style="background: #c4db9f">
+        <h2 class="heading-big heading">collection</h2>
+        <!--    *********************
+              -Activities title
+    ******************************-->
+        <div class="admin__div">
+            <label for="Activities-title">Title : </label>
+            <input type="" name="Activities-title" id="Activities-title" class="admin__title">
         </div>
-        <div class="footer__right">
-            <!--*****************-->
-            <!--  footer--form -->
-            <!--*****************-->
-            <form action="" class="footer__form">
-                <input type="text" class="footer__input" placeholder="Name">
-                <input type="text" class="footer__input" placeholder="Email address">
-                <textarea class="footer__input" rows="5" cols="50" placeholder="Message"></textarea>
-            </form>
+        <!--    *********************
+        img for collection 1
+        ******************************-->
+        <div class="admin__div">
+            <label for="collection-img-1">img <strong>1</strong> : </label>
+            <input type="file" name="collection-img-1" id="collection-img-1" accept="img/*">
         </div>
-        <!--*****************-->
-        <!--  footer-arrow -->
-        <!--*****************-->
-        <div class="footer__arrow">
-            <svg class="footer__arrow--svg">
-                <use xlink:href="img/sprite.svg#icon-arrow-circle-up"></use>
-            </svg>
+        <!--    *********************
+        img for collection 2
+        ******************************-->
+        <div class="admin__div">
+            <label for="collection-img-2">img <strong>2</strong> : </label>
+            <input type="file" name="collection-img-2" id="collection-img-2" accept="img/*">
         </div>
-    </div>
-    <!--*****************-->
-    <!--  footer--maker -->
-    <!--*****************-->
-    <div class="footer__maker">
-        <div>
-            <p class="footer__maker--name">illustrated by: delaram ashtari</p>
-            <span>
-                    <svg class="footer__maker--email">
-                        <use xlink:href="img/sprite.svg#icon-mail2"></use>
-                    </svg>
-                </span>
+        <!--    *********************
+        imgimg for collection 3
+        ******************************-->
+        <div class="admin__div">
+            <label for="collection-img-3">img <strong>3</strong> : </label>
+            <input type="file" name="collection-img-3" id="collection-img-3" accept="img/*">
+        </div>
+        <!--    *********************
+        img for collection 4
+        ******************************-->
+        <div class="admin__div">
+            <label for="collection-img-4">img <strong>4</strong> : </label>
+            <input type="file" name="collection-img-4" id="collection-img-4" accept="img/*">
+        </div>
+        <!--    *********************
+        iimg for collection 5
+        ******************************-->
+        <div class="admin__div">
+            <label for="collection-img-5">img <strong>5</strong> : </label>
+            <input type="file" name="collection-img-5" id="collection-img-5" accept="img/*">
+        </div>
+        <!--    *********************
+        img for collection 6
+        ******************************-->
+        <div class="admin__div">
+            <label for="collection-img-6">img <strong>6</strong> : </label>
+            <input type="file" name="collection-img-6" id="collection-img-6" accept="img/*">
         </div>
 
-        <div>
-            <p class="footer__maker--name"> developed by: Negar Arianmehr</p>
-            <span>
-                    <svg class="footer__maker--email">
-                        <use xlink:href="img/sprite.svg#icon-mail2"></use>
-                    </svg>
-                </span>
+        <!--    *********************
+        collection-img-submit
+        ******************************-->
+        <div class="admin__div">
+            <input type="submit" name="collection-img-submit" class="btn">
         </div>
-    </div>
-
-</footer>
-<!--*****************-->
-<!--    JavaScript -->
-<!--*****************-->
-<script src="js/_nav.js"></script>
+    </form>
 </body>
 </html>

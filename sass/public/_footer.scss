@@ -1,6 +1,6 @@
 .footer {
   max-height: 200vh;
-  background-image: linear-gradient(rgba($color-secondary-dark, .9), rgba($color-secondary-light, .5)), url("../img/contact2.jpg");
+  background-image: linear-gradient(rgba($color-secondary-dark, .9), rgba($color-secondary-light, .5)), url("../img/backgrounds/contact2.jpg");
   background-position: bottom;
   background-size: cover;
   padding-top: 2.5rem;
@@ -101,6 +101,9 @@
     @media only screen and (max-width: 700px) {
       width: 50rem;
       margin: 0 auto;
+    }
+    @media only screen and (max-width: 370px) {
+      width: 250px;
     }
   }
 
