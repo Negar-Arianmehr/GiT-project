@@ -5,12 +5,9 @@
     background-size: cover;
     background-position: bottom;
   }
-
   &__main {
-    //background-image: url("../img/gallery/bg-collection.jpg");
     padding: 5rem 0;
   }
-
   &__album {
     height: 100vh;
     width: 96vw;
@@ -19,7 +16,6 @@
     grid-template-rows: repeat(10, 1fr);
     padding-top: 4rem;
   }
-
   &__figure {
     width: auto;
     @media only screen and (min-width: 1000px) and (max-width: 1100px) {
@@ -27,7 +23,6 @@
       width: 50vw;
     }
   }
-
   &__img {
     width: 100%;
     height: 100%;
@@ -45,7 +40,6 @@
       grid-column: 1/6;
     }
   }
-
   &--2 {
     grid-row: 7/10;
     grid-column: 4/ 6;
@@ -56,7 +50,6 @@
       grid-column: 2/7;
     }
   }
-
   &--3 {
     grid-row: 2/5;
     grid-column: 7/ 10;
@@ -71,7 +64,6 @@
       grid-column: 2/ 9;
     }
   }
-
   &--4 {
     grid-row: 5/10;
     grid-column: 6/ 9;
@@ -82,7 +74,6 @@
       grid-column: 4/ 9;
     }
   }
-
   //Form Part
   &__form {
     width: 95%;
@@ -115,18 +106,15 @@
       color: #8a8a8a;
     }
   }
-
   &__text--location {
     grid-column: 8/10;
     grid-row: 1/2;
     align-self: center;
   }
-
   &__text--box {
     height: 20rem;
     clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
   }
-
   &__text--title {
     height: 100%;
     display: flex;
@@ -136,12 +124,10 @@
     margin: 1.5rem 0 1.5rem 2.5rem;
   }
 }
-
 //<!--*****************-->
 //<!--collection slideShow
 //*****************--><!---->
 .collection {
-
   /* Position the image container (needed to position the left and right arrows) */
   &__slideshow {
     position: relative;
@@ -152,22 +138,18 @@
     }
   }
 }
-
 img {
   vertical-align: middle;
 }
-
 /* Hide the images by default */
 .mySlides {
   display: none;
   margin: 0 auto;
 }
-
 /* Add a pointer when hovering over the thumbnail images */
 .cursor {
   cursor: pointer;
 }
-
 /* Next & previous buttons */
 .prev,
 .next {
@@ -189,19 +171,16 @@ img {
     top: 60%;
   }
 }
-
 /* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
-
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
-
 /* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
@@ -209,9 +188,7 @@ img {
   padding: 8px 12px;
   position: absolute;
   top: 0;
-
 }
-
 /* Container for image text */
 .caption-container {
   text-align: center;
@@ -219,13 +196,11 @@ img {
   padding: 2px 16px;
   color: white;
 }
-
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
-
 /* Six columns side by side */
 .column {
   float: left;
@@ -233,13 +208,11 @@ img {
   max-height: 20rem;
   //overflow: hidden;
 }
-
 /* Add a transparency effect for thumnbail images */
 .demo {
   opacity: 0.6;
   object-fit: cover;
 }
-
 .active,
 .demo:hover {
   opacity: 1;
