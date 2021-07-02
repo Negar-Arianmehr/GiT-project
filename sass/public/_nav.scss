@@ -55,8 +55,8 @@
     padding-right: 4.5rem;
     transition: .5s ease-out;
     text-transform: uppercase;
-
-    &:hover {
+    &:hover,
+    &:visited {
       transform: translateY(3px) scale(1.15);
     }
 
@@ -168,3 +168,9 @@
     background-color: rgba($color-secondary-dark, .95);
   }
 }
+
+.active__links {
+  color: $color-main-light-1;
+  text-shadow: 0 1rem 1rem #646262;
+}
+

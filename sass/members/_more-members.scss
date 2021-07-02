@@ -1,6 +1,6 @@
 .moreMembers__header {
   height: 80vh;
-  background-image: linear-gradient(to right, rgba($color-gray-dark-3, .35), rgba($color-gray, .5)), url("../img/backgrounds/bg-members.JPG");
+  background-image: linear-gradient(to right, rgba($color-gray-dark-3, .35), rgba($color-gray, .5)), url("../img/Backgrounds/bg-members.JPG");
   background-position: top;
   background-size: cover;
   clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
@@ -49,8 +49,6 @@
     height: 30rem;
     width: 30rem;
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-
-    //border: 10px solid black;
   }
 
   &__img {

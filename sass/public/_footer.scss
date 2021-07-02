@@ -1,6 +1,6 @@
 .footer {
   max-height: 200vh;
-  background-image: linear-gradient(rgba($color-secondary-dark, .9), rgba($color-secondary-light, .5)), url("../img/backgrounds/contact2.jpg");
+  background-image: linear-gradient(rgba($color-secondary-dark, .9), rgba($color-secondary-light, .5)), url("../img/Backgrounds/bg-contact2.jpg");
   background-position: bottom;
   background-size: cover;
   padding-top: 2.5rem;
@@ -42,7 +42,6 @@
   &__ul {
     text-align: center;
     display: flex;
-    //flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
   }
@@ -52,7 +51,7 @@
     text-align: center;
 
     &:hover {
-      transform: translate3d(0, -10px, 2px) rotate3d(3, 1, 0, 50deg);
+      transform: translate3d(-5px, -5px, -5px) rotate3d(3, 5, 2, 20deg);
     }
   }
 
@@ -71,7 +70,6 @@
       color: $color-gray-light-3;
       margin-left: -2rem;
       margin-right: 1rem;
-      //margin-bottom: -2rem;
     }
   }
 
@@ -149,7 +147,6 @@
 
   &__maker {
     width: 95%;
-    //height: max-content;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -189,5 +186,34 @@
         transform: rotate(0) scale(1.2);
       }
     }
+  }
+}
+
+.facebook {
+  &:hover {
+    fill: #3b5998;
+  }
+}
+.footer__hover {
+  &:hover {
+    background-color: white;
+    padding: .5rem;
+    border-radius: 50%;
+    transform: scale(1.5);
+  }
+}
+.whatsapp {
+  &:hover {
+    fill: #25d366;
+  }
+}
+.linkedin {
+&:hover {
+    fill: #0a66c2;
+  }
+}
+.email {
+  &:hover {
+    fill: #EA4335;
   }
 }

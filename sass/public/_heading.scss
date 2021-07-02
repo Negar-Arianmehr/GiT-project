@@ -1,9 +1,7 @@
 .heading {
-  //font-weight: 700;
   font-family: $font-family-main;
   text-transform: uppercase;
   display: inline-block;
-  //margin-bottom: 1rem;
   margin-top: 1.2rem;
   animation-delay: .9s;
   animation-duration: 800ms;
@@ -13,9 +11,7 @@
   font-size: 5.5rem;
   font-family: $font-family-complex;
   letter-spacing: 1.6rem;
-  //color: $color-main;
  background-image: linear-gradient(to right, rgb(208, 90, 90), rgb(71, 4, 4));
-  //background-clip: ;
   -webkit-background-clip: text;
   color: transparent;
 
@@ -34,13 +30,10 @@
   font-size: 3.5rem;
   font-family: $font-family-simple;
   letter-spacing: .6rem;
-  //color: $color-gray-dark-3;
   display: inline-block;
   text-align: center;
   margin-top: 4.5rem;
-  //
   background-image: linear-gradient(to right, rgb(160, 113, 113), rgb(45, 2, 2));
-  //background-clip: ;
   -webkit-background-clip: text;
   color: transparent;
 
@@ -60,7 +53,6 @@
   font-size: 2rem;
   letter-spacing: .1rem;
   color: $color-main;
-  //margin-top: 3rem;
 }
 
 .heading-small {

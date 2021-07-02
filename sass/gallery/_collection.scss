@@ -1,9 +1,7 @@
 .collection {
-
-
   &__bg {
     height: 100vh;
-    background-image: url("../img/gallery/pexels-francesco-ungaro-673648-2.jpg");
+    background-image: url("../img/Backgrounds/bg-collection.jpg");
     background-size: cover;
     background-position: bottom;
   }
@@ -232,11 +230,14 @@ img {
 .column {
   float: left;
   width: 16.66%;
+  max-height: 20rem;
+  //overflow: hidden;
 }
 
 /* Add a transparency effect for thumnbail images */
 .demo {
   opacity: 0.6;
+  object-fit: cover;
 }
 
 .active,

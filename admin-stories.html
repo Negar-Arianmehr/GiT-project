@@ -28,32 +28,44 @@
 <form class="admin" action="" style="background: #9be3db">
 
     <h3 class="heading heading-big">New Story</h3>
-    <!--    *********************
-    Story Number
-    ******************************-->
 
+    <!--    *********************
+    Title of stories page
+    ******************************-->
+    <div class="admin__div">
+        <label for="story-page-title">Title of Page: </label>
+        <input type="text" name="story-page-title" id="story-page-title" class="admin__title">
+    </div>
+
+    <!--    *********************
+    text of Megha story
+    ******************************-->
+    <div class="admin__div">
+        <label for="Megha__stories">Megha Story:</label>
+        <textarea id="Megha__stories" name="Megha__stories" cols="100%" rows="10"
+                  placeholder="Megha story :"></textarea></div>
     <!--    *********************
     Title of story
     ******************************-->
     <div class="admin__div">
-        <label for="story-member-title">Title: </label>
+        <label for="story-member-title">Title of members stories: </label>
         <input type="text" name="story-member-title" id="story-member-title" class="admin__title">
     </div>
     <!--    *********************
-text of story
-******************************-->
+    text of story
+    ******************************-->
     <label for="stories">Story:</label>
-    <textarea id="stories" name="text-of-story-1" cols="100%" rows="10"
+    <textarea id="stories" name="text-of-story" cols="100%" rows="10"
               placeholder="story :"></textarea>
     <!--    *********************
-    name of member for story1
+    name of member for story
     ******************************-->
     <div class="admin__div">
-        <label for="story-member-name-1">Name: </label>
-        <input type="text" name="story-member-name-1" id="story-member-name-1">
+        <label for="story-member-name">Name: </label>
+        <input type="text" name="story-member-name" id="story-member-name">
     </div>
     <!--    *********************
-    submit story1
+    submit story
     ******************************-->
     <div><input type="submit" name="submit-story" class="btn"></div>
 </form>

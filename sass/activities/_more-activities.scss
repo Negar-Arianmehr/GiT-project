@@ -1,9 +1,8 @@
 .more-activities__header {
   height: 44vh;
-  background-image: url("../img/backgrounds/bg-activities.png");
+  background-image: url("../img/Backgrounds/bg-activities.png");
   background-size: cover;
   background-position: bottom;
-
 }
 
 .more-activities {
@@ -27,11 +26,6 @@
     &:last-child {
       margin-bottom: 4.5rem;
     }
-
-    //@include respond(small-phone) {
-    //  flex-direction: column;
-    //  flex-wrap: nowrap;
-    //}
   }
 
   &__title {
@@ -58,7 +52,8 @@
   &__shadow {
     top: 3rem;
     left: -.5rem;
-    background-color: #460000;
+    background-color: transparent;
+    border: 2px solid black;
   }
 
   &__img--box {
@@ -102,13 +97,6 @@
     background-color: #d6d6d6;
     clip-path: circle(50% at 50% 50%);
     color: #460000;
-    //    @include respond(small-phone) {
-    //clip-path: none;
-    //      width: max-content;
-    //      padding: .5rem 1rem;
-    //       bottom: -5.2rem;
-    //    right: 0;
-    //    }
   }
 
   &__heading--place {

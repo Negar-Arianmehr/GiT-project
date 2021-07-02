@@ -4,13 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  //overflow: hidden;
 }
-
-//:root {
-//  --animate-duration: 800ms;
-//  --animate-delay: 0.9s;
-//}
 
 html {
   font-size: 65.5%; //1rem = 10px >>> 10/ 16 = 62.5%
@@ -29,9 +23,6 @@ html {
   @include respond(monitor) { //1rem = 9px >> 9 / 16 = 56.25
     font-size: 75%;
   }
-  //@include respond(lab-medium) {
-  //  font-size: 61.5%;
-  //}
 
   @include respond(tab-land) { //1rem = 9px >> 9 / 16 = 56.25
     font-size: 61.5%;
@@ -48,10 +39,6 @@ html {
   @media only screen and (max-width: 400px) {
       font-size: 40%;
     }
-  //@include respond(small-phone) { //1rem = 9px >> 9 / 16 = 56.25
-  //  font-size: 31.25%;
-  //}
-
 }
 
 body {

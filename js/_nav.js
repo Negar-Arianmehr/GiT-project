@@ -1,3 +1,4 @@
+'use strict';
 /////////////////////////////////
 //scroll--sticky nav
 ////////////////////////////////
@@ -55,6 +56,17 @@ for (let i = 0; i < btnClose.length; i++) {
         }
     })
 }
+/////////////////////////////////
+//Active PAge
+////////////////////////////////
+const currentLocation = location.href
+const links = document.querySelectorAll(".nav--link")
+
+for (let i = 0; i < links.length; i++) {
+    if (links[i].href === currentLocation) {
+        links[i].classList.add("active__links")
+    }
+}
 
 /////////////////////////////////
 //scroll to up
@@ -72,3 +84,4 @@ btnScrollUp.addEventListener("click", function () {
     )
     upOfPage.scrollIntoView({behavior: "smooth"})
 })
+

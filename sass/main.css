@@ -279,7 +279,7 @@ li {
   transition: 0.5s ease-out;
   text-transform: uppercase;
 }
-.nav--items:hover {
+.nav--items:hover, .nav--items:visited {
   transform: translateY(3px) scale(1.15);
 }
 @media only screen and (max-width: 1008px) {
@@ -391,6 +391,11 @@ li {
     background-color: rgba(11, 16, 36, 0.95);
   }
 }
+.active__links {
+  color: #cf7474;
+  text-shadow: 0 1rem 1rem #646262;
+}
+
 .bg-header__box {
   background-image: url("../img/Backgrounds/bg-homePage.jpg");
   text-align: center;
@@ -581,6 +586,7 @@ li {
   font-family: "PT Serif", serif;
   padding-left: 1.2rem;
   padding-top: 2.1rem;
+  color: #acacac;
 }
 @media only screen and (max-width: 700px) {
   .about__slide--header {
@@ -686,7 +692,12 @@ li {
 }
 @media only screen and (max-width: 650px) {
   .activities {
-    height: 90rem;
+    height: 85rem;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .activities {
+    height: 100rem;
   }
 }
 .activities__background {
@@ -1148,28 +1159,12 @@ li {
   margin-top: 3.2rem;
 }
 .project__btn {
-  margin-top: 5rem;
+  margin-top: 10%;
   text-align: center;
-}
-@media only screen and (max-width: 1200px) {
-  .project__btn {
-    margin-top: 4.5rem;
-  }
-}
-@media only screen and (max-width: 900px) {
-  .project__btn {
-    margin-top: 3rem;
-  }
-}
-@media only screen and (max-width: 800px) {
-  .project__btn {
-    margin-top: 3rem;
-  }
 }
 @media only screen and (max-width: 650px) {
   .project__btn {
     margin-bottom: 2.6rem;
-    margin-top: 1.5rem;
   }
 }
 
@@ -1342,7 +1337,7 @@ li {
   max-height: 200vh;
   background-position: top;
   background-size: cover;
-  padding: 5rem 2.5rem;
+  padding: 2.5rem 2.5rem;
   position: relative;
 }
 @media only screen and (max-width: 800px) {
@@ -1595,7 +1590,7 @@ li {
 }
 .members__btn {
   text-align: center;
-  margin-bottom: 10rem;
+  margin-bottom: 3.75rem;
 }
 
 .from {
@@ -1654,7 +1649,7 @@ li {
   text-align: center;
 }
 .footer__items:hover {
-  transform: translate3d(0, -10px, 2px) rotate3d(3, 1, 0, 50deg);
+  transform: translate3d(-5px, -5px, -5px) rotate3d(3, 5, 2, 20deg);
 }
 .footer__last--item {
   flex: 100;
@@ -1781,9 +1776,32 @@ li {
   transform: rotate(0) scale(1.2);
 }
 
+.facebook:hover {
+  fill: #3b5998;
+}
+
+.footer__hover:hover {
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 50%;
+  transform: scale(1.5);
+}
+
+.whatsapp:hover {
+  fill: #25d366;
+}
+
+.linkedin:hover {
+  fill: #0a66c2;
+}
+
+.email:hover {
+  fill: #EA4335;
+}
+
 .more-activities__header {
   height: 44vh;
-  background-image: url("../img/backgrounds/bg-activities.png");
+  background-image: url("../img/Backgrounds/bg-activities.png");
   background-size: cover;
   background-position: bottom;
 }
@@ -1831,7 +1849,8 @@ li {
 .more-activities__shadow {
   top: 3rem;
   left: -0.5rem;
-  background-color: #460000;
+  background-color: transparent;
+  border: 2px solid black;
 }
 .more-activities__img--box {
   top: 2rem;
@@ -1889,10 +1908,9 @@ li {
 }
 
 .history {
-  max-height: 200rem;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   margin: 0 5rem;
 }
 @media only screen and (max-width: 800px) {
@@ -1909,11 +1927,11 @@ li {
   height: auto;
   width: 50rem;
   clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
-  flex: 0 0 40rem;
-  padding: 2.5rem 3.5rem;
+  flex: 0 0 35rem;
+  padding: 0.5rem 3.5rem;
 }
 .history__context {
-  max-height: 200rem;
+  max-height: 100rem;
   width: 50vw;
   flex: 0 0 1;
 }
@@ -1935,7 +1953,6 @@ li {
 .history__paragraph {
   color: #777777;
   font-size: 1.6rem;
-  padding: 2.75rem;
   text-align: justify;
   font-style: italic;
 }
@@ -1949,11 +1966,8 @@ li {
   cursor: pointer;
 }
 
-.stories {
-  background-color: white;
-}
 .stories__header {
-  background: url("../img/stories-bg.jpg") top;
+  background: url("../img/Backgrounds/bg-stories.png") top;
   background-size: cover;
   height: 50vh;
   display: flex;
@@ -1968,7 +1982,7 @@ li {
 .stories__content {
   width: 75%;
   transform: skewX(-12deg);
-  background-color: #fffbee;
+  background-color: #cb5757;
   margin: 5rem auto;
   z-index: 100;
 }
@@ -2013,34 +2027,23 @@ li {
 .stories__box--shadow {
   position: absolute;
   width: 70%;
-  height: 20rem;
-  bottom: -7rem;
-  right: 15.5rem;
-  background-color: #bfbaa9;
+  height: 25rem;
+  bottom: -20%;
+  right: 12%;
+  background-color: #3e0202;
   transform: skewX(-12deg);
   z-index: -1;
   margin: 4.5rem auto;
 }
-@media only screen and (max-width: 1300px) {
-  .stories__box--shadow {
-    right: 12.5rem;
-  }
-}
 @media only screen and (max-width: 570px) {
   .stories__box--shadow {
     transform: skewX(0);
-    right: 10rem;
-  }
-}
-@media only screen and (max-width: 500px) {
-  .stories__box--shadow {
-    right: 7.5rem;
   }
 }
 
 .collection__bg {
   height: 100vh;
-  background-image: url("../img/gallery/pexels-francesco-ungaro-673648-2.jpg");
+  background-image: url("../img/Backgrounds/bg-collection.jpg");
   background-size: cover;
   background-position: bottom;
 }
@@ -2263,11 +2266,13 @@ img {
 .column {
   float: left;
   width: 16.66%;
+  max-height: 20rem;
 }
 
 /* Add a transparency effect for thumnbail images */
 .demo {
   opacity: 0.6;
+  object-fit: cover;
 }
 
 .active,
@@ -2277,7 +2282,7 @@ img {
 
 .moreMembers__header {
   height: 80vh;
-  background-image: linear-gradient(to right, rgba(20, 20, 20, 0.35), rgba(119, 119, 119, 0.5)), url("../img/backgrounds/bg-members.JPG");
+  background-image: linear-gradient(to right, rgba(20, 20, 20, 0.35), rgba(119, 119, 119, 0.5)), url("../img/Backgrounds/bg-members.JPG");
   background-position: top;
   background-size: cover;
   clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);

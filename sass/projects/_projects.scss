@@ -104,9 +104,6 @@
     grid-column: 2/3;
     background-color: $color-gray-light-1;
     padding: 10rem 10rem 0;
-    //display: flex;
-    //flex-direction: column;
-    //align-content: space-evenly;
 
     @include respond(lab-big) {
       padding: 8rem 8rem 0;
@@ -146,20 +143,10 @@
   }
 
   &__btn {
-    margin-top: 5rem;
+    margin-top: 10%;
     text-align: center;
-    @include respond(lab-medium) {
-      margin-top: 4.5rem;
-    }
-    @include respond(tab-port) {
-      margin-top: 3rem;
-    }
-    @include respond(phone) {
-      margin-top: 3rem;
-    }
     @include respond(small-phone) {
       margin-bottom: 2.6rem;
-      margin-top: 1.5rem;
     }
 
   }
