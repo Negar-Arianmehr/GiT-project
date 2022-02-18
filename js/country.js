@@ -9,96 +9,37 @@ const closePopupBtn = document.querySelector("#close")
 const from = document.querySelectorAll(".from")
 
 //get info about country from API
-// const getCountryData = function (country) {
-
-    // const request = new XMLHttpRequest();
-    // request.open("GET", `https://restcountries.eu/rest/v2/name/${country}`)
-    // console.log(request)
-    // request.send()
-    //
-    // const request2 = new XMLHttpRequest()
-    // request2.open("GET", `https://restcountries.eu/rest/v2/name/${country}?fullText=true`)
-    // request2.send()
-    //
-    //
-    // request2.addEventListener("load", function () {
-    //
-    //     const [data] = JSON.parse(this.responseText)
-    //     const html =
-    //         `<article class="country">
-    //             <div class="country__img-box">
-    //                 <img src="${data.flag}" alt="flag pic" class="country__img">
-    //             </div>
-    //             <div class="country__data">
-    //                 <h3 class="country__name">${data.name}</h3>
-    //                 <h4 class="country__region">${data.region}</h4>
-    //                 <p class="country__row"><span>👫</span>${(+data.population / 1000000).toFixed(1)}M people</p>
-    //                 <p class="country__row"><span>🗣️</span>${data.languages[0].name}</p>
-    //                 <p class="country__row"><span>💰</span>${data.currencies[0].name}</p>
-    //             </div>
-    //         </article>`
-    //
-    //     popupContent.insertAdjacentHTML("beforeend", html);
-    //     popupContent.style.opacity = 1;
-    // })
-    // if (!request) {
-    //     request2.addEventListener("load", function () {
-    //
-    //     const [data] = JSON.parse(this.responseText)
-    //     const html =
-    //         `<article class="country">
-    //             <div class="country__img-box">
-    //                 <img src="${data.flag}" alt="flag pic" class="country__img">
-    //             </div>
-    //             <div class="country__data">
-    //                 <h3 class="country__name">${data.name}</h3>
-    //                 <h4 class="country__region">${data.region}</h4>
-    //                 <p class="country__row"><span>👫</span>${(+data.population / 1000000).toFixed(1)}M people</p>
-    //                 <p class="country__row"><span>🗣️</span>${data.languages[0].name}</p>
-    //                 <p class="country__row"><span>💰</span>${data.currencies[0].name}</p>
-    //             </div>
-    //         </article>`
-    //
-    //     popupContent.insertAdjacentHTML("beforeend", html);
-    //     popupContent.style.opacity = 1;
-    // })
-    // }
-// }
-
 const requestInfo = async (country) => {
     try {
-        const response = await fetch(`https://restcountries.eu/rest/v2/name/${country}?fullText=true`);
+        const response = await fetch(`https://restcountries.com/v3.1/name/${country}?fullText=true`);
 
         if (!response) {
-            throw new Error("Something wrong")
+            throw new Error("Something wrong");
         }
-
-        clickCountry.addEventListener("load", function () {
-
-        const [data] = JSON.parse(response);
-            console.log(data)
-        const html =
-            `<article class="country"> 
-                <div class="country__img-box">
-                    <img src="${data.flag}" alt="flag pic" class="country__img">
-                </div>
-                <div class="country__data">
-                    <h3 class="country__name">${data.name}</h3>
-                    <h4 class="country__region">${data.region}</h4>
-                    <p class="country__row"><span>👫</span>${(+data.population / 1000000).toFixed(1)}M people</p>
-                    <p class="country__row"><span>🗣️</span>${data.languages[0].name}</p>  
-                    <p class="country__row"><span>💰</span>${data.currencies[0].name}</p>
-                </div>
-            </article>`
-
-        popupContent.insertAdjacentHTML("beforeend", html);
-        popupContent.style.opacity = 1;
-    })
+        const data = await response.json();
+        renderCountry(data[0], country);
     } catch (error) {
-        console.log(error.message)
+        console.log(error)
     }
 }
+const renderCountry = function (data, className = '') {
+    const html =
+        `<article class='country'>
+      <img class='country__img' src=${data.flags.png} />
+      <div class='country__data'>
+        <h3 class='country__name'>${data.name.common}</h3>
+        <h4 class='country__region'>${data.region}</h4>
+        <p class='country__row'><span>👫</span>${(+data.population / 1000000).toFixed(1)}M people</p>
+        <p class='country__row'><span>🗣️</span>${Object.values(data.languages)[0]}</p>
+        <p class='country__row'><span>💰</span>${Object.values(data.currencies)[0].name}</p>
+      </div>
 
+    </article>`;
+
+    //where have to put this html
+    popupContent.insertAdjacentHTML('beforeend', html);
+    popupContent.style.opacity = 1;
+};
 // //open popup
 from.forEach((i) => i.addEventListener("click", function () {
     if (popupContainer.className === "popup-hidden") {
@@ -107,23 +48,9 @@ from.forEach((i) => i.addEventListener("click", function () {
         // countryCard.style.opacity = 1;
 
         closePopupBtn.classList.remove("popup-hidden")
-
         const text = i.textContent
+        console.log(text)
         requestInfo(text)
-        // let from = []
-        // from = from.push(i.textContent)
-        // console.log(from)
-        // from.forEach((i, n) => {
-        //     console.log(i)
-        //     const text = []
-        //     text[n].push(i.textContent)
-        //
-        //     console.log(listText)
-        //     // // const text = from[i].textContent
-        //     // getCountryData(text)
-        //     // console.log(from)
-        //     // console.log(text)
-        // })
     }
 }))
 
@@ -142,14 +69,3 @@ for (let i = 0; i < closePopup.length; i++) {
         }
     })
 }
-
-
-// closePopup.forEach( () => addEventListener("click", function () {
-//     if (popupContainer.className === "popup") {
-//         popupContainer.className = "popup-hidden"
-//         closePopupBtn.classList.add("popup-hidden")
-//         //remove the html part we add with getCountryData with function
-//         popupContent.innerHTML = ""
-//         // popupContainer.childNodes(countryCard)
-//     }
-// }))
