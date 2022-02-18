@@ -3,6 +3,7 @@
   background-image: linear-gradient(rgba($color-secondary-dark, .9), rgba($color-secondary-light, .5)), url("../img/Backgrounds/bg-contact2.jpg");
   background-position: bottom;
   background-size: cover;
+  background-repeat: no-repeat;
   padding-top: 2.5rem;
 
   &__content {

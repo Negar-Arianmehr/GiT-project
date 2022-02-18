@@ -157,6 +157,9 @@
   }
   100% {
     background-position-x: 1500px;
+    @include respond(tab-port) {
+      background-position-x: 900px;
+    }
   }
 }
 

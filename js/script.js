@@ -90,7 +90,6 @@ btnLeft.addEventListener("click", prevSlide)
 
 //for using arrow left and down in keyboard...you can see the event in console with console.log
 document.addEventListener("keydown", function (e) {
-    console.log(e)
     if (e.key === "ArrowLeft") prevSlide()
     e.key === "ArrowRight" && nextSlide()
 })
@@ -106,7 +105,6 @@ dotContainer.addEventListener("click", function (e) {
 
 ///////////////////////////////////////////////////////////////////
 //slider for members
-
 const cards = document.querySelectorAll(".members__card")
 const btnCardLeft = document.querySelector(".members__slider__btn--left")
 const btnCardRight = document.querySelector(".members__slider__btn--right")
@@ -129,8 +127,6 @@ const nextCard = function () {
     }
     if (curCard === maxCard - 2 && width > 800) {
         curCard = 0
-        console.log(maxCard)
-        console.log("click")
     } else {
         curCard++
     }
@@ -157,7 +153,6 @@ btnCardLeft.addEventListener("click", preCard)
 
 //for using arrow left and down in keyboard...you can see the event in console with console.log
 document.addEventListener("keydown", function (e) {
-    console.log(e)
     if (e.key === "ArrowLeft") preCard()
     e.key === "ArrowRight" && nextCard()
 })

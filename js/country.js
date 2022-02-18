@@ -9,38 +9,38 @@ const closePopupBtn = document.querySelector("#close")
 const from = document.querySelectorAll(".from")
 
 //get info about country from API
-const getCountryData = function (country) {
+// const getCountryData = function (country) {
 
     // const request = new XMLHttpRequest();
     // request.open("GET", `https://restcountries.eu/rest/v2/name/${country}`)
     // console.log(request)
     // request.send()
-
-    const request2 = new XMLHttpRequest()
-    request2.open("GET", `https://restcountries.eu/rest/v2/name/${country}?fullText=true`)
-    request2.send()
-
-
-    request2.addEventListener("load", function () {
-
-        const [data] = JSON.parse(this.responseText)
-        const html =
-            `<article class="country"> 
-                <div class="country__img-box">
-                    <img src="${data.flag}" alt="flag pic" class="country__img">
-                </div>
-                <div class="country__data">
-                    <h3 class="country__name">${data.name}</h3>
-                    <h4 class="country__region">${data.region}</h4>
-                    <p class="country__row"><span>👫</span>${(+data.population / 1000000).toFixed(1)}M people</p>
-                    <p class="country__row"><span>🗣️</span>${data.languages[0].name}</p>  
-                    <p class="country__row"><span>💰</span>${data.currencies[0].name}</p>
-                </div>
-            </article>`
-
-        popupContent.insertAdjacentHTML("beforeend", html);
-        popupContent.style.opacity = 1;
-    })
+    //
+    // const request2 = new XMLHttpRequest()
+    // request2.open("GET", `https://restcountries.eu/rest/v2/name/${country}?fullText=true`)
+    // request2.send()
+    //
+    //
+    // request2.addEventListener("load", function () {
+    //
+    //     const [data] = JSON.parse(this.responseText)
+    //     const html =
+    //         `<article class="country">
+    //             <div class="country__img-box">
+    //                 <img src="${data.flag}" alt="flag pic" class="country__img">
+    //             </div>
+    //             <div class="country__data">
+    //                 <h3 class="country__name">${data.name}</h3>
+    //                 <h4 class="country__region">${data.region}</h4>
+    //                 <p class="country__row"><span>👫</span>${(+data.population / 1000000).toFixed(1)}M people</p>
+    //                 <p class="country__row"><span>🗣️</span>${data.languages[0].name}</p>
+    //                 <p class="country__row"><span>💰</span>${data.currencies[0].name}</p>
+    //             </div>
+    //         </article>`
+    //
+    //     popupContent.insertAdjacentHTML("beforeend", html);
+    //     popupContent.style.opacity = 1;
+    // })
     // if (!request) {
     //     request2.addEventListener("load", function () {
     //
@@ -63,6 +63,40 @@ const getCountryData = function (country) {
     //     popupContent.style.opacity = 1;
     // })
     // }
+// }
+
+const requestInfo = async () => {
+    try {
+        const response = await fetch(`https://restcountries.eu/rest/v2/name/${country}?fullText=true`);
+
+        if (!response) {
+            throw new Error("Something wrong")
+        }
+
+        clickCountry.addEventListener("load", function () {
+
+        const [data] = JSON.parse(response);
+            console.log(data)
+        const html =
+            `<article class="country"> 
+                <div class="country__img-box">
+                    <img src="${data.flag}" alt="flag pic" class="country__img">
+                </div>
+                <div class="country__data">
+                    <h3 class="country__name">${data.name}</h3>
+                    <h4 class="country__region">${data.region}</h4>
+                    <p class="country__row"><span>👫</span>${(+data.population / 1000000).toFixed(1)}M people</p>
+                    <p class="country__row"><span>🗣️</span>${data.languages[0].name}</p>  
+                    <p class="country__row"><span>💰</span>${data.currencies[0].name}</p>
+                </div>
+            </article>`
+
+        popupContent.insertAdjacentHTML("beforeend", html);
+        popupContent.style.opacity = 1;
+    })
+    } catch (error) {
+        console.log(error.message)
+    }
 }
 
 // //open popup
@@ -75,7 +109,7 @@ from.forEach((i) => i.addEventListener("click", function () {
         closePopupBtn.classList.remove("popup-hidden")
 
         const text = i.textContent
-        getCountryData(text)
+        requestInfo(text)
         // let from = []
         // from = from.push(i.textContent)
         // console.log(from)

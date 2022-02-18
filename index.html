@@ -757,5 +757,17 @@
 <script defer src="node_modules/@fortawesome/fontawesome-free/js/brands.js"></script>
 <script defer src="node_modules/@fortawesome/fontawesome-free/js/solid.js"></script>
 <script defer src="node_modules/@fortawesome/fontawesome-free/js/fontawesome.js"></script>
+<script type='text/javascript'>
+	function isItIE() {
+	  user_agent = navigator.userAgent;
+	  const is_it_ie = user_agent.indexOf("MSIE ") > -1 || user_agent.indexOf("Trident/") > -1;
+	  return is_it_ie;
+	}
+	if (isItIE()){
+	    alert("It looks like you may be using a web browser version that we don't support. Make sure You are using an updated version of Chrome or Firefox");
+	}else{
+	    console.log('It is not Internet Explorer');
+	}
+</script>
 </body>
 </html>
