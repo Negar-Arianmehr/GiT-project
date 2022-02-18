@@ -65,7 +65,7 @@ const from = document.querySelectorAll(".from")
     // }
 // }
 
-const requestInfo = async () => {
+const requestInfo = async (country) => {
     try {
         const response = await fetch(`https://restcountries.eu/rest/v2/name/${country}?fullText=true`);
 
