@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="118319de-ae63-4a5f-b3ae-30acab8bb243" name="Default Changelist" comment="last commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/activities.html" beforeDir="false" afterPath="$PROJECT_DIR$/activities.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/country.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/country.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/members.html" beforeDir="false" afterPath="$PROJECT_DIR$/members.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stories.html" beforeDir="false" afterPath="$PROJECT_DIR$/stories.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +50,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Practice/JAVASCRIPT-COURSE/complete-javascript-course-master/complete-javascript-course-master/16-Asynchronous" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -199,14 +196,7 @@
       <workItem from="1641896563458" duration="1483000" />
       <workItem from="1644945989124" duration="1134000" />
       <workItem from="1645038118767" duration="769000" />
-      <workItem from="1645193787415" duration="10011000" />
-    </task>
-    <task id="LOCAL-00038" summary="new scss">
-      <created>1621022049116</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1621022049116</updated>
+      <workItem from="1645193787415" duration="10950000" />
     </task>
     <task id="LOCAL-00039" summary="new scss">
       <created>1621237019073</created>
@@ -544,7 +534,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645194037408</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="last commit">
+      <created>1645208197454</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1645208197454</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
